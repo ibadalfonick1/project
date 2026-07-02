@@ -1,1641 +1,1490 @@
-<div data-banani-screenid="B23b6rgPcWqz" style="--background: #FAF6EE; --foreground: #242424; --border: #DDD6CC; --input: #FFFFFF; --primary: #2B2B28; --primary-foreground: #FAF6EE; --secondary: #F2E8D8; --secondary-foreground: #242424; --muted: #F4F2EF; --muted-foreground: #706B63; --success: #6F725C; --success-foreground: #FAF6EE; --accent: #B68A3A; --accent-foreground: #FAF6EE; --destructive: #111111; --destructive-foreground: #FAF6EE; --warning: #D8C3A5; --warning-foreground: #242424; --card: #FFFFFF; --card-foreground: #242424; --sidebar: #2B2B28; --sidebar-foreground: #FAF6EE; --sidebar-primary: #B68A3A; --sidebar-primary-foreground: #FAF6EE; --radius-sm: 4px; --radius-md: 6px; --radius-lg: 12px; --radius-xl: 20px; --font-family-body: &quot;PT Serif&quot;, serif; font-family: var(--font-body, var(--font-sans, var(--font-family-body)));">
+<div style="--background: #FAF6EF; --foreground: #242424; --border: #DED6CC; --input: #F3E8DA; --primary: #42BDB7; --primary-foreground: #FFFFFF; --secondary: #F3E8DA; --secondary-foreground: #2B2A28; --muted: #F3E8DA; --muted-foreground: #706B66; --success: #A8CFC4; --success-foreground: #2B2A28; --accent: #F3C7B5; --accent-foreground: #2B2A28; --destructive: #c0392b; --destructive-foreground: #FFFFFF; --warning: #F7DDD4; --warning-foreground: #2B2A28; --card: #FFFFFF; --card-foreground: #242424; --sidebar: #2B2A28; --sidebar-foreground: #FAF6EF; --sidebar-primary: #42BDB7; --sidebar-primary-foreground: #FFFFFF; --radius-sm: 4px; --radius-md: 6px; --radius-lg: 8px; --radius-xl: 14px; --font-family-body: Inter, sans-serif; font-family: var(--font-body, var(--font-sans, var(--font-family-body)));" data-banani-screenid="AT-opkKeR71C">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1440">
-  <title>Culinary Art Catering — Luxury Dallas Catering</title>
+  <title>The Salon &amp; Spa California</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   
   <style id="reset-base">
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  </style>
-  
-  <style id="typography-base">
-  :root > div {
-    font-size: 15px;
-    line-height: 1.65;
-    color: #242424;
-    background: #FAF6EE;
-  }
-  .font-heading {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-  }
-  .font-body {
-    font-family: Inter, Arial, sans-serif;
-  }
-  h1, h2, h3, h4, h5 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    line-height: 1.18;
-  }
-  p, span, a, li, label, input, textarea, select, button {
-    font-family: Inter, Arial, sans-serif;
-  }
-  a { text-decoration: none; color: inherit; }
   img { display: block; max-width: 100%; }
+  a { text-decoration: none; color: inherit; }
   </style>
   
-  <style id="container-system">
-  .container {
-    max-width: 1350px;
-    margin: 0 auto;
-    padding: 0 32px;
-  }
-  .container-narrow {
-    max-width: 1350px;
-    margin: 0 auto;
-    padding: 0 32px;
-  }
+  <style id="typography">
+  .font-serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+  .font-sans { font-family: 'Inter', Arial, sans-serif; }
+  :host > div { font-family: 'Inter', Arial, sans-serif; background: var(--background); color: var(--foreground); font-size: 15px; line-height: 1.6; }
+  </style>
+  
+  <style id="container">
+  .container { max-width: 1180px; margin: 0 auto; padding: 0 30px; width: 100%; }
   </style>
   
   <style id="button-system">
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 44px;
-    padding: 0 24px;
-    font-family: Inter, Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 4px;
-    cursor: pointer;
-    white-space: nowrap;
-    letter-spacing: 0.02em;
-    border: none;
-    transition: none;
-  }
-  .btn-primary {
-    background: #2B2B28;
-    color: #FAF6EE;
-  }
-  .btn-gold {
-    background: #B68A3A;
-    color: #111111;
-  }
-  .btn-outline {
-    background: transparent;
-    border: 1.5px solid #2B2B28;
-    color: #2B2B28;
-  }
-  .btn-ivory {
-    background: #FAF6EE;
-    color: #111111;
-  }
-  .btn-outline-ivory {
-    background: transparent;
-    border: 1.5px solid #FAF6EE;
-    color: #FAF6EE;
-  }
+  .btn { display: inline-flex; align-items: center; justify-content: center; height: 44px; padding: 0 22px; border-radius: var(--radius-sm); font-family: 'Inter', Arial, sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; border: none; white-space: nowrap; letter-spacing: 0.01em; }
+  .btn-primary { background: #42BDB7; color: #fff; }
+  .btn-secondary { background: #111111; color: #fff; }
+  .btn-outline { background: transparent; border: 1.5px solid #111111; color: #111111; }
+  .btn-soft { background: #F3C7B5; color: #2B2A28; }
+  .btn-white { background: #fff; color: #2B2A28; }
+  .btn-outline-white { background: transparent; border: 1.5px solid #fff; color: #fff; }
   </style>
   
-  <style id="eyebrow-system">
-  .eyebrow {
-    font-family: Inter, Arial, sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #B68A3A;
-  }
-  .eyebrow-white {
-    color: #D8C3A5;
-  }
-  .gold-divider {
-    width: 48px;
-    height: 2px;
-    background: #B68A3A;
-    display: block;
-    margin: 14px 0 20px 0;
-  }
-  .gold-divider-center {
-    margin: 14px auto 20px auto;
-  }
-  </style>
-  
-  <!-- ===================== HEADER ===================== -->
   <style id="header-styles">
-  #site-header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: #FAF6EE;
-    border-bottom: 1px solid #DDD6CC;
-    height: 90px;
-    display: flex;
-    align-items: center;
-  }
-  #header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-  #header-logo {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-  #header-logo .logo-name {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 21px;
-    font-weight: 600;
-    color: #2B2B28;
-    letter-spacing: 0.01em;
-    line-height: 1.15;
-  }
-  #header-logo .logo-tag {
-    font-family: Inter, Arial, sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #B68A3A;
-  }
-  #header-nav {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-  }
-  #header-nav a {
-    font-family: Inter, Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    color: #2B2B28;
-    letter-spacing: 0.01em;
-    white-space: nowrap;
-  }
-  #header-cta-wrap {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
+  #site-header { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid #DED6CC; }
+  #site-header .header-inner { max-width: 1180px; margin: 0 auto; padding: 0 30px; height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .header-logo { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 600; color: #2B2A28; letter-spacing: 0.02em; white-space: nowrap; line-height: 1.2; }
+  .header-logo span { display: block; font-family: 'Inter', Arial, sans-serif; font-size: 10px; font-weight: 500; color: #7A7168; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1px; }
+  nav.main-nav { display: flex; align-items: center; gap: 6px; }
+  nav.main-nav a { font-family: 'Inter', Arial, sans-serif; font-size: 13px; font-weight: 500; color: #2B2A28; padding: 6px 10px; border-radius: var(--radius-sm); white-space: nowrap; }
+  .header-actions { display: flex; align-items: center; gap: 14px; }
+  .header-social { display: flex; align-items: center; gap: 10px; color: #7A7168; }
   </style>
   
-  <!-- ===================== HERO ===================== -->
   <style id="hero-styles">
-  #hero-section {
-    position: relative;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-  }
-  #hero-bg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  #hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(100deg, rgba(17,17,17,0.75) 0%, rgba(17,17,17,0.45) 55%, rgba(17,17,17,0.2) 100%);
-  }
-  #hero-content {
-    position: relative;
-    z-index: 2;
-  }
-  #hero-panel {
-    max-width: 600px;
-  }
-  #hero-eyebrow {
-    margin-bottom: 16px;
-  }
-  #hero-heading {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 56px;
-    font-weight: 600;
-    color: #FAF6EE;
-    line-height: 1.13;
-    margin-bottom: 20px;
-  }
-  #hero-sub {
-    font-family: Inter, Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgba(250,246,238,0.88);
-    line-height: 1.7;
-    max-width: 490px;
-    margin-bottom: 36px;
-  }
-  #hero-buttons {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
-  #hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(182,138,58,0.18);
-    border: 1px solid rgba(182,138,58,0.5);
-    border-radius: 40px;
-    padding: 6px 14px;
-    margin-bottom: 24px;
-  }
-  #hero-badge span {
-    font-family: Inter, Arial, sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #D8C3A5;
-  }
+  #hero { position: relative; min-height: 680px; display: flex; align-items: center; overflow: hidden; }
+  #hero .hero-bg { position: absolute; inset: 0; }
+  #hero .hero-bg img { width: 100%; height: 100%; object-fit: cover; }
+  #hero .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(42,35,28,0.72) 0%, rgba(42,35,28,0.35) 60%, rgba(42,35,28,0.15) 100%); }
+  #hero .hero-content { position: relative; z-index: 2; padding: 80px 30px; }
+  #hero .hero-inner { display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: center; }
+  .hero-text .eyebrow { font-family: 'Inter', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #F3C7B5; margin-bottom: 16px; }
+  .hero-text h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 56px; font-weight: 600; color: #fff; line-height: 1.14; margin-bottom: 20px; }
+  .hero-text p { font-family: 'Inter', Arial, sans-serif; font-size: 16px; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 440px; margin-bottom: 32px; }
+  .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+  .hero-card { background: rgba(255,255,255,0.97); border-radius: 12px; padding: 32px 28px; }
+  .hero-card h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #2B2A28; margin-bottom: 8px; }
+  .hero-card p { font-size: 13px; color: #7A7168; margin-bottom: 20px; line-height: 1.5; }
+  .hero-card-btns { display: flex; flex-direction: column; gap: 10px; }
+  .hero-card-btns .btn { width: 100%; }
   </style>
   
-  <!-- ===================== INTRO ===================== -->
-  <style id="intro-styles">
-  #intro-section {
-    background: #FFFFFF;
-    padding: 88px 0;
-    text-align: center;
-  }
-  #intro-heading {
-    font-size: 40px;
-    font-weight: 600;
-    color: #2B2B28;
-    margin-bottom: 28px;
-    line-height: 1.18;
-  }
-  #intro-text p {
-    font-size: 15px;
-    color: #706B63;
-    line-height: 1.75;
-    margin-bottom: 18px;
-  }
-  #intro-text p:last-child { margin-bottom: 0; }
-  #intro-cta {
-    margin-top: 36px;
-  }
-  </style>
-  
-  <!-- ===================== SERVICES ===================== -->
   <style id="services-styles">
-  #services-section {
-    background: #FAF6EE;
-    padding: 84px 0;
-  }
-  #services-header {
-    text-align: center;
-    margin-bottom: 52px;
-  }
-  #services-heading {
-    font-size: 38px;
-    font-weight: 600;
-    color: #2B2B28;
-    margin-bottom: 14px;
-  }
-  #services-sub {
-    font-size: 15px;
-    color: #706B63;
-    max-width: 620px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
-  #services-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 28px;
-  }
-  .service-card {
-    background: #FFFFFF;
-    border-radius: 12px;
-    padding: 36px 28px 32px;
-    box-shadow: 0 2px 16px rgba(43,43,40,0.07);
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
-  .service-card-icon {
-    width: 44px;
-    height: 44px;
-    background: rgba(182,138,58,0.1);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4px;
-  }
-  .service-card-title {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: #2B2B28;
-    line-height: 1.2;
-  }
-  .service-card-text {
-    font-size: 14px;
-    color: #706B63;
-    line-height: 1.65;
-  }
+  #services { background: #FAF6EF; padding: 80px 0; }
+  .section-eyebrow { font-family: 'Inter', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #42BDB7; margin-bottom: 12px; }
+  .section-heading { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 38px; font-weight: 600; color: #2B2A28; line-height: 1.18; margin-bottom: 40px; }
+  .services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .service-card { background: #fff; border-radius: var(--radius-xl); overflow: hidden; box-shadow: 0 2px 16px rgba(42,35,28,0.07); display: flex; flex-direction: column; }
+  .service-card-image { height: 200px; overflow: hidden; position: relative; }
+  .service-card-image img { width: 100%; height: 100%; object-fit: cover; }
+  .service-card-body { padding: 22px 22px 24px; flex: 1; display: flex; flex-direction: column; }
+  .service-card-label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #42BDB7; margin-bottom: 8px; }
+  .service-card h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px; font-weight: 600; color: #2B2A28; margin-bottom: 10px; line-height: 1.2; }
+  .service-card p { font-size: 14px; color: #706B66; line-height: 1.6; flex: 1; margin-bottom: 20px; }
+  .service-card .btn { align-self: flex-start; }
   </style>
   
-  <!-- ===================== STORY ===================== -->
-  <style id="story-styles">
-  #story-section {
-    background: #FFFFFF;
-    padding: 88px 0;
-  }
-  #story-inner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 72px;
-    align-items: center;
-  }
-  #story-image-wrap {
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-  }
-  #story-image-wrap img {
-    width: 100%;
-    height: 540px;
-    object-fit: cover;
-    border-radius: 12px;
-    display: block;
-  }
-  #story-image-accent {
-    position: absolute;
-    bottom: 32px;
-    left: -20px;
-    background: #2B2B28;
-    color: #FAF6EE;
-    padding: 20px 24px;
-    border-radius: 10px;
-    box-shadow: 0 8px 32px rgba(17,17,17,0.18);
-    max-width: 200px;
-  }
-  #story-image-accent .accent-number {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 44px;
-    font-weight: 600;
-    color: #B68A3A;
-    line-height: 1;
-  }
-  #story-image-accent .accent-label {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #D8C3A5;
-    margin-top: 4px;
-    line-height: 1.4;
-  }
-  #story-text-col {}
-  #story-heading {
-    font-size: 38px;
-    font-weight: 600;
-    color: #2B2B28;
-    line-height: 1.16;
-    margin-bottom: 24px;
-  }
-  #story-body p {
-    font-size: 15px;
-    color: #706B63;
-    line-height: 1.75;
-    margin-bottom: 18px;
-  }
-  #story-body p:last-child { margin-bottom: 0; }
-  #story-cta { margin-top: 36px; }
+  <style id="instagram-styles">
+  #instagram { background: #fff; padding: 80px 0; }
+  .instagram-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 36px; }
+  .instagram-header-left h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 38px; font-weight: 600; color: #2B2A28; line-height: 1.15; }
+  .instagram-header-left p { font-size: 14px; color: #706B66; margin-top: 6px; }
+  .instagram-btns { display: flex; gap: 12px; }
+  .instagram-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 32px; }
+  .insta-tile { aspect-ratio: 1; border-radius: 8px; overflow: hidden; position: relative; }
+  .insta-tile img { width: 100%; height: 100%; object-fit: cover; }
+  .insta-tile-overlay { position: absolute; inset: 0; background: rgba(42,35,28,0.12); border-radius: 8px; }
   </style>
   
-  <!-- ===================== EVENTS ===================== -->
-  <style id="events-styles">
-  #events-section {
-    background: #F2E8D8;
-    padding: 84px 0;
-  }
-  #events-header {
-    text-align: center;
-    margin-bottom: 52px;
-  }
-  #events-heading {
-    font-size: 38px;
-    font-weight: 600;
-    color: #2B2B28;
-    margin-bottom: 10px;
-  }
-  #events-row-1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
-    margin-bottom: 28px;
-  }
-  #events-row-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 28px;
-    max-width: 770px;
-    margin: 0 auto;
-  }
-  .event-card {
-    background: #FFFFFF;
-    border-radius: 12px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-  .event-card-img {
-    width: 100%;
-    height: 210px;
-    object-fit: cover;
-    display: block;
-  }
-  .event-card-body {
-    padding: 24px 24px 28px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .event-card-label {
-    font-family: Inter, Arial, sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #B68A3A;
-  }
-  .event-card-title {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 21px;
-    font-weight: 600;
-    color: #2B2B28;
-    line-height: 1.2;
-  }
-  .event-card-text {
-    font-size: 13.5px;
-    color: #706B63;
-    line-height: 1.6;
-  }
+  <style id="pricing-styles">
+  #pricing { background: #F3E8DA; padding: 80px 0; position: relative; overflow: hidden; }
+  #pricing .pricing-bg { position: absolute; inset: 0; opacity: 0.06; }
+  #pricing .pricing-bg img { width: 100%; height: 100%; object-fit: cover; filter: blur(4px); }
+  #pricing .pricing-inner { position: relative; z-index: 2; }
+  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 40px; }
+  .pricing-card { background: #fff; border-radius: var(--radius-xl); padding: 36px 32px 32px; box-shadow: 0 2px 20px rgba(42,35,28,0.08); }
+  .pricing-card.dark { background: #2B2A28; }
+  .pricing-card-heading { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; font-weight: 600; color: #2B2A28; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #DED6CC; }
+  .pricing-card.dark .pricing-card-heading { color: #FAF6EF; border-bottom-color: rgba(255,255,255,0.15); }
+  .pricing-section { margin-bottom: 20px; }
+  .pricing-section-title { font-family: 'Inter', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #42BDB7; margin-bottom: 8px; }
+  .pricing-card.dark .pricing-section-title { color: #F3C7B5; }
+  .pricing-item { display: flex; justify-content: space-between; align-items: baseline; padding: 5px 0; border-bottom: 1px solid #F3E8DA; }
+  .pricing-card.dark .pricing-item { border-bottom-color: rgba(255,255,255,0.07); }
+  .pricing-item:last-child { border-bottom: none; }
+  .pricing-name { font-size: 13px; color: #2B2A28; line-height: 1.4; padding-right: 12px; }
+  .pricing-card.dark .pricing-name { color: #FAF6EF; }
+  .pricing-price { font-size: 13px; color: #706B66; white-space: nowrap; }
+  .pricing-card.dark .pricing-price { color: #D8C5AE; }
+  .pricing-card-btn { margin-top: 24px; }
   </style>
   
-  <!-- ===================== EXPERIENCE ===================== -->
-  <style id="experience-styles">
-  #experience-section {
-    background: #2B2B28;
-    padding: 88px 0;
-  }
-  #experience-header {
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  #experience-heading {
-    font-size: 38px;
-    font-weight: 600;
-    color: #FAF6EE;
-    line-height: 1.18;
-    margin-bottom: 18px;
-  }
-  #experience-sub {
-    font-size: 15px;
-    color: rgba(216,195,165,0.85);
-    max-width: 580px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
-  #experience-steps {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2px;
-  }
-  .step-card {
-    background: rgba(250,246,238,0.05);
-    border: 1px solid rgba(216,195,165,0.18);
-    padding: 40px 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    border-radius: 0;
-  }
-  .step-card:first-child { border-radius: 10px 0 0 10px; }
-  .step-card:last-child { border-radius: 0 10px 10px 0; }
-  .step-number {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 52px;
-    font-weight: 400;
-    color: #B68A3A;
-    line-height: 1;
-    opacity: 0.85;
-  }
-  .step-divider {
-    width: 36px;
-    height: 1px;
-    background: #B68A3A;
-    opacity: 0.5;
-  }
-  .step-title {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: #FAF6EE;
-    line-height: 1.2;
-  }
-  .step-text {
-    font-size: 13.5px;
-    color: rgba(216,195,165,0.8);
-    line-height: 1.65;
-  }
+  <style id="feature-styles">
+  #feature { background: #fff; padding: 80px 0; }
+  .feature-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .feature-images { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .feature-img-main { grid-column: 1 / -1; border-radius: 10px; overflow: hidden; height: 300px; }
+  .feature-img-main img { width: 100%; height: 100%; object-fit: cover; }
+  .feature-img-sub { border-radius: 10px; overflow: hidden; height: 200px; }
+  .feature-img-sub img { width: 100%; height: 100%; object-fit: cover; }
+  .feature-text { background: #FAF6EF; border-radius: 12px; padding: 44px 40px; }
+  .feature-text .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #42BDB7; margin-bottom: 12px; }
+  .feature-text h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 42px; font-weight: 600; color: #2B2A28; margin-bottom: 18px; line-height: 1.15; }
+  .feature-text p { font-size: 15px; color: #706B66; line-height: 1.7; margin-bottom: 28px; }
   </style>
   
-  <!-- ===================== AWARDS ===================== -->
-  <style id="awards-styles">
-  #awards-section {
-    background: #FFFFFF;
-    padding: 80px 0;
-  }
-  #awards-header {
-    text-align: center;
-    margin-bottom: 52px;
-  }
-  #awards-heading {
-    font-size: 34px;
-    font-weight: 600;
-    color: #2B2B28;
-    line-height: 1.2;
-  }
-  #awards-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 24px;
-    align-items: center;
-  }
-  .award-tile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 28px 20px;
-    border: 1px solid #DDD6CC;
-    border-radius: 10px;
-    min-height: 120px;
-    text-align: center;
-  }
-  .award-icon {
-    color: #B68A3A;
-  }
-  .award-name {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #2B2B28;
-    line-height: 1.25;
-  }
-  .award-sub {
-    font-size: 11px;
-    color: #706B63;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-  }
+  <style id="team-styles">
+  #team { background: #E8F0EE; padding: 80px 0; }
+  #team .section-heading { text-align: center; margin-bottom: 44px; }
+  .team-row1 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 24px; }
+  .team-row2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 700px; margin: 0 auto; }
+  .team-card { background: #fff; border-radius: var(--radius-xl); overflow: hidden; box-shadow: 0 2px 14px rgba(42,35,28,0.06); text-align: center; padding-bottom: 28px; }
+  .team-card-img { height: 220px; overflow: hidden; }
+  .team-card-img img { width: 100%; height: 100%; object-fit: cover; }
+  .team-card-body { padding: 22px 22px 0; }
+  .team-card h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #2B2A28; margin-bottom: 8px; }
+  .team-card p { font-size: 13px; color: #706B66; line-height: 1.65; }
   </style>
   
-  <!-- ===================== GALLERY ===================== -->
-  <style id="gallery-styles">
-  #gallery-section {
-    background: #FAF6EE;
-    padding: 84px 0;
-  }
-  #gallery-header {
-    text-align: center;
-    margin-bottom: 52px;
-  }
-  #gallery-heading {
-    font-size: 38px;
-    font-weight: 600;
-    color: #2B2B28;
-    margin-bottom: 12px;
-  }
-  #gallery-sub {
-    font-size: 14px;
-    color: #706B63;
-    max-width: 540px;
-    margin: 0 auto;
-    line-height: 1.65;
-  }
-  #gallery-handle {
-    font-size: 13px;
-    color: #B68A3A;
-    font-weight: 600;
-    margin-top: 8px;
-  }
-  #gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    margin-bottom: 40px;
-  }
-  .gallery-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-  }
-  .gallery-item img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    display: block;
-  }
-  .gallery-item.featured {
-    grid-column: span 2;
-    grid-row: span 2;
-  }
-  .gallery-item.featured img {
-    height: 100%;
-    min-height: 452px;
-  }
-  .gallery-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(0deg, rgba(17,17,17,0.65) 0%, transparent 100%);
-    padding: 28px 14px 12px;
-    color: #FAF6EE;
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    opacity: 0;
-  }
-  .gallery-item:hover .gallery-caption { opacity: 1; }
-  #gallery-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-  }
+  <style id="hiring-styles">
+  #hiring { background: #42BDB7; padding: 60px 0; }
+  .hiring-inner { display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+  .hiring-text h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 36px; font-weight: 600; color: #fff; line-height: 1.2; margin-bottom: 8px; }
+  .hiring-text p { font-size: 15px; color: rgba(255,255,255,0.88); }
   </style>
   
-  <!-- ===================== TESTIMONIALS ===================== -->
   <style id="testimonials-styles">
-  #testimonials-section {
-    background: #FFFFFF;
-    padding: 88px 0;
-  }
-  #testimonials-header {
-    text-align: center;
-    margin-bottom: 52px;
-  }
-  #testimonials-heading {
-    font-size: 38px;
-    font-weight: 600;
-    color: #2B2B28;
-    margin-bottom: 10px;
-  }
-  #testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
-    margin-bottom: 40px;
-  }
-  .testimonial-card {
-    background: #FAF6EE;
-    border-radius: 12px;
-    padding: 36px 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    box-shadow: 0 2px 12px rgba(43,43,40,0.06);
-  }
-  .testimonial-quote-icon {
-    color: #B68A3A;
-  }
-  .testimonial-text {
-    font-size: 14px;
-    color: #2B2B28;
-    line-height: 1.72;
-    font-style: italic;
-    flex: 1;
-  }
-  .testimonial-divider {
-    width: 32px;
-    height: 1px;
-    background: #DDD6CC;
-  }
-  .testimonial-name {
-    font-size: 13px;
-    font-weight: 600;
-    color: #2B2B28;
-    letter-spacing: 0.02em;
-  }
-  .testimonial-source {
-    font-size: 11px;
-    color: #B68A3A;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-top: 2px;
-  }
-  #testimonials-dots {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-  }
-  .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #DDD6CC;
-  }
-  .dot.active {
-    background: #B68A3A;
-    width: 24px;
-    border-radius: 4px;
-  }
+  #testimonials { background: #FAF6EF; padding: 80px 0; }
+  #testimonials .section-heading { text-align: center; margin-bottom: 40px; }
+  .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .testimonial-card { background: #fff; border-radius: 12px; padding: 32px 28px; box-shadow: 0 2px 16px rgba(42,35,28,0.07); display: flex; flex-direction: column; }
+  .testimonial-quote { font-size: 36px; color: #D8C5AE; font-family: 'Cormorant Garamond', Georgia, serif; line-height: 1; margin-bottom: 14px; }
+  .testimonial-text { font-size: 15px; color: #2B2A28; line-height: 1.7; flex: 1; font-style: italic; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500;}
+  .testimonial-author { margin-top: 20px; padding-top: 16px; border-top: 1px solid #F3E8DA; font-size: 13px; font-weight: 600; color: #706B66; }
   </style>
   
-  <!-- ===================== CTA SECTION ===================== -->
-  <style id="cta-styles">
-  #cta-section {
-    position: relative;
-    padding: 0;
-    min-height: 380px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-  }
-  #cta-bg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  #cta-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(17,17,17,0.82) 0%, rgba(43,43,40,0.7) 100%);
-  }
-  #cta-content {
-    position: relative;
-    z-index: 2;
-    padding: 72px 0;
-    text-align: center;
-  }
-  #cta-heading {
-    font-size: 44px;
-    font-weight: 600;
-    color: #FAF6EE;
-    line-height: 1.18;
-    margin-bottom: 18px;
-  }
-  #cta-text {
-    font-size: 15px;
-    color: rgba(216,195,165,0.9);
-    max-width: 600px;
-    margin: 0 auto 36px;
-    line-height: 1.7;
-  }
-  #cta-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    flex-wrap: wrap;
-  }
-  </style>
-  
-  <!-- ===================== CONTACT ===================== -->
   <style id="contact-styles">
-  #contact-section {
-    background: #FAF6EE;
-    padding: 88px 0;
-  }
-  #contact-inner {
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    gap: 72px;
-    align-items: start;
-  }
-  #contact-info {}
-  #contact-heading {
-    font-size: 36px;
-    font-weight: 600;
-    color: #2B2B28;
-    line-height: 1.18;
-    margin-bottom: 8px;
-  }
-  #contact-tagline {
-    font-size: 14px;
-    color: #706B63;
-    margin-bottom: 40px;
-    line-height: 1.6;
-  }
-  .contact-detail-row {
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
-    margin-bottom: 24px;
-  }
-  .contact-detail-icon {
-    width: 40px;
-    height: 40px;
-    background: rgba(182,138,58,0.1);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-  .contact-detail-label {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #B68A3A;
-    margin-bottom: 3px;
-  }
-  .contact-detail-value {
-    font-size: 14px;
-    color: #2B2B28;
-    font-weight: 500;
-    line-height: 1.5;
-  }
-  #contact-socials {
-    display: flex;
-    gap: 10px;
-    margin-top: 36px;
-  }
-  .social-btn {
-    width: 38px;
-    height: 38px;
-    border-radius: 8px;
-    background: #2B2B28;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  #contact-form-wrap {
-    background: #FFFFFF;
-    border-radius: 14px;
-    padding: 44px 40px;
-    box-shadow: 0 4px 28px rgba(43,43,40,0.09);
-  }
-  #form-heading {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 28px;
-    font-weight: 600;
-    color: #2B2B28;
-    margin-bottom: 6px;
-  }
-  #form-sub {
-    font-size: 13px;
-    color: #706B63;
-    margin-bottom: 28px;
-    line-height: 1.55;
-  }
-  .form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-    margin-bottom: 14px;
-  }
-  .form-row-full {
-    margin-bottom: 14px;
-  }
-  .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-  .form-label {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #706B63;
-  }
-  .form-input {
-    background: #FAF6EE;
-    border: 1px solid #DDD6CC;
-    border-radius: 5px;
-    padding: 0 14px;
-    height: 42px;
-    font-size: 14px;
-    color: #242424;
-    font-family: Inter, Arial, sans-serif;
-    width: 100%;
-  }
-  .form-textarea {
-    background: #FAF6EE;
-    border: 1px solid #DDD6CC;
-    border-radius: 5px;
-    padding: 12px 14px;
-    font-size: 14px;
-    color: #242424;
-    font-family: Inter, Arial, sans-serif;
-    width: 100%;
-    resize: none;
-    height: 100px;
-    line-height: 1.55;
-  }
-  .form-submit {
-    margin-top: 20px;
-    width: 100%;
-    height: 46px;
-    background: #2B2B28;
-    color: #FAF6EE;
-    font-family: Inter, Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+  #contact { background: #2B2A28; padding: 80px 0; }
+  .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+  .contact-info h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 38px; font-weight: 600; color: #FAF6EF; margin-bottom: 28px; line-height: 1.15; }
+  .contact-detail { margin-bottom: 20px; }
+  .contact-detail-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #D8C5AE; margin-bottom: 6px; }
+  .contact-detail p { font-size: 14px; color: rgba(250,246,239,0.82); line-height: 1.6; }
+  .contact-detail a { color: rgba(250,246,239,0.82); }
+  .contact-social-row { display: flex; gap: 12px; margin-top: 6px; }
+  .contact-social-btn { display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 14px; border-radius: var(--radius-sm); background: rgba(255,255,255,0.1); font-size: 13px; color: #FAF6EF; font-weight: 500; }
+  .contact-form-card { background: #fff; border-radius: 12px; padding: 36px 32px; }
+  .form-row { margin-bottom: 16px; }
+  .form-label { font-size: 12px; font-weight: 600; color: #2B2A28; margin-bottom: 6px; display: block; letter-spacing: 0.03em; }
+  .form-input { width: 100%; height: 44px; background: #FAF6EF; border: 1.5px solid #DED6CC; border-radius: var(--radius-sm); padding: 0 14px; font-size: 14px; color: #2B2A28; font-family: 'Inter', Arial, sans-serif; }
+  .form-textarea { width: 100%; min-height: 110px; background: #FAF6EF; border: 1.5px solid #DED6CC; border-radius: var(--radius-sm); padding: 12px 14px; font-size: 14px; color: #2B2A28; font-family: 'Inter', Arial, sans-serif; resize: vertical; }
+  .form-row-half { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 16px; }
+  .contact-note { font-size: 13px; color: rgba(250,246,239,0.65); margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); line-height: 1.5; }
   </style>
   
-  <!-- ===================== FOOTER ===================== -->
+  <style id="map-styles">
+  #map-section { background: #fff; padding: 60px 0; }
+  .map-container { border-radius: 12px; overflow: hidden; border: 1px solid #DED6CC; height: 380px; position: relative; }
+  .map-placeholder { width: 100%; height: 100%; background: #E8F0EE; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
+  .map-placeholder img { width: 100%; height: 100%; object-fit: cover; }
+  .map-address-badge { position: absolute; bottom: 20px; left: 20px; background: #fff; border-radius: 8px; padding: 12px 16px; box-shadow: 0 4px 16px rgba(42,35,28,0.14); z-index: 2; }
+  .map-address-badge p { font-size: 13px; font-weight: 600; color: #2B2A28; margin-bottom: 2px; }
+  .map-address-badge span { font-size: 12px; color: #7A7168; }
+  </style>
+  
   <style id="footer-styles">
-  #site-footer {
-    background: #2B2B28;
-    padding: 72px 0 0;
-  }
-  #footer-grid {
-    display: grid;
-    grid-template-columns: 1.7fr 1fr 1fr 1.4fr;
-    gap: 56px;
-    padding-bottom: 56px;
-    border-bottom: 1px solid rgba(216,195,165,0.15);
-  }
-  .footer-col {}
-  .footer-logo-name {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: #FAF6EE;
-    line-height: 1.15;
-    margin-bottom: 4px;
-  }
-  .footer-logo-tag {
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #B68A3A;
-    margin-bottom: 18px;
-  }
-  .footer-col-desc {
-    font-size: 13px;
-    color: rgba(216,195,165,0.7);
-    line-height: 1.68;
-    max-width: 260px;
-  }
-  .footer-col-heading {
-    font-family: Inter, Arial, sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #D8C3A5;
-    margin-bottom: 18px;
-  }
-  .footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    list-style: none;
-  }
-  .footer-links li a {
-    font-size: 13px;
-    color: rgba(216,195,165,0.65);
-    font-family: Inter, Arial, sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-  }
-  .footer-contact-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 14px;
-  }
-  .footer-contact-item:last-child { margin-bottom: 0; }
-  .footer-contact-text {
-    font-size: 13px;
-    color: rgba(216,195,165,0.65);
-    line-height: 1.5;
-  }
-  .footer-contact-text a {
-    color: rgba(216,195,165,0.65);
-    font-family: Inter, Arial, sans-serif;
-  }
-  #footer-socials {
-    display: flex;
-    gap: 10px;
-    margin-top: 24px;
-  }
-  .footer-social-btn {
-    width: 34px;
-    height: 34px;
-    border-radius: 7px;
-    background: rgba(216,195,165,0.12);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #footer-bottom {
-    padding: 20px 0;
-  }
-  #footer-bottom-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  #footer-copyright {
-    font-size: 12px;
-    color: rgba(216,195,165,0.45);
-    font-family: Inter, Arial, sans-serif;
-  }
-  #footer-bottom-links {
-    display: flex;
-    gap: 20px;
-  }
-  #footer-bottom-links a {
-    font-size: 12px;
-    color: rgba(216,195,165,0.45);
-    font-family: Inter, Arial, sans-serif;
-  }
+  #site-footer { background: #2B2A28; border-top: 1px solid rgba(255,255,255,0.08); padding: 60px 0 0; }
+  .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 44px; }
+  .footer-logo { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 600; color: #FAF6EF; margin-bottom: 10px; line-height: 1.2; }
+  .footer-tagline { font-size: 13px; color: #7A7168; line-height: 1.6; max-width: 200px; }
+  .footer-col-heading { font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #D8C5AE; margin-bottom: 16px; }
+  .footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+  .footer-links li a { font-size: 13px; color: rgba(250,246,239,0.72); }
+  .footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding: 18px 0; }
+  .footer-bottom-inner { display: flex; align-items: center; justify-content: space-between; }
+  .footer-bottom p { font-size: 12px; color: #7A7168; }
   </style>
   
   
   
-  <!-- ===================== HEADER ===================== -->
+
+
+  <style id="responsive-overrides">
+  /* Responsive rules only. Desktop styling above 1280px stays untouched. */
+
+  @media (max-width: 1280px) {
+    [data-banani-screenid] {
+      overflow-x: hidden;
+    }
+
+    .container,
+    #site-header .header-inner {
+      max-width: 100%;
+      padding-left: clamp(18px, 3vw, 30px);
+      padding-right: clamp(18px, 3vw, 30px);
+    }
+
+    #site-header .header-inner {
+      gap: 16px;
+    }
+
+    nav.main-nav {
+      gap: 2px;
+      min-width: 0;
+    }
+
+    nav.main-nav a {
+      padding-left: 7px;
+      padding-right: 7px;
+      font-size: 12.5px;
+    }
+
+    .header-actions {
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .hero-inner,
+    .feature-inner,
+    .contact-inner,
+    .pricing-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .services-grid,
+    .instagram-grid,
+    .team-row1,
+    .team-row2,
+    .testimonials-grid,
+    .footer-grid {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .team-row2 {
+      max-width: none;
+    }
+
+    .service-card,
+    .pricing-card,
+    .feature-text,
+    .contact-form-card,
+    .testimonial-card,
+    .team-card {
+      min-width: 0;
+    }
+
+    img,
+    video,
+    iframe {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 1180px) {
+    #site-header .header-inner {
+      height: auto;
+      min-height: 80px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .header-logo {
+      flex: 1 1 auto;
+    }
+
+    nav.main-nav {
+      order: 3;
+      flex: 1 1 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+      row-gap: 8px;
+    }
+
+    #hero .hero-inner {
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 34px;
+    }
+
+    .hero-text h1 {
+      font-size: clamp(48px, 5vw, 56px);
+    }
+
+    .services-grid,
+    .instagram-grid {
+      gap: 18px;
+    }
+
+    .feature-inner,
+    .contact-inner {
+      gap: 42px;
+    }
+
+    .footer-grid {
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .pricing-card.dark .pricing-card-btn {
+      position: static;
+      width: 100%;
+    }
+    #hero {
+      min-height: 620px;
+    }
+
+    #hero .hero-inner {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 28px;
+    }
+
+    .hero-text p {
+      max-width: 560px;
+    }
+
+    .hero-card {
+      max-width: 460px;
+    }
+
+    .services-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .instagram-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 22px;
+    }
+
+    .instagram-btns {
+      flex-wrap: wrap;
+    }
+
+    .pricing-grid,
+    .feature-inner,
+    .contact-inner {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .feature-text {
+      padding: 38px 34px;
+    }
+
+    .team-row1,
+    .testimonials-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .team-row2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: none;
+    }
+
+    .hiring-inner {
+      gap: 24px;
+    }
+
+    .footer-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 900px) {
+    #hero {
+      min-height: auto;
+    }
+
+    #hero .hero-overlay {
+      background: linear-gradient(90deg, rgba(42,35,28,0.82) 0%, rgba(42,35,28,0.58) 65%, rgba(42,35,28,0.38) 100%);
+    }
+
+    #hero .hero-content {
+      padding: 72px 30px;
+    }
+
+    .hero-text h1 {
+      font-size: clamp(44px, 8vw, 54px);
+    }
+
+    .section-heading,
+    .instagram-header-left h2,
+    .contact-info h2 {
+      font-size: clamp(32px, 5vw, 38px);
+    }
+
+    .feature-text h2 {
+      font-size: clamp(34px, 6vw, 42px);
+    }
+
+    .pricing-card {
+      padding: 32px 28px 30px;
+    }
+
+    .contact-info,
+    .contact-form-card {
+      width: 100%;
+    }
+
+    .hiring-inner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container,
+    #site-header .header-inner {
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+
+    #site-header .header-inner {
+      align-items: stretch;
+    }
+
+    .header-logo {
+      text-align: center;
+      white-space: normal;
+      font-size: 17px;
+    }
+
+    .header-actions {
+      justify-content: center;
+      width: 100%;
+    }
+
+    nav.main-nav {
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      width: 100%;
+      padding: 4px 0 2px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+
+    nav.main-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    nav.main-nav a {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      font-size: 13px;
+    }
+
+    .btn {
+      min-height: 42px;
+      height: auto;
+      padding: 12px 18px;
+      text-align: center;
+      line-height: 1.2;
+      white-space: normal;
+    }
+
+    #services,
+    #instagram,
+    #pricing,
+    #feature,
+    #team,
+    #testimonials,
+    #contact {
+      padding: 64px 0;
+    }
+
+    #map-section {
+      padding: 52px 0;
+    }
+
+    #site-footer {
+      padding-top: 52px;
+    }
+
+    #hero .hero-content {
+      padding: 64px 22px;
+    }
+
+    .hero-text h1 {
+      line-height: 1.08;
+      margin-bottom: 18px;
+    }
+
+    .hero-text p {
+      font-size: 15px;
+      margin-bottom: 26px;
+    }
+
+    .hero-btns,
+    .instagram-btns,
+    .hero-card-btns {
+      width: 100%;
+    }
+
+    .hero-btns .btn,
+    .instagram-btns .btn,
+    .hero-card-btns .btn {
+      flex: 1 1 auto;
+    }
+
+    .hero-text > div[style*="margin-top:28px"] {
+      flex-wrap: wrap;
+    }
+
+    .hero-card {
+      padding: 28px 24px;
+    }
+
+    .instagram-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .team-row1,
+    .team-row2,
+    .testimonials-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .team-card-img {
+      height: 260px;
+    }
+
+    .feature-images {
+      gap: 12px;
+    }
+
+    .feature-img-main {
+      height: 260px;
+    }
+
+    .feature-img-sub {
+      height: 170px;
+    }
+
+    .contact-form-card {
+      padding: 32px 26px;
+    }
+
+    .footer-bottom-inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .container,
+    #site-header .header-inner {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    #site-header .header-inner {
+      gap: 10px;
+    }
+
+    .header-actions .btn {
+      width: 100%;
+    }
+
+    #hero .hero-content {
+      padding: 56px 18px;
+    }
+
+    .hero-text .eyebrow,
+    .section-eyebrow {
+      font-size: 10px;
+      line-height: 1.4;
+    }
+
+    .hero-text h1 {
+      font-size: clamp(40px, 12vw, 50px);
+    }
+
+    .section-heading,
+    .instagram-header-left h2,
+    .contact-info h2 {
+      font-size: clamp(30px, 9vw, 36px);
+      margin-bottom: 28px;
+    }
+
+    .services-grid,
+    .pricing-grid,
+    .footer-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .service-card-image {
+      height: 220px;
+    }
+
+    .pricing-card {
+      padding: 28px 22px 26px;
+    }
+
+    .pricing-card-heading {
+      font-size: 26px;
+    }
+
+    .pricing-item {
+      gap: 12px;
+    }
+
+    .pricing-name {
+      min-width: 0;
+    }
+
+    .feature-images {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .feature-img-main,
+    .feature-img-sub {
+      grid-column: auto;
+      height: 230px;
+    }
+
+    .feature-text {
+      padding: 32px 24px;
+    }
+
+    .feature-text h2 {
+      font-size: clamp(32px, 10vw, 38px);
+    }
+
+    .team-card-img {
+      height: 240px;
+    }
+
+    .hiring-text h2 {
+      font-size: clamp(30px, 9vw, 36px);
+    }
+
+    .contact-social-row {
+      flex-wrap: wrap;
+    }
+
+    .form-row-half {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 16px;
+    }
+
+    .map-container {
+      height: 340px;
+    }
+
+    .map-address-badge {
+      left: 14px;
+      right: 14px;
+      bottom: 14px;
+      padding: 12px 14px;
+    }
+
+    .footer-grid {
+      gap: 32px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .hero-btns,
+    .instagram-btns {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .hero-btns .btn,
+    .instagram-btns .btn {
+      width: 100%;
+    }
+
+    .hero-card {
+      padding: 24px 20px;
+    }
+
+    .instagram-grid {
+      gap: 10px;
+    }
+
+    .service-card-body,
+    .team-card-body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .testimonial-card {
+      padding: 28px 22px;
+    }
+
+    .contact-form-card {
+      padding: 28px 22px;
+    }
+
+    .footer-bottom p {
+      line-height: 1.5;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container,
+    #site-header .header-inner {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    #site-header .header-inner {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    nav.main-nav a {
+      font-size: 12px;
+      padding: 7px 9px;
+    }
+
+    #services,
+    #instagram,
+    #pricing,
+    #feature,
+    #team,
+    #testimonials,
+    #contact {
+      padding: 54px 0;
+    }
+
+    #map-section {
+      padding: 44px 0;
+    }
+
+    #hero .hero-content {
+      padding: 50px 16px;
+    }
+
+    .hero-text h1 {
+      font-size: clamp(38px, 13vw, 46px);
+    }
+
+    .hero-text p,
+    .feature-text p,
+    .contact-detail p {
+      font-size: 14px;
+    }
+
+    .hero-text > div[style*="margin-top:28px"] {
+      align-items: flex-start !important;
+      gap: 12px !important;
+    }
+
+    .hero-text > div[style*="margin-top:28px"] > div[style*="width:1px"] {
+      display: none !important;
+    }
+
+    .hero-text > div[style*="margin-top:28px"] > div {
+      margin-left: 0 !important;
+    }
+
+    .hero-card h3 {
+      font-size: 21px;
+    }
+
+    .service-card-image {
+      height: 200px;
+    }
+
+    .instagram-header {
+      margin-bottom: 28px;
+    }
+
+    .instagram-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .pricing-item {
+      align-items: flex-start;
+    }
+
+    .pricing-price {
+      font-size: 12.5px;
+    }
+
+    .feature-img-main,
+    .feature-img-sub {
+      height: 210px;
+    }
+
+    .team-card-img {
+      height: 220px;
+    }
+
+    .contact-social-btn {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .map-container {
+      height: 320px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .container,
+    #site-header .header-inner {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    .header-logo {
+      font-size: 16px;
+    }
+
+    .header-actions .btn,
+    .btn {
+      width: 100%;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    .hero-text h1 {
+      font-size: clamp(36px, 12vw, 42px);
+    }
+
+    .section-heading,
+    .instagram-header-left h2,
+    .contact-info h2 {
+      font-size: 29px;
+    }
+
+    .hero-card,
+    .pricing-card,
+    .feature-text,
+    .contact-form-card,
+    .testimonial-card {
+      border-radius: 10px;
+    }
+
+    .service-card-image,
+    .feature-img-main,
+    .feature-img-sub,
+    .team-card-img {
+      height: 200px;
+    }
+
+    .pricing-item {
+      flex-direction: column;
+      gap: 2px;
+      padding: 7px 0;
+    }
+
+    .pricing-price {
+      white-space: normal;
+    }
+
+    .map-address-badge p,
+    .map-address-badge span {
+      line-height: 1.35;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .container,
+    #site-header .header-inner {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
+    nav.main-nav a {
+      font-size: 11.5px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    #hero .hero-content {
+      padding: 44px 14px;
+    }
+
+    .hero-text h1 {
+      font-size: 35px;
+    }
+
+    .section-heading,
+    .instagram-header-left h2,
+    .contact-info h2,
+    .hiring-text h2 {
+      font-size: 28px;
+    }
+
+    .hero-card,
+    .pricing-card,
+    .feature-text,
+    .contact-form-card,
+    .testimonial-card {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    .service-card-body,
+    .team-card-body {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    .service-card-image,
+    .feature-img-main,
+    .feature-img-sub,
+    .team-card-img,
+    .map-container {
+      height: 190px;
+    }
+
+    .map-address-badge {
+      position: static;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .map-container {
+      height: auto;
+    }
+
+    .map-container > img {
+      height: 210px !important;
+    }
+  }
+  </style>
+
+  <!-- HEADER -->
   <header id="site-header">
-    <div class="container">
-      <div id="header-inner">
-        <div id="header-logo" data-media-type="banani-button">
-          <span class="logo-name">Culinary Art Catering</span>
-          <span class="logo-tag">Dallas, Texas</span>
-        </div>
-        <nav id="header-nav">
-          <a href="#" data-media-type="banani-button">Our Story</a>
-          <a href="#" data-media-type="banani-button">Our Sample Menus</a>
-          <a href="#" data-media-type="banani-button">Our Venues</a>
-          <a href="#" data-media-type="banani-button">Gallery</a>
-          <a href="#" data-media-type="banani-button">Our Team</a>
-          <a href="#" data-media-type="banani-button">Contact Us</a>
-        </nav>
-        <div id="header-cta-wrap">
-          <button class="btn btn-primary" data-media-type="banani-button">Schedule A Consultation</button>
-        </div>
+    <div class="header-inner">
+      <div class="header-logo">
+        The Salon &amp; Spa California
+        
+      </div>
+      <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Products</a>
+        <a href="#">Weddings</a>
+        <a href="#">Social</a>
+        <a href="#">Prices</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="header-actions">
+        
+        <a href="#" class="btn btn-primary" data-media-type="banani-button">Book Online</a>
       </div>
     </div>
   </header>
   
-  <!-- ===================== HERO ===================== -->
-  <section id="hero-section">
-    <img id="hero-bg" data-query="luxury catering elegant plated dinner tablescape with fine china candlelight and floral centerpieces warm gold ivory tones upscale Dallas wedding reception" data-aspect-ratio="16:9" alt="Luxury catering event" src="/api/flow-image/16%3A9%0Aluxury%20catering%20elegant%20plated%20dinner%20tablescape%20with%20fine%20china%20candlelight%20and%20floral%20centerpieces%20warm%20gold%20ivory%20tones%20upscale%20Dallas%20wedding%20reception" loading="lazy">
-    <div id="hero-overlay"></div>
-    <div class="container" id="hero-content">
-      <div id="hero-panel" style="
-  text-align: center;
-">
-        <div id="hero-badge">
-          <div style="width: 16px; height: 16px; display: flex; align-items: center; justify-content: center;">
-            <iconify-icon icon="lucide:award" style="font-size: 14px; color: #D8C3A5;"></iconify-icon>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img data-aspect-ratio="16:9" data-query="Luxury California salon spa interior, soft warm light, elegant patio garden, coastal Carmel California beauty spa ambiance, warm beige terracotta tones, lush greenery, elegant styling chairs, photography" alt="The Salon &amp; Spa California" src="https://storage.googleapis.com/banani-generated-images/generated-images/f1f78e54-e539-462c-ba42-9b41ed069c9c.jpg" loading="lazy">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Carmel, California</p>
+          <h1>The Salon<br>&amp; Spa<br>California</h1>
+          <p>A boutique salon and spa in Carmel offering hair, spa, wedding, beauty, and self-care services in a warm coastal setting.</p>
+          <div class="hero-btns">
+            <a href="#" class="btn btn-primary" data-media-type="banani-button">Book Online</a>
+            <a href="#" class="btn btn-outline-white" data-media-type="banani-button">Buy Gift Cards</a>
           </div>
-          <span>Award-Winning | Chef-Owned | Dallas, Texas</span>
+          <div style="margin-top:28px;display:flex;align-items:center;gap:10px;">
+            
+            <div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.6);letter-spacing:0.06em;text-transform:uppercase;font-weight:500;">Open Tue–Sat</div>
+              <div style="font-size:13px;color:rgba(255,255,255,0.9);font-weight:500;margin-top:2px;">9:30am – 5:30pm</div>
+            </div>
+            <div style="width:1px;height:36px;background:rgba(255,255,255,0.3);margin-left:6px;"></div>
+            <div style="margin-left:6px;">
+              <div style="font-size:12px;color:rgba(255,255,255,0.6);letter-spacing:0.06em;text-transform:uppercase;font-weight:500;">Call Us</div>
+              <div style="font-size:13px;color:rgba(255,255,255,0.9);font-weight:500;margin-top:2px;">831 620 5595</div>
+            </div>
+          </div>
         </div>
-        <div id="hero-eyebrow">
-          <span class="eyebrow eyebrow-white">Luxury Catering In Dallas</span>
+        <div class="hero-card">
+          <h3>Plan Your Visit</h3>
+          <p>Everything you need for a beautiful salon and spa experience in Carmel.</p>
+          <div class="hero-card-btns">
+            <a href="#" class="btn btn-primary" data-media-type="banani-button">Book Online</a>
+            <a href="#" class="btn btn-soft" data-media-type="banani-button">Buy Gift Cards</a>
+            <a href="#" class="btn btn-secondary" data-media-type="banani-button">Spa Packages</a>
+            <a href="#" class="btn btn-outline" data-media-type="banani-button">Positive Parlor</a>
+          </div>
         </div>
-        <h1 id="hero-heading">Customized Menus<br>And Competitive Rates</h1>
-        <span class="gold-divider" style="
-  margin-left: auto;
-  margin-right: auto;
-"></span>
-        <p id="hero-sub">Award-winning, full-service catering for weddings, corporate events, private celebrations, mitzvahs, and unforgettable gatherings across Dallas and North Texas.</p>
-        <div id="hero-buttons" style="
+      </div>
+    </div>
+  </section>
+  
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-eyebrow">Our Services</div>
+      <h2 class="section-heading">Choose Your Experience</h2>
+      <div class="services-grid">
+        <div class="service-card" data-media-type="banani-button">
+          <div class="service-card-image">
+            <img data-aspect-ratio="4:3" data-query="Luxury hair salon balayage blonde highlights styling, warm salon chair, California coastal salon, soft warm tones, editorial photography" alt="Color &amp; Styling" src="https://static.wixstatic.com/media/263d37_b5acd17aea8f46e8825740ae0dc6c740~mv2.jpg" loading="lazy">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-label">Hair</div>
+            <h3>Color &amp; Styling</h3>
+            <p>Hair color, cuts, styling, highlights, balayage, extensions, and personalized finishing services.</p>
+            <a href="#" class="btn btn-primary" data-media-type="banani-button">Book Now</a>
+          </div>
+        </div>
+        <div class="service-card" data-media-type="banani-button">
+          <div class="service-card-image">
+            <img data-aspect-ratio="4:3" data-query="Luxury spa facial treatment, soft white towels, candles, hydrafacial skincare spa, warm peaceful ambiance, Carmel California spa, warm peach cream tones" alt="Spa" src="https://static.wixstatic.com/media/263d37_4b95c48081324ea4be3c3c7d0345a60a~mv2.jpg" loading="lazy">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-label">Beauty &amp; Wellness</div>
+            <h3>Spa</h3>
+            <p>Facials, waxing, Hydrafacials, dermaplaning, microdermabrasion, spray tanning, and relaxing skin treatments.</p>
+            <a href="#" class="btn btn-primary" data-media-type="banani-button">Book Now</a>
+          </div>
+        </div>
+        <div class="service-card" data-media-type="banani-button">
+          <div class="service-card-image">
+            <img data-aspect-ratio="4:3" data-query="Bridal wedding hair styling updo, elegant wedding, California coastal bride, floral details, soft warm golden light, luxury wedding salon photography" alt="Weddings" src="https://static.wixstatic.com/media/11062b_7e985edb38474535b7a46061d63d920f~mv2.jpg" loading="lazy">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-label">Bridal</div>
+            <h3>Weddings</h3>
+            <p>Beautiful wedding hair, makeup, styling, and bridal beauty services for your special day.</p>
+            <a href="#" class="btn btn-primary" data-media-type="banani-button">Book Now</a>
+          </div>
+        </div>
+        <div class="service-card" data-media-type="banani-button">
+          <div class="service-card-image">
+            <img data-aspect-ratio="4:3" data-query="Boutique hair salon Pacific Grove California, coastal salon interior, warm sage turquoise tones, elegant beauty studio, editorial photography" alt="Positive Parlor" src="https://static.wixstatic.com/media/263d37_679807b156604fde85a5687be76bdece~mv2.jpg" loading="lazy">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-label">Sister Salon</div>
+            <h3>Positive Parlor</h3>
+            <p>Visit our sister salon in Pacific Grove, CA for another beautiful salon experience.</p>
+            <a href="#" class="btn btn-outline" data-media-type="banani-button">Visit Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- INSTAGRAM -->
+  <section id="instagram">
+    <div class="container">
+      <div class="instagram-header" style="
+  gap: 240px;
+">
+        <div class="instagram-header-left">
+          <div class="section-eyebrow">Follow Along</div>
+          <h2 class="section-heading" style="margin-bottom:0;">#thesaloncalifornia</h2>
+          <p>Follow us on Instagram <strong>@thesalcal</strong> · See hair transformations, spa specials, Carmel Valley moments, and beauty inspiration.</p>
+        </div>
+        <div class="instagram-btns">
+          <a href="#" class="btn btn-primary" data-media-type="banani-button">Follow On Instagram</a>
+          <a href="#" class="btn btn-outline" data-media-type="banani-button">Book A Consultation</a>
+        </div>
+      </div>
+      <div class="instagram-grid">
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Blonde highlights balayage hair transformation California salon, warm golden tones, professional salon photography" alt="Blonde highlights" src="/api/flow-image/1%3A1%0ABlonde%20highlights%20balayage%20hair%20transformation%20California%20salon%2C%20warm%20golden%20tones%2C%20professional%20salon%20photography" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Luxury spa facial skincare treatment, warm peach tones, hydrafacial glow, beauty spa California" alt="Spa special" src="/api/flow-image/1%3A1%0ALuxury%20spa%20facial%20skincare%20treatment%2C%20warm%20peach%20tones%2C%20hydrafacial%20glow%2C%20beauty%20spa%20California" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Lived-in brunette hair color, natural brown tones, balayage brunette, California salon hair model" alt="Lived-in brunette" src="/api/flow-image/1%3A1%0ALived-in%20brunette%20hair%20color%2C%20natural%20brown%20tones%2C%20balayage%20brunette%2C%20California%20salon%20hair%20model" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Lash lift and tint close up eye beauty, dramatic lashes, spa beauty treatment, soft focus" alt="Lash lift and tint" src="/api/flow-image/1%3A1%0ALash%20lift%20and%20tint%20close%20up%20eye%20beauty%2C%20dramatic%20lashes%2C%20spa%20beauty%20treatment%2C%20soft%20focus" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Carmel Valley salon patio, coastal California garden beauty salon, warm light, lush plants, editorial photograph" alt="Carmel Valley salon" src="/api/flow-image/1%3A1%0ACarmel%20Valley%20salon%20patio%2C%20coastal%20California%20garden%20beauty%20salon%2C%20warm%20light%2C%20lush%20plants%2C%20editorial%20photograph" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Elegant bridal wedding updo hairstyle, California bride, soft waves, floral accessories, warm golden photography" alt="Wedding hairstyle" src="/api/flow-image/1%3A1%0AElegant%20bridal%20wedding%20updo%20hairstyle%2C%20California%20bride%2C%20soft%20waves%2C%20floral%20accessories%2C%20warm%20golden%20photography" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Balayage hair color, sun-kissed blonde brown, California beach waves, luxury salon styling, warm photography" alt="Balayage" src="/api/flow-image/1%3A1%0ABalayage%20hair%20color%2C%20sun-kissed%20blonde%20brown%2C%20California%20beach%20waves%2C%20luxury%20salon%20styling%2C%20warm%20photography" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+        <div class="insta-tile">
+          <img data-aspect-ratio="1:1" data-query="Premium luxury hair salon products flat lay, O&amp;M organic mineral products, warm cream background, editorial product photography" alt="Salon products" src="/api/flow-image/1%3A1%0APremium%20luxury%20hair%20salon%20products%20flat%20lay%2C%20O%26M%20organic%20mineral%20products%2C%20warm%20cream%20background%2C%20editorial%20product%20photography" loading="lazy">
+          <div class="insta-tile-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="pricing-bg">
+      <img data-aspect-ratio="16:9" data-query="Blurred soft background luxury salon spa interior, warm beige cream tones, elegant diffused photography" alt="" src="/api/flow-image/16%3A9%0ABlurred%20soft%20background%20luxury%20salon%20spa%20interior%2C%20warm%20beige%20cream%20tones%2C%20elegant%20diffused%20photography" loading="lazy">
+    </div>
+    <div class="pricing-inner container">
+      <div class="section-eyebrow">Menu</div>
+      <h2 class="section-heading">Services &amp; Prices</h2>
+      <div class="pricing-grid">
+        <!-- SALON CARD -->
+        <div class="pricing-card">
+          <div class="pricing-card-heading">Salon</div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Hair Cuts</div>
+            <div class="pricing-item"><span class="pricing-name">Women</span><span class="pricing-price">from $82</span></div>
+            <div class="pricing-item"><span class="pricing-name">Men</span><span class="pricing-price">from $52</span></div>
+          </div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Color</div>
+            <div class="pricing-item"><span class="pricing-name">Base touch up</span><span class="pricing-price">from $120</span></div>
+            <div class="pricing-item"><span class="pricing-name">Base to ends color</span><span class="pricing-price">$155</span></div>
+            <div class="pricing-item"><span class="pricing-name">Balayage</span><span class="pricing-price">from $240</span></div>
+            <div class="pricing-item"><span class="pricing-name">Base with partial foil</span><span class="pricing-price">$185</span></div>
+            <div class="pricing-item"><span class="pricing-name">Color correction</span><span class="pricing-price">Consultation</span></div>
+          </div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Highlights</div>
+            <div class="pricing-item"><span class="pricing-name">Partial</span><span class="pricing-price">from $170</span></div>
+            <div class="pricing-item"><span class="pricing-name">Full</span><span class="pricing-price">from $210</span></div>
+          </div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Keratin &amp; Styling</div>
+            <div class="pricing-item"><span class="pricing-name">Keratin Straightener</span><span class="pricing-price">from $265</span></div>
+            <div class="pricing-item"><span class="pricing-name">Shampoo &amp; Blow Dry</span><span class="pricing-price">from $65</span></div>
+          </div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Lashes &amp; Brows</div>
+            <div class="pricing-item"><span class="pricing-name">Full Set Classic</span><span class="pricing-price">$250</span></div>
+            <div class="pricing-item"><span class="pricing-name">2 Week Classic Fill</span><span class="pricing-price">$130</span></div>
+            <div class="pricing-item"><span class="pricing-name">Half Set Classic</span><span class="pricing-price">$150</span></div>
+            <div class="pricing-item"><span class="pricing-name">2 Week Half Set Fill</span><span class="pricing-price">$85</span></div>
+            <div class="pricing-item"><span class="pricing-name">Lash Removal</span><span class="pricing-price">$40</span></div>
+            <div class="pricing-item"><span class="pricing-name">Brow Tint</span><span class="pricing-price">$45</span></div>
+            <div class="pricing-item"><span class="pricing-name">Lash Lift &amp; Tint</span><span class="pricing-price">$95</span></div>
+            <div class="pricing-item"><span class="pricing-name">Lash Tint</span><span class="pricing-price">$45</span></div>
+            <div class="pricing-item"><span class="pricing-name">Brow Lamination &amp; Tint</span><span class="pricing-price">$90</span></div>
+          </div>
+          <div class="pricing-card-btn">
+            <a href="#" class="btn btn-primary" data-media-type="banani-button" style="width:100%;justify-content:center;">Book Online Now</a>
+          </div>
+        </div>
+        <!-- SPA CARD -->
+        <div class="pricing-card dark" style="
+  position: relative;
+">
+          <div class="pricing-card-heading">Spa</div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Lira Clinical &amp; Circidia Facials</div>
+            <div class="pricing-item"><span class="pricing-name">45 min</span><span class="pricing-price">from $110</span></div>
+            <div class="pricing-item"><span class="pricing-name">60 min</span><span class="pricing-price">from $130</span></div>
+            <div class="pricing-item"><span class="pricing-name">90 min</span><span class="pricing-price">from $160</span></div>
+            <div class="pricing-item"><span class="pricing-name">Rezenerate 60 min</span><span class="pricing-price">from $180</span></div>
+            <div class="pricing-item"><span class="pricing-name">Microderm Facial 60 min</span><span class="pricing-price">from $180</span></div>
+            <div class="pricing-item"><span class="pricing-name">Microderm Facial 45 min</span><span class="pricing-price">from $150</span></div>
+            <div class="pricing-item"><span class="pricing-name">Dermaplaning Facial</span><span class="pricing-price">$170</span></div>
+          </div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Waxing</div>
+            <div class="pricing-item"><span class="pricing-name">Brow</span><span class="pricing-price">from $25</span></div>
+            <div class="pricing-item"><span class="pricing-name">Lip</span><span class="pricing-price">from $15</span></div>
+            <div class="pricing-item"><span class="pricing-name">Full Face</span><span class="pricing-price">from $75</span></div>
+            <div class="pricing-item"><span class="pricing-name">Bikini</span><span class="pricing-price">from $60</span></div>
+            <div class="pricing-item"><span class="pricing-name">Brazilian</span><span class="pricing-price">from $80</span></div>
+            <div class="pricing-item"><span class="pricing-name">Full Leg Wax</span><span class="pricing-price">from $85</span></div>
+            <div class="pricing-item"><span class="pricing-name">Back Wax</span><span class="pricing-price">from $75</span></div>
+          </div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Spray Tan</div>
+            <div class="pricing-item"><span class="pricing-name">Full Spray Tan</span><span class="pricing-price">$50</span></div>
+          </div>
+          <div class="pricing-section">
+            <div class="pricing-section-title">Hydra Facials</div>
+            <div class="pricing-item"><span class="pricing-name">Signature Hydrafacial</span><span class="pricing-price">$160</span></div>
+            <div class="pricing-item"><span class="pricing-name">Deluxe Hydrafacial</span><span class="pricing-price">$210</span></div>
+          </div>
+          <div class="pricing-card-btn" style="
+  position: absolute;
+  width: 88%;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  margin: auto;
+">
+            <a href="#" class="btn btn-primary" data-media-type="banani-button" style="width:100%;justify-content:center;">Inquire For Appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FEATURE: HANNAH -->
+  <section id="feature">
+    <div class="container">
+      <div class="feature-inner">
+        <div class="feature-images">
+          <div class="feature-img-main">
+            <img data-aspect-ratio="16:9" data-query="International hair stylist working in luxury salon California, hair coloring balayage, editorial warm photography, warm beige cream tones" alt="Hannah stylist" src="https://static.wixstatic.com/media/263d37_4eb32d6344f64876875535be021b63b0~mv2_d_1650_1275_s_2.jpg/v1/fill/w_451,h_349,al_c,q_80,usm_0.66_1.00_0.01/263d37_4eb32d6344f64876875535be021b63b0~mv2_d_1650_1275_s_2.jpg" loading="lazy" style="
+  object-position: 50% 76%;
+">
+          </div>
+          <div class="feature-img-sub">
+            <img data-aspect-ratio="1:1" data-query="O&amp;M Original Mineral natural luxury hair products bottles, warm cream background, editorial product photography" alt="O&amp;M products" src="https://static.wixstatic.com/media/263d37_162700dfa9e841098995f122c1f9e0c4~mv2_d_2448_2448_s_4_2.jpg/v1/fill/w_349,h_349,al_c,q_80,usm_0.66_1.00_0.01/263d37_162700dfa9e841098995f122c1f9e0c4~mv2_d_2448_2448_s_4_2.jpg" loading="lazy">
+          </div>
+          <div class="feature-img-sub">
+            <img data-aspect-ratio="1:1" data-query="Beautiful hair color result blonde highlights from salon California, mirror selfie salon chair, warm California light" alt="Hair color result" src="https://static.wixstatic.com/media/263d37_334ca7a1e03a4e2ab6469bce33c9e9bd~mv2.jpg/v1/fill/w_261,h_349,al_c,q_80,usm_0.66_1.00_0.01/263d37_334ca7a1e03a4e2ab6469bce33c9e9bd~mv2.jpg" loading="lazy" style="
+  object-position: 50% 23%;
+">
+          </div>
+        </div>
+        <div class="feature-text" style="
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 ">
-          <button class="btn btn-gold" data-media-type="banani-button">Schedule A Consultation</button>
-          <button class="btn btn-outline-ivory" data-media-type="banani-button">Explore Our Menus</button>
+          <div class="eyebrow">International Stylist</div>
+          <h2>Hannah</h2>
+          <p>Hannah is a skilled and very sought after hair dresser from the Monterey Peninsula who has returned after a successful international career. The Salon California is proud to bring back some incredibly natural products from Australia all the way to Carmel California.</p>
+          <p>We exclusively provide Original Mineral products and hair color. O&amp;M bridges the gap between natural and luxury hair care.</p>
+          <a href="#" class="btn btn-primary" data-media-type="banani-button">Book With Hannah</a>
         </div>
       </div>
     </div>
   </section>
   
-  <!-- ===================== INTRO ===================== -->
-  <section id="intro-section">
-    <div class="container-narrow">
-      <div style="text-align:center;">
-        <span class="eyebrow">Award-Winning Catering</span>
-        <span class="gold-divider gold-divider-center"></span>
-      </div>
-      <h2 id="intro-heading">Luxury Catering For Weddings,<br>Corporate Events &amp; Celebrations</h2>
-      <div id="intro-text">
-        <p>Culinary Art Catering is an award-winning, full-service Dallas catering company known for extraordinary taste, design, and five-star service. For over twenty years, we've brought unforgettable experiences to life for clients across Dallas, Plano, Frisco, Addison, and surrounding North Texas communities.</p>
-        <p>Whether you're planning a wedding, bar or bat mitzvah, corporate meeting, open house, or private celebration, our team of seasoned professionals will collaborate with you to design a completely personalized event—tailored to your vision, your style, and your budget.</p>
-      </div>
-      <div id="intro-cta">
-        <button class="btn btn-primary" data-media-type="banani-button">Request A Proposal</button>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ===================== SERVICES ===================== -->
-  <section id="services-section">
+  <!-- TEAM -->
+  <section id="team">
     <div class="container">
-      <div id="services-header">
-        <span class="eyebrow">What We Do</span>
-        <span class="gold-divider gold-divider-center"></span>
-        <h2 id="services-heading">We Curate More Than Food</h2>
-        <p id="services-sub">We create complete event concepts, from menu design and event logistics to table styling and full-scale hospitality.</p>
+      <div class="section-eyebrow" style="text-align:center;">Our People</div>
+      <h2 class="section-heading">Meet The Team</h2>
+      <div class="team-row1">
+        <div class="team-card">
+          <div class="team-card-img">
+            <img src="https://static.wixstatic.com/media/263d37_5d377558137d4914b2c232a66a51bf4b~mv2.jpeg" alt="Liuda" loading="lazy">
+          </div>
+          <div class="team-card-body">
+            <h3>Liuda</h3>
+            <p>Liuda has over 20 years experience working at high end salons. As a colorist she is a popular choice for blondes but also loves working with the full spectrum of tones and colors.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-card-img">
+            <img src="https://static.wixstatic.com/media/263d37_8920781f03584e569e30bcd3778f5bfe~mv2.jpg" alt="Christina" loading="lazy" style="
+  object-position: 50% 20%;
+">
+          </div>
+          <div class="team-card-body">
+            <h3>Christina</h3>
+            <p>As a licensed hairstylist for over a decade, Christina brings a bubbly personality to The Salon California. Growing up by the ocean influenced her passion for beach blondes.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-card-img">
+            <img src="https://static.wixstatic.com/media/263d37_fc27d484a1e945ddaedd873e73d9011a~mv2.jpg" alt="Kelly" loading="lazy" style="
+  object-position: top;
+">
+          </div>
+          <div class="team-card-body">
+            <h3>Kelly</h3>
+            <p>Kelly's passion for color first pulled her into art school, and her passion for helping people feel beautiful led her to the beauty industry. After 25 years, she still loves learning and evolving.</p>
+          </div>
+        </div>
       </div>
-      <div id="services-grid">
-        <div class="service-card">
-          <div class="service-card-icon">
-            <iconify-icon icon="lucide:utensils" style="font-size: 20px; color: #B68A3A;"></iconify-icon>
+      <div class="team-row2">
+        <div class="team-card">
+          <div class="team-card-img">
+            <img src="https://static.wixstatic.com/media/263d37_20c018dce80a4bfaa79e1b2a36e8da1a~mv2.jpeg" alt="Danielle" loading="lazy" style="
+  object-position: 50% 38%;
+">
           </div>
-          <div class="service-card-title">Bespoke Menus</div>
-          <p class="service-card-text">Menus tailored to your preferences, event style, dietary needs, and guest experience.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-card-icon">
-            <iconify-icon icon="lucide:star" style="font-size: 20px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="service-card-title">Flawless Service</div>
-          <p class="service-card-text">Polished, warm service delivered by an experienced event hospitality team.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-card-icon">
-            <iconify-icon icon="lucide:clipboard-list" style="font-size: 20px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="service-card-title">Event Logistics</div>
-          <p class="service-card-text">Planning expertise that supports every stage of your celebration and eases the process.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-card-icon">
-            <iconify-icon icon="lucide:palette" style="font-size: 20px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="service-card-title">Creative Styling</div>
-          <p class="service-card-text">Concept development, presentation, and thoughtful details that elevate the entire event.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ===================== STORY ===================== -->
-  <section id="story-section">
-    <div class="container">
-      <div id="story-inner">
-        <div id="story-image-wrap">
-          <img data-query="professional chef preparing elegant plated cuisine in upscale catering kitchen warm tones culinary art hospitality Dallas Texas" data-aspect-ratio="3:4" alt="Chef-owned culinary art catering" src="/api/flow-image/3%3A4%0Aprofessional%20chef%20preparing%20elegant%20plated%20cuisine%20in%20upscale%20catering%20kitchen%20warm%20tones%20culinary%20art%20hospitality%20Dallas%20Texas" loading="lazy">
-          <div id="story-image-accent">
-            <div class="accent-number">20+</div>
-            <div class="accent-label">Years Of Culinary Excellence</div>
+          <div class="team-card-body">
+            <h3>Danielle</h3>
+            <p>Danielle is a local, energetic senior stylist with years of experience in cuts and color. She specializes in making people beautiful and leaving with a smile.</p>
           </div>
         </div>
-        <div id="story-text-col">
-          <span class="eyebrow">Chef-Owned Hospitality</span>
-          <span class="gold-divider"></span>
-          <h2 id="story-heading">Rooted In Culinary Excellence, Driven By Hospitality</h2>
-          <div id="story-body">
-            <p>As a chef-owned catering company, our foundation is culinary, but our purpose is deeply personal. We're not here for chefs to dazzle with ego—we're here to make you shine. Our goal is for your guests to walk away amazed—not just by the food, but by your incredible taste in choosing the right caterer.</p>
-            <p>At Culinary Art, we are rooted in the old-fashioned values of true hospitality. Every gesture is thoughtful. Every detail is intentional. Every guest experience is crafted with care. We believe hospitality is an art, and we treat it as such—honoring tradition while embracing innovation.</p>
+        <div class="team-card">
+          <div class="team-card-img">
+            <img src="https://static.wixstatic.com/media/263d37_508c68d589bf41bf9a8815d2a267b02a~mv2.jpg" alt="Aries" loading="lazy">
           </div>
-          <div id="story-cta">
-            <button class="btn btn-primary" data-media-type="banani-button">Our Story</button>
+          <div class="team-card-body">
+            <h3>Aries</h3>
+            <p>Aries is a passionate esthetician focused on helping clients look and feel their best, with experience in lash lifts, brow laminations, Hydrafacials, microdermabrasion, and body treatments.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   
-  <!-- ===================== EVENT SPECIALTIES ===================== -->
-  <section id="events-section">
+  <!-- HIRING CTA -->
+  <section id="hiring">
     <div class="container">
-      <div id="events-header">
-        <span class="eyebrow">Event Specialties</span>
-        <span class="gold-divider gold-divider-center"></span>
-        <h2 id="events-heading">Catering For Every Occasion</h2>
-      </div>
-      <div id="events-row-1">
-        <div class="event-card">
-          <img class="event-card-img" data-query="elegant wedding reception dinner tablescape white floral luxury plated service warm ivory gold tones" data-aspect-ratio="4:3" alt="Weddings" src="/api/flow-image/4%3A3%0Aelegant%20wedding%20reception%20dinner%20tablescape%20white%20floral%20luxury%20plated%20service%20warm%20ivory%20gold%20tones" loading="lazy">
-          <div class="event-card-body">
-            <span class="event-card-label">Weddings</span>
-            <div class="event-card-title">Weddings</div>
-            <p class="event-card-text">Elegant plated dinners, receptions, cocktail hours, private moments, late-night bites, and artful service.</p>
-          </div>
+      <div class="hiring-inner">
+        <div class="hiring-text">
+          <h2>We Are Hiring Now</h2>
+          <p>Join a creative salon and spa team in Carmel, California.</p>
         </div>
-        <div class="event-card">
-          <img class="event-card-img" data-query="upscale corporate event catering buffet display elegant reception professional setting modern venue Dallas" data-aspect-ratio="4:3" alt="Corporate Events" src="/api/flow-image/4%3A3%0Aupscale%20corporate%20event%20catering%20buffet%20display%20elegant%20reception%20professional%20setting%20modern%20venue%20Dallas" loading="lazy">
-          <div class="event-card-body">
-            <span class="event-card-label">Corporate</span>
-            <div class="event-card-title">Corporate Events</div>
-            <p class="event-card-text">Professional catering for meetings, open houses, receptions, celebrations, and company gatherings.</p>
-          </div>
-        </div>
-        <div class="event-card">
-          <img class="event-card-img" data-query="private celebration catering birthday anniversary luxury dinner party elegant home setting warm gold tones" data-aspect-ratio="4:3" alt="Private Celebrations" src="/api/flow-image/4%3A3%0Aprivate%20celebration%20catering%20birthday%20anniversary%20luxury%20dinner%20party%20elegant%20home%20setting%20warm%20gold%20tones" loading="lazy">
-          <div class="event-card-body">
-            <span class="event-card-label">Private Events</span>
-            <div class="event-card-title">Private Celebrations</div>
-            <p class="event-card-text">Custom menus and warm hospitality for birthdays, anniversaries, family celebrations, and home events.</p>
-          </div>
-        </div>
-      </div>
-      <div id="events-row-2">
-        <div class="event-card">
-          <img class="event-card-img" data-query="bar mitzvah bat mitzvah themed food station display colorful celebration elegant catering service festive" data-aspect-ratio="4:3" alt="Bar &amp; Bat Mitzvahs" src="/api/flow-image/4%3A3%0Abar%20mitzvah%20bat%20mitzvah%20themed%20food%20station%20display%20colorful%20celebration%20elegant%20catering%20service%20festive" loading="lazy">
-          <div class="event-card-body">
-            <span class="event-card-label">Mitzvahs</span>
-            <div class="event-card-title">Bar &amp; Bat Mitzvahs</div>
-            <p class="event-card-text">Creative menus, themed stations, and high-energy food experiences for unforgettable celebrations.</p>
-          </div>
-        </div>
-        <div class="event-card">
-          <img class="event-card-img" data-query="holiday party catering festive seasonal food station elegant holiday decor warm gold and ivory tones" data-aspect-ratio="4:3" alt="Holiday Parties" src="/api/flow-image/4%3A3%0Aholiday%20party%20catering%20festive%20seasonal%20food%20station%20elegant%20holiday%20decor%20warm%20gold%20and%20ivory%20tones" loading="lazy">
-          <div class="event-card-body">
-            <span class="event-card-label">Holiday Parties</span>
-            <div class="event-card-title">Holiday Parties</div>
-            <p class="event-card-text">Seasonal menus, interactive stations, and polished service for festive gatherings.</p>
-          </div>
-        </div>
+        <a href="#" class="btn btn-white" data-media-type="banani-button">Contact Us</a>
       </div>
     </div>
   </section>
   
-  <!-- ===================== EXPERIENCE ===================== -->
-  <section id="experience-section">
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
     <div class="container">
-      <div id="experience-header">
-        <span class="eyebrow eyebrow-white">Our Experience</span>
-        <span class="gold-divider gold-divider-center" style="background:#B68A3A;"></span>
-        <h2 id="experience-heading">The Culinary Art Catering Experience</h2>
-        <p id="experience-sub">From your very first consultation through the final toast, we offer a luxury experience marked by warmth, professionalism, and an unwavering commitment to excellence.</p>
-      </div>
-      <div id="experience-steps">
-        <div class="step-card">
-          <div class="step-number">01</div>
-          <div class="step-divider"></div>
-          <div class="step-title">Consultation</div>
-          <p class="step-text">We listen closely to your event goals, style, preferences, and guest needs.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">02</div>
-          <div class="step-divider"></div>
-          <div class="step-title">Custom Menu Design</div>
-          <p class="step-text">Our team creates a menu tailored to your celebration and dietary requirements.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">03</div>
-          <div class="step-divider"></div>
-          <div class="step-title">Event Planning &amp; Styling</div>
-          <p class="step-text">We support event logistics, presentation, timing, and concept development.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">04</div>
-          <div class="step-divider"></div>
-          <div class="step-title">Flawless Execution</div>
-          <p class="step-text">Our chefs and service team deliver polished hospitality from start to finish.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ===================== AWARDS ===================== -->
-  <section id="awards-section">
-    <div class="container">
-      <div id="awards-header">
-        <span class="eyebrow">Recognition</span>
-        <span class="gold-divider gold-divider-center"></span>
-        <h2 id="awards-heading">Recognized For Taste, Design, And Service</h2>
-      </div>
-      <div id="awards-grid">
-        <div class="award-tile">
-          <div class="award-icon">
-            <iconify-icon icon="lucide:award" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="award-name">Best Of Weddings</div>
-          <div class="award-sub">The Knot</div>
-        </div>
-        <div class="award-tile">
-          <div class="award-icon">
-            <iconify-icon icon="lucide:star" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="award-name">Dallas Wedding</div>
-          <div class="award-sub">Excellence Award</div>
-        </div>
-        <div class="award-tile">
-          <div class="award-icon">
-            <iconify-icon icon="lucide:trophy" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="award-name">Readers' Choice</div>
-          <div class="award-sub">Awards Finalist</div>
-        </div>
-        <div class="award-tile">
-          <div class="award-icon">
-            <iconify-icon icon="lucide:badge-check" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="award-name">DFW Top Caterer</div>
-          <div class="award-sub">North Texas</div>
-        </div>
-        <div class="award-tile">
-          <div class="award-icon">
-            <iconify-icon icon="lucide:crown" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <div class="award-name">Couples' Choice</div>
-          <div class="award-sub">WeddingWire</div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ===================== GALLERY ===================== -->
-  <section id="gallery-section">
-    <div class="container">
-      <div id="gallery-header">
-        <span class="eyebrow">Event Gallery</span>
-        <span class="gold-divider gold-divider-center"></span>
-        <h2 id="gallery-heading">See Our Work In Action</h2>
-        <p id="gallery-sub">Luxury catering in DFW. Chef-driven custom menus for weddings, corporate events, private events, and celebrations.</p>
-        <div id="gallery-handle">@culinaryart1</div>
-      </div>
-      <div id="gallery-grid">
-        <div class="gallery-item featured">
-          <img data-query="luxurious plated wedding dinner service elegant tablescape with gold charger plates white florals candlelight Dallas upscale catering" data-aspect-ratio="1:1" alt="Plated dinner at Knotting Hill Place" src="/api/flow-image/1%3A1%0Aluxurious%20plated%20wedding%20dinner%20service%20elegant%20tablescape%20with%20gold%20charger%20plates%20white%20florals%20candlelight%20Dallas%20upscale%20catering" loading="lazy">
-          <div class="gallery-caption">Knotting Hill Place Wedding</div>
-        </div>
-        <div class="gallery-item">
-          <img data-query="themed bar mitzvah food station display creative top gun theme colorful catering presentation" data-aspect-ratio="1:1" alt="Top Gun themed mitzvah" src="/api/flow-image/1%3A1%0Athemed%20bar%20mitzvah%20food%20station%20display%20creative%20top%20gun%20theme%20colorful%20catering%20presentation" loading="lazy">
-          <div class="gallery-caption">Top Gun Mitzvah</div>
-        </div>
-        <div class="gallery-item">
-          <img data-query="interactive food station catering slider station short rib upscale event presentation warm tones" data-aspect-ratio="1:1" alt="Short rib sliders station" src="/api/flow-image/1%3A1%0Ainteractive%20food%20station%20catering%20slider%20station%20short%20rib%20upscale%20event%20presentation%20warm%20tones" loading="lazy">
-          <div class="gallery-caption">Short Rib Sliders</div>
-        </div>
-        <div class="gallery-item">
-          <img data-query="elegant cocktail hour with signature drinks and appetizers upscale catering event warm gold ivory tones" data-aspect-ratio="1:1" alt="Signature cocktails" src="/api/flow-image/1%3A1%0Aelegant%20cocktail%20hour%20with%20signature%20drinks%20and%20appetizers%20upscale%20catering%20event%20warm%20gold%20ivory%20tones" loading="lazy">
-          <div class="gallery-caption">Signature Cocktail Hour</div>
-        </div>
-        <div class="gallery-item">
-          <img data-query="chicken and waffles catering station late night bites creative food presentation upscale event" data-aspect-ratio="1:1" alt="Chicken and waffles" src="/api/flow-image/1%3A1%0Achicken%20and%20waffles%20catering%20station%20late%20night%20bites%20creative%20food%20presentation%20upscale%20event" loading="lazy">
-          <div class="gallery-caption">Chicken &amp; Waffles Station</div>
-        </div>
-        <div class="gallery-item">
-          <img data-query="Dallas Arboretum garden wedding outdoor reception elegant catering setup floral tables scenic natural setting golden hour" data-aspect-ratio="1:1" alt="Arboretum garden wedding" src="/api/flow-image/1%3A1%0ADallas%20Arboretum%20garden%20wedding%20outdoor%20reception%20elegant%20catering%20setup%20floral%20tables%20scenic%20natural%20setting%20golden%20hour" loading="lazy">
-          <div class="gallery-caption">Dallas Arboretum Wedding</div>
-        </div>
-        <div class="gallery-item">
-          <img data-query="elegant luxury dessert table hors doeuvres plated catering display upscale event gold ivory warm tones" data-aspect-ratio="1:1" alt="Desserts and hors d'oeuvres" src="/api/flow-image/1%3A1%0Aelegant%20luxury%20dessert%20table%20hors%20doeuvres%20plated%20catering%20display%20upscale%20event%20gold%20ivory%20warm%20tones" loading="lazy">
-          <div class="gallery-caption">Desserts &amp; Hors d'Oeuvres</div>
-        </div>
-        <div class="gallery-item">
-          <img data-query="private event luxury tablescape evening dinner party elegant table setting gold and white upscale Dallas catering" data-aspect-ratio="1:1" alt="Private event tablescape" src="/api/flow-image/1%3A1%0Aprivate%20event%20luxury%20tablescape%20evening%20dinner%20party%20elegant%20table%20setting%20gold%20and%20white%20upscale%20Dallas%20catering" loading="lazy">
-          <div class="gallery-caption">Private Event Tablescape</div>
-        </div>
-      <div class="gallery-item">
-          <img data-query="private event luxury tablescape evening dinner party elegant table setting gold and white upscale Dallas catering" data-aspect-ratio="1:1" alt="Private event tablescape" src="/api/flow-image/1%3A1%0Aprivate%20event%20luxury%20tablescape%20evening%20dinner%20party%20elegant%20table%20setting%20gold%20and%20white%20upscale%20Dallas%20catering" loading="lazy">
-          <div class="gallery-caption">Private Event Tablescape</div>
-        </div></div>
-      <div id="gallery-buttons">
-        <button class="btn btn-primary" data-media-type="banani-button">View Our Event Gallery</button>
-        <button class="btn btn-outline" data-media-type="banani-button">Follow On Instagram</button>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ===================== TESTIMONIALS ===================== -->
-  <section id="testimonials-section">
-    <div class="container">
-      <div id="testimonials-header">
-        <span class="eyebrow">Client Praise</span>
-        <span class="gold-divider gold-divider-center"></span>
-        <h2 id="testimonials-heading">What Guests And Hosts Remember</h2>
-      </div>
-      <div id="testimonials-grid">
+      <div class="section-eyebrow" style="text-align:center;">Testimonials</div>
+      <h2 class="section-heading" style="text-align:center;">Kind Words From Our Guests</h2>
+      <div class="testimonials-grid">
         <div class="testimonial-card">
-          <div class="testimonial-quote-icon">
-            <iconify-icon icon="lucide:quote" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <p class="testimonial-text">"I can't tell you how excited our editor was regarding the food—she is the harshest critic, and actually she said you were the best caterer she has experienced yet. Everyone said the food was just exceptional. Everything was lovely and we will be working with you again."</p>
-          <div class="testimonial-divider"></div>
-          <div>
-            <div class="testimonial-name">Cris A.</div>
-            <div class="testimonial-source">Martha Stewart Living</div>
-          </div>
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Thank you Hannah Mills for performing magic on my hair today. Love the colour!</p>
+          <div class="testimonial-author">Kate Link &nbsp;·&nbsp; Esthetician</div>
         </div>
         <div class="testimonial-card">
-          <div class="testimonial-quote-icon">
-            <iconify-icon icon="lucide:quote" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <p class="testimonial-text">"Our event was fantastic. Truly a pleasure working with your staff. Everything was perfect from the menu planning to the food. I will be calling on you again."</p>
-          <div class="testimonial-divider"></div>
-          <div>
-            <div class="testimonial-name">Beverly K.</div>
-            <div class="testimonial-source">Private Event</div>
-          </div>
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">The O&amp;M shampoo and conditioner are working a treat after only 2 days. How I've missed them. Love the stuff.</p>
+          <div class="testimonial-author">Guest Review</div>
         </div>
         <div class="testimonial-card">
-          <div class="testimonial-quote-icon">
-            <iconify-icon icon="lucide:quote" style="font-size: 28px; color: #B68A3A;"></iconify-icon>
-          </div>
-          <p class="testimonial-text">"All went fabulously well. The food got great reviews and it's a great feeling to be in such competent, wonderful hands when so much is at risk. It's always a pleasure working with you."</p>
-          <div class="testimonial-divider"></div>
-          <div>
-            <div class="testimonial-name">Rita J.</div>
-            <div class="testimonial-source">Corporate Event</div>
-          </div>
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Hannah you are awesome. My hair has never looked better and I have so much fun hanging out in your salon. No more franchise haircuts for me.</p>
+          <div class="testimonial-author">Matt Jackson &nbsp;·&nbsp; Personal Trainer</div>
         </div>
       </div>
-      <div id="testimonials-dots">
-        <div class="dot active"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
     </div>
   </section>
   
-  <!-- ===================== CTA SECTION ===================== -->
-  <section id="cta-section">
-    <img id="cta-bg" data-query="luxury catering event reception golden hour romantic lighting elegant dining tables upscale Dallas catering atmosphere" data-aspect-ratio="21:9" alt="Luxury event" src="https://storage.googleapis.com/banani-generated-images/generated-images/24e2824c-077c-4904-a284-4c066990245b.jpg" loading="lazy">
-    <div id="cta-overlay"></div>
-    <div class="container" id="cta-content" style="width:100%;">
-      <span class="eyebrow eyebrow-white" style="display:block; text-align:center; margin-bottom:14px;">Get Started</span>
-      <h2 id="cta-heading">Ready To Bring Your Vision To Life?</h2>
-      <p id="cta-text">Whether you're planning a wedding, corporate reception, mitzvah, holiday party, or private celebration, our team will help create a custom experience with heart, hospitality, and unforgettable flavor.</p>
-      <div id="cta-buttons">
-        <button class="btn btn-gold" data-media-type="banani-button">Schedule A Consultation</button>
-        <button class="btn btn-outline-ivory" data-media-type="banani-button">Explore Our Menus</button>
-        <button class="btn btn-ivory" data-media-type="banani-button">View Our Event Gallery</button>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ===================== CONTACT ===================== -->
-  <section id="contact-section">
+  <!-- CONTACT -->
+  <section id="contact">
     <div class="container">
-      <div id="contact-inner">
-        <div id="contact-info">
-          <span class="eyebrow">Contact Us</span>
-          <span class="gold-divider"></span>
-          <h2 id="contact-heading">Contact Culinary Art Catering</h2>
-          <p id="contact-tagline">We'd love to discuss your event. Reach out to our team and we'll help you create a memorable experience.</p>
-  
-          <div class="contact-detail-row">
-            <div class="contact-detail-icon">
-              <iconify-icon icon="lucide:phone" style="font-size: 17px; color: #B68A3A;"></iconify-icon>
-            </div>
-            <div>
-              <div class="contact-detail-label">Phone</div>
-              <div class="contact-detail-value">(972) 744-0660</div>
+      <div class="contact-inner">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Address</div>
+            <p>9698 Carmel Valley Road<br>Carmel, CA 93923<br>Off Robinson Canyon Road exit in Farm Center</p>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Phone</div>
+            <p><a href="tel:8316205595">831 620 5595</a></p>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Opening Hours</div>
+            <p>Tue – Sat: 9:30am – 5:30pm</p>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Sister Salon</div>
+            <p>Visit our sister salon at new location in Pacific Grove, CA — Positive Parlor</p>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Follow Us</div>
+            <div class="contact-social-row">
+              <a href="https://www.facebook.com/saloncaliforniahannahmills/" class="contact-social-btn" data-media-type="banani-button">
+                <iconify-icon icon="lucide:facebook" style="font-size:15px;"></iconify-icon> Facebook
+              </a>
+              <a href="http://www.twitter.com/thesalcal" class="contact-social-btn" data-media-type="banani-button">
+                <iconify-icon icon="lucide:twitter" style="font-size:15px;"></iconify-icon>Twitter</a><a href="https://instagram.com/thesalcal" class="contact-social-btn" data-media-type="banani-button">
+                <iconify-icon icon="lucide:instagram" style="font-size:15px;"></iconify-icon> Instagram
+              </a>
             </div>
           </div>
-          <div class="contact-detail-row">
-            <div class="contact-detail-icon">
-              <iconify-icon icon="lucide:mail" style="font-size: 17px; color: #B68A3A;"></iconify-icon>
-            </div>
-            <div>
-              <div class="contact-detail-label">Email</div>
-              <div class="contact-detail-value">info@culinaryartcatering.com</div>
-            </div>
-          </div>
-          <div class="contact-detail-row">
-            <div class="contact-detail-icon">
-              <iconify-icon icon="lucide:map-pin" style="font-size: 17px; color: #B68A3A;"></iconify-icon>
-            </div>
-            <div>
-              <div class="contact-detail-label">Address</div>
-              <div class="contact-detail-value">4241 Sigma Road, Suite A<br>Dallas, Texas 75244</div>
-            </div>
-          </div>
-  
-          <div id="contact-socials">
-            <div class="social-btn" data-media-type="banani-button">
-              <iconify-icon icon="lucide:instagram" style="font-size: 16px; color: #FAF6EE;"></iconify-icon>
-            </div>
-            <div class="social-btn" data-media-type="banani-button">
-              <iconify-icon icon="lucide:facebook" style="font-size: 16px; color: #FAF6EE;"></iconify-icon>
-            </div>
-            <div class="social-btn" data-media-type="banani-button">
-              <iconify-icon icon="lucide:layout-dashboard" style="font-size: 16px; color: #FAF6EE;"></iconify-icon>
-            </div>
-            <div class="social-btn" data-media-type="banani-button">
-              <iconify-icon icon="lucide:phone" style="font-size: 16px; color: #FAF6EE;"></iconify-icon>
-            </div>
+          <div class="contact-note">
+            Book your appointment online or call us during business hours. We look forward to welcoming you.
           </div>
         </div>
-  
-        <div id="contact-form-wrap">
-          <h3 id="form-heading">Request A Proposal</h3>
-          <p id="form-sub">Tell us about your event and we'll be in touch shortly.</p>
-  
-          <div class="form-row">
-            <div class="form-field">
+        <div class="contact-form-card">
+          <div style="margin-bottom:24px;">
+            <div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:600;color:#2B2A28;margin-bottom:6px;">Send Us A Message</div>
+            <p style="font-size:13px;color:#706B66;">We'll get back to you as soon as possible.</p>
+          </div>
+          <div class="form-row-half">
+            <div>
               <label class="form-label">Name</label>
-              <div class="form-input" style="display:flex; align-items:center; color:#A3A58D;">Your full name</div>
+              <div class="form-input"></div>
             </div>
-            <div class="form-field">
-              <label class="form-label">Email</label>
-              <div class="form-input" style="display:flex; align-items:center; color:#A3A58D;">your@email.com</div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-field">
+            <div>
               <label class="form-label">Phone</label>
-              <div class="form-input" style="display:flex; align-items:center; color:#A3A58D;">(000) 000-0000</div>
-            </div>
-            <div class="form-field">
-              <label class="form-label">Event Type</label>
-              <div class="form-input" style="display:flex; align-items:center; justify-content:space-between; color:#A3A58D;">
-                <span>Select event type</span>
-                <iconify-icon icon="lucide:chevron-down" style="font-size:14px; color:#A3A58D;"></iconify-icon>
-              </div>
+              <div class="form-input"></div>
             </div>
           </div>
           <div class="form-row">
-            <div class="form-field">
-              <label class="form-label">Event Date</label>
-              <div class="form-input" style="display:flex; align-items:center; color:#A3A58D;">mm / dd / yyyy</div>
-            </div>
-            <div class="form-field">
-              <label class="form-label">Estimated Guest Count</label>
-              <div class="form-input" style="display:flex; align-items:center; color:#A3A58D;">Approx. number of guests</div>
-            </div>
+            <label class="form-label">Email</label>
+            <div class="form-input"></div>
           </div>
-          <div class="form-row-full">
-            <div class="form-field">
-              <label class="form-label">Message</label>
-              <div class="form-textarea" style="color:#A3A58D;">Tell us more about your event, vision, and any specific requests...</div>
-            </div>
+          <div class="form-row">
+            <label class="form-label">Message</label>
+            <div class="form-textarea"></div>
           </div>
-          <div class="form-submit" data-media-type="banani-button" style="display:flex; align-items:center; justify-content:center; border-radius:4px; cursor:pointer;">Send Request</div>
+          <a href="#" class="btn btn-primary" data-media-type="banani-button" style="width:100%;justify-content:center;margin-top:8px;">Send Message</a>
         </div>
       </div>
     </div>
   </section>
   
-  <!-- ===================== FOOTER ===================== -->
+  <!-- MAP -->
+  <section id="map-section">
+    <div class="container">
+      <div class="map-container">
+        <img data-aspect-ratio="16:9" data-query="Satellite map Carmel Valley Road Carmel California 93923, aerial view, green landscape, roads, coastal California, map style photography" alt="Map of The Salon &amp; Spa California" style="width:100%;height:100%;object-fit:cover;" src="https://storage.googleapis.com/banani-generated-images/generated-images/e84ef39f-30cc-4ee1-919d-c4dcdd350dd6.jpg" loading="lazy">
+        <div class="map-address-badge">
+          <p>The Salon &amp; Spa California</p>
+          <span>9698 Carmel Valley Road, Carmel, CA 93923</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
   <footer id="site-footer">
     <div class="container">
-      <div id="footer-grid">
-        <div class="footer-col">
-          <div class="footer-logo-name">Culinary Art Catering</div>
-          <div class="footer-logo-tag">Dallas, Texas</div>
-          <p class="footer-col-desc">Award-winning, full-service Dallas catering for weddings, corporate events, private celebrations, and luxury gatherings.</p>
-          <div id="footer-socials">
-            <div class="footer-social-btn" data-media-type="banani-button">
-              <iconify-icon icon="lucide:instagram" style="font-size: 15px; color: #D8C3A5;"></iconify-icon>
-            </div>
-            <div class="footer-social-btn" data-media-type="banani-button">
-              <iconify-icon icon="lucide:facebook" style="font-size: 15px; color: #D8C3A5;"></iconify-icon>
-            </div>
-            <div class="footer-social-btn" data-media-type="banani-button">
-              <iconify-icon icon="lucide:layout-dashboard" style="font-size: 15px; color: #D8C3A5;"></iconify-icon>
-            </div>
-          </div>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">The Salon &amp; Spa California</div>
+          <p class="footer-tagline">Boutique salon and spa in Carmel, California.</p>
+          <div style="margin-top:20px;display:flex;gap:10px;">
+            <a href="https://www.facebook.com/saloncaliforniahannahmills/" style="width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;" data-media-type="banani-button">
+              <iconify-icon icon="lucide:facebook" style="font-size:15px;color:#FAF6EF;"></iconify-icon>
+            </a>
+            <a href="http://www.twitter.com/thesalcal" style="width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;" data-media-type="banani-button">
+              <iconify-icon icon="lucide:twitter" style="font-size:15px;color:#FAF6EF;"></iconify-icon>
+            </a>
+          <a href="https://instagram.com/thesalcal" style="width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;" data-media-type="banani-button">
+              <iconify-icon icon="lucide:instagram" style="font-size:15px;color:#FAF6EF;"></iconify-icon>
+            </a></div>
         </div>
-        <div class="footer-col">
+        <div>
           <div class="footer-col-heading">Navigation</div>
           <ul class="footer-links">
-            <li><a href="#" data-media-type="banani-button">Our Story</a></li>
-            <li><a href="#" data-media-type="banani-button">Our Sample Menus</a></li>
-            <li><a href="#" data-media-type="banani-button">Our Venues</a></li>
-            <li><a href="#" data-media-type="banani-button">Gallery</a></li>
-            <li><a href="#" data-media-type="banani-button">Our Team</a></li>
-            <li><a href="#" data-media-type="banani-button">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <div class="footer-col-heading">Services</div>
-          <ul class="footer-links">
+            <li><a href="#" data-media-type="banani-button">Home</a></li>
+            <li><a href="#" data-media-type="banani-button">Services</a></li>
+            <li><a href="#" data-media-type="banani-button">Products</a></li>
             <li><a href="#" data-media-type="banani-button">Weddings</a></li>
-            <li><a href="#" data-media-type="banani-button">Corporate Events</a></li>
-            <li><a href="#" data-media-type="banani-button">Private Events</a></li>
-            <li><a href="#" data-media-type="banani-button">Mitzvahs</a></li>
-            <li><a href="#" data-media-type="banani-button">Holiday Parties</a></li>
-            <li><a href="#" data-media-type="banani-button">Event Styling</a></li>
+            <li><a href="#" data-media-type="banani-button">Social</a></li>
+            <li><a href="#" data-media-type="banani-button">Prices</a></li>
+            <li><a href="#" data-media-type="banani-button">About Us</a></li>
+            <li><a href="#" data-media-type="banani-button">Contact</a></li>
           </ul>
         </div>
-        <div class="footer-col">
+        <div>
           <div class="footer-col-heading">Contact</div>
-          <div class="footer-contact-item">
-            <iconify-icon icon="lucide:phone" style="font-size: 14px; color: #B68A3A; flex-shrink:0; margin-top:2px;"></iconify-icon>
-            <div class="footer-contact-text">(972) 744-0660</div>
-          </div>
-          <div class="footer-contact-item">
-            <iconify-icon icon="lucide:mail" style="font-size: 14px; color: #B68A3A; flex-shrink:0; margin-top:2px;"></iconify-icon>
-            <div class="footer-contact-text">info@culinaryartcatering.com</div>
-          </div>
-          <div class="footer-contact-item">
-            <iconify-icon icon="lucide:map-pin" style="font-size: 14px; color: #B68A3A; flex-shrink:0; margin-top:2px;"></iconify-icon>
-            <div class="footer-contact-text">4241 Sigma Road, Suite A<br>Dallas, Texas 75244</div>
-          </div>
+          <ul class="footer-links">
+            <li style="color:rgba(250,246,239,0.72);font-size:13px;line-height:1.6;">9698 Carmel Valley Road<br>Carmel, CA 93923</li>
+            <li><a href="tel:8316205595" data-media-type="banani-button">831 620 5595</a></li>
+            <li style="color:rgba(250,246,239,0.72);font-size:13px;line-height:1.6;margin-top:4px;">Tue – Sat: 9:30am – 5:30pm</li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-heading">Follow</div>
+          <ul class="footer-links">
+            <li><a href="#" data-media-type="banani-button">Facebook</a></li>
+            <li><a href="#" data-media-type="banani-button">Instagram</a></li>
+            <li><a href="#" data-media-type="banani-button">Positive Parlor</a></li>
+          </ul>
         </div>
       </div>
-      <div id="footer-bottom">
-        <div id="footer-bottom-inner">
-          <div id="footer-copyright">Culinary Art Catering © 2026 All Rights Reserved</div>
-          <div id="footer-bottom-links">
-            <a href="#" data-media-type="banani-button">Privacy Policy</a>
-            <a href="#" data-media-type="banani-button">Terms Of Service</a>
-          </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <p>© 2026 The Salon &amp; Spa California. All Rights Reserved.</p>
+          <p style="font-size:12px;color:#7A7168;">built with 💖 by <a href=""></a></p>
         </div>
       </div>
     </div>
