@@ -1,2684 +1,1460 @@
-<div data-banani-screenid="o_Md7aCgKo-4" style="--background: #FDFCFA; --foreground: #1A1A1A; --border: #E0DDD8; --input: #FFFFFF; --primary: #2C4A35; --primary-foreground: #FFFFFF; --secondary: #EEF0EB; --secondary-foreground: #2C4A35; --muted: #F5EDE6; --muted-foreground: #6B6B6B; --success: #2C4A35; --success-foreground: #FFFFFF; --accent: #C4785A; --accent-foreground: #FFFFFF; --destructive: #C4785A; --destructive-foreground: #FFFFFF; --warning: #C4785A; --warning-foreground: #1A1A1A; --card: #FFFFFF; --card-foreground: #1A1A1A; --sidebar: #FDFCFA; --sidebar-foreground: #6B6B6B; --sidebar-primary: #EEF0EB; --sidebar-primary-foreground: #2C4A35; --radius-sm: 4px; --radius-md: 6px; --radius-lg: 10px; --radius-xl: 12px; --font-family-body: &quot;DM Sans&quot;, sans-serif; font-family: var(--font-body, var(--font-sans, var(--font-family-body)));">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seb Skincare — pure. organic. natural.</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&amp;family=DM+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
-  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HD Waste &amp; Recycling</title>
+    <link rel="preload" as="image" href="/api/flow-image/4%3A3%0AHD%20waste%20management%20garbage%20truck%20on%20a%20clean%20Dallas%20road%2C%20green%20professional%20waste%20collection%20vehicle%2C%20bright%20daylight%2C%20cinematic">
+    <link rel="preload" as="image" href="/api/flow-image/4%3A3%0Agreen%20front-load%20dumpster%20on%20a%20Dallas%20commercial%20street%2C%20professional%20waste%20management%2C%20clean%20industrial%20environment">
+    <link rel="preload" as="image" href="/api/flow-image/3%3A4%0Aroll-off%20dumpster%20container%20on%20a%20construction%20site%2C%20Dallas%20TX%2C%20industrial%20waste%20management">
+    <link rel="preload" as="image" href="/api/flow-image/3%3A4%0Acommercial%20building%20with%20waste%20compactor%20and%20recycling%20bins%20in%20Dallas%20TX%2C%20industrial%20waste%20collection%20service">
+    <link rel="preload" as="image" href="/api/flow-image/16%3A7%0AHD%20Waste%20%26%20Recycling%20warehouse%20facility%20exterior%2C%20green%20industrial%20building%20in%20Dallas%20TX%2C%20professional%20waste%20management%20company">
+    <link rel="preload" as="image" href="/api/flow-image/4%3A3%0Agreen%20garbage%20truck%20at%20a%20Dallas%20commercial%20property%2C%20waste%20collection%20vehicle%20close-up">
+    <link rel="preload" as="image" href="/api/flow-image/4%3A3%0Arow%20of%20green%20roll-off%20containers%20stacked%20at%20waste%20management%20facility%20in%20Texas">
+    <link rel="preload" as="image" href="/api/flow-image/4%3A3%0Agreen%20dumpster%20and%20recycling%20bins%20at%20a%20Dallas%20commercial%20property%2C%20waste%20removal%2C%20clean%20daylight%2C%20industrial%20eco-friendly">
+    <style>
+      /* Standalone CSS fix: no external Tailwind file required */
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap');
+
+      :root {
+        --color-background: #ffffff;
+        --color-foreground: #243028;
+        --color-border: #CFE6D3;
+        --color-input: #F4FBF5;
+        --color-primary: #3FAE49;
+        --color-primary-foreground: #ffffff;
+        --color-secondary: #EAF7EC;
+        --color-secondary-foreground: #1F7A35;
+        --color-muted: #EEF1EE;
+        --color-muted-foreground: #66736A;
+        --color-accent: #2F8F3C;
+        --color-accent-foreground: #ffffff;
+        --color-deep-green: #1F7A35;
+        --color-dark-forest: #0F3D24;
+        --color-container-green: #2F8F3C;
+        --color-soft-green: #EAF7EC;
+        --color-pale-mint: #F4FBF5;
+        --color-light-gray: #F5F7F6;
+        --color-industrial-gray: #EEF1EE;
+        --color-border-green: #CFE6D3;
+        --color-charcoal: #243028;
+        --color-muted-text: #66736A;
+        --color-black-green: #071F13;
+        --radius-sm: 4px;
+        --radius-md: 8px;
+        --radius-lg: 16px;
+        --radius-xl: 24px;
+        --radius-2xl: 30px;
+        --radius-card: 18px;
+        --radius-pill: 999px;
+        --spacing: 0.25rem;
+        --font-body: Inter, Arial, sans-serif;
+        --font-headings: "Space Grotesk", Inter, Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        background: var(--color-background);
+        color: var(--color-charcoal);
+        font-family: var(--font-body);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      button {
+        font: inherit;
+        border: 0;
+        cursor: pointer;
+      }
+
+      img,
+      svg {
+        display: block;
+        max-width: 100%;
+      }
+
+      .relative {
+        position: relative;
+      }
+
+      .mx-auto {
+        margin-inline: auto;
+      }
+
+      .mt-0\.5 {
+        margin-top: calc(var(--spacing) * 0.5);
+      }
+
+      .mb-1 {
+        margin-bottom: calc(var(--spacing) * 1);
+      }
+
+      .mb-2 {
+        margin-bottom: calc(var(--spacing) * 2);
+      }
+
+      .mb-3 {
+        margin-bottom: calc(var(--spacing) * 3);
+      }
+
+      .mb-4 {
+        margin-bottom: calc(var(--spacing) * 4);
+      }
+
+      .mb-5 {
+        margin-bottom: calc(var(--spacing) * 5);
+      }
+
+      .mb-6 {
+        margin-bottom: calc(var(--spacing) * 6);
+      }
+
+      .mb-7 {
+        margin-bottom: calc(var(--spacing) * 7);
+      }
+
+      .mb-8 {
+        margin-bottom: calc(var(--spacing) * 8);
+      }
+
+      .mb-10 {
+        margin-bottom: calc(var(--spacing) * 10);
+      }
+
+      .mb-12 {
+        margin-bottom: calc(var(--spacing) * 12);
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .grid {
+        display: grid;
+      }
+
+      .inline-block {
+        display: inline-block;
+      }
+
+      .inline-flex {
+        display: inline-flex;
+      }
+
+      .h-2 {
+        height: calc(var(--spacing) * 2);
+      }
+
+      .h-10 {
+        height: calc(var(--spacing) * 10);
+      }
+
+      .h-full {
+        height: 100%;
+      }
+
+      .w-2 {
+        width: calc(var(--spacing) * 2);
+      }
+
+      .w-full {
+        width: 100%;
+      }
+
+      .flex-1 {
+        flex: 1 1 0%;
+      }
+
+      .flex-shrink-0 {
+        flex-shrink: 0;
+      }
+
+      .grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .grid-cols-6 {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+      }
+
+      .flex-col {
+        flex-direction: column;
+      }
+
+      .flex-wrap {
+        flex-wrap: wrap;
+      }
+
+      .items-center {
+        align-items: center;
+      }
+
+      .items-start {
+        align-items: flex-start;
+      }
+
+      .justify-between {
+        justify-content: space-between;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .gap-1 {
+        gap: calc(var(--spacing) * 1);
+      }
+
+      .gap-2 {
+        gap: calc(var(--spacing) * 2);
+      }
+
+      .gap-3 {
+        gap: calc(var(--spacing) * 3);
+      }
+
+      .gap-4 {
+        gap: calc(var(--spacing) * 4);
+      }
+
+      .gap-6 {
+        gap: calc(var(--spacing) * 6);
+      }
+
+      .gap-7 {
+        gap: calc(var(--spacing) * 7);
+      }
+
+      .gap-8 {
+        gap: calc(var(--spacing) * 8);
+      }
+
+      .gap-12 {
+        gap: calc(var(--spacing) * 12);
+      }
+
+      .gap-16 {
+        gap: calc(var(--spacing) * 16);
+      }
+
+      .rounded-card {
+        border-radius: var(--radius-card);
+      }
+
+      .rounded-full {
+        border-radius: 9999px;
+      }
+
+      .rounded-lg {
+        border-radius: var(--radius-lg);
+      }
+
+      .rounded-md {
+        border-radius: var(--radius-md);
+      }
+
+      .rounded-pill {
+        border-radius: var(--radius-pill);
+      }
+
+      .rounded-xl {
+        border-radius: var(--radius-xl);
+      }
+
+      .border {
+        border: 1px solid;
+      }
+
+      .border-2 {
+        border: 2px solid;
+      }
+
+      .border-b {
+        border-bottom: 1px solid;
+      }
+
+      .border-border {
+        border-color: var(--color-border);
+      }
+
+      .border-border-green {
+        border-color: var(--color-border-green);
+      }
+
+      .border-dark-forest {
+        border-color: var(--color-dark-forest);
+      }
+
+      .bg-background {
+        background-color: var(--color-background);
+      }
+
+      .bg-dark-forest {
+        background-color: var(--color-dark-forest);
+      }
+
+      .bg-deep-green {
+        background-color: var(--color-deep-green);
+      }
+
+      .bg-pale-mint {
+        background-color: var(--color-pale-mint);
+      }
+
+      .bg-primary {
+        background-color: var(--color-primary);
+      }
+
+      .bg-secondary {
+        background-color: var(--color-secondary);
+      }
+
+      .bg-soft-green {
+        background-color: var(--color-soft-green);
+      }
+
+      .object-cover {
+        object-fit: cover;
+      }
+
+      .p-8 {
+        padding: calc(var(--spacing) * 8);
+      }
+
+      .px-4 {
+        padding-inline: calc(var(--spacing) * 4);
+      }
+
+      .px-5 {
+        padding-inline: calc(var(--spacing) * 5);
+      }
+
+      .px-6 {
+        padding-inline: calc(var(--spacing) * 6);
+      }
+
+      .px-7 {
+        padding-inline: calc(var(--spacing) * 7);
+      }
+
+      .py-1 {
+        padding-block: calc(var(--spacing) * 1);
+      }
+
+      .py-3 {
+        padding-block: calc(var(--spacing) * 3);
+      }
+
+      .py-5 {
+        padding-block: calc(var(--spacing) * 5);
+      }
+
+      .py-10 {
+        padding-block: calc(var(--spacing) * 10);
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .font-body {
+        font-family: var(--font-body);
+      }
+
+      .font-headings {
+        font-family: var(--font-headings);
+      }
+
+      .leading-tight {
+        line-height: 1.25;
+      }
+
+      .font-bold {
+        font-weight: 700;
+      }
+
+      .text-charcoal {
+        color: var(--color-charcoal);
+      }
+
+      .text-dark-forest {
+        color: var(--color-dark-forest);
+      }
+
+      .text-muted-text {
+        color: var(--color-muted-text);
+      }
+
+      .text-primary {
+        color: var(--color-primary);
+      }
+
+      .text-primary-foreground {
+        color: var(--color-primary-foreground);
+      }
+
+      .text-secondary-foreground {
+        color: var(--color-secondary-foreground);
+      }
+
+      .shadow-sm {
+        box-shadow: 0 1px 3px rgb(0 0 0 / 0.10), 0 1px 2px rgb(0 0 0 / 0.06);
+      }
+
+      /* Responsive support inside the same file */
+      @media (max-width: 1024px) {
+
+        [data-component="@components/HeroSection.jsx"]>div,
+        [data-component="@components/ServicesOverview.jsx"]>div,
+        [data-component="@components/ProjectSize.jsx"]>div,
+        [data-component="@components/ExpertiseSection.jsx"]>div,
+        [data-component="@components/FooterCTA.jsx"]>div {
+          flex-direction: column;
+        }
+
+        nav.flex {
+          flex-wrap: wrap;
+          gap: 16px;
+          justify-content: center;
+        }
+
+        .grid-cols-6 {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .grid-cols-4 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .grid-cols-3 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 640px) {
+        [style*="max-width:1250px"] {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+
+        [data-component="@components/TopBar.jsx"]>div,
+        [data-component="@components/MainHeader.jsx"]>div {
+          height: auto !important;
+          gap: 12px;
+          padding-top: 12px !important;
+          padding-bottom: 12px !important;
+          flex-direction: column;
+        }
+
+        .grid-cols-6,
+        .grid-cols-4,
+        .grid-cols-3 {
+          grid-template-columns: 1fr;
+        }
+
+        h1 {
+          font-size: 40px !important;
+        }
+
+        h2 {
+          font-size: 30px !important;
+        }
+
+        [style*="padding-top:80px"],
+        [style*="padding-top:72px"],
+        [style*="padding-top:70px"] {
+          padding-top: 44px !important;
+          padding-bottom: 44px !important;
+        }
+      }
+    </style>
   
-  <style id="root-vars">
-  :root {
-    --bg-warm-white: #FDFCFA;
-    --bg-sage: #EEF0EB;
-    --bg-clay: #F5EDE6;
-    --green: #2C4A35;
-    --terracotta: #C4785A;
-    --text-dark: #1A1A1A;
-    --text-gray: #6B6B6B;
-    --border: #E0DDD8;
-    --font-serif: 'Cormorant Garamond', Georgia, serif;
-    --font-sans: 'DM Sans', sans-serif;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  </style>
-  
-  <style id="base-styles">
-  :host > div {
-    background: var(--bg-warm-white);
-    color: var(--text-dark);
-    font-family: var(--font-sans);
-    font-size: 14px;
-    line-height: 1.6;
-    min-width: 1440px;
-  }
-  .eyebrow {
-    font-family: var(--font-sans);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--green);
-    display: block;
-    margin-bottom: 12px;
-  }
-  .section-heading {
-    font-family: var(--font-serif);
-    font-size: 44px;
-    font-weight: 600;
-    color: var(--text-dark);
-    line-height: 1.15;
-  }
-  .serif { font-family: var(--font-serif); }
-  .btn-green {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: var(--green);
-    color: #fff;
-    font-family: var(--font-sans);
-    font-size: 14px;
-    font-weight: 500;
-    padding: 13px 28px;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-    text-decoration: none;
-  }
-  .btn-ghost {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: transparent;
-    color: var(--green);
-    font-family: var(--font-sans);
-    font-size: 14px;
-    font-weight: 500;
-    padding: 13px 28px;
-    border-radius: 6px;
-    border: 1.5px solid var(--green);
-    cursor: pointer;
-    white-space: nowrap;
-    text-decoration: none;
-  }
-  .text-link-green {
-    color: var(--green);
-    font-family: var(--font-sans);
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .stars {
-    color: var(--terracotta);
-    font-size: 13px;
-    letter-spacing: 1px;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ ANNOUNCEMENT BAR ═══════════════════════════════════════ -->
-  <style id="announcement-styles">
-  .announcement-bar {
-    background: var(--green);
-    overflow: hidden;
-    padding: 9px 0;
-    position: relative;
-  }
-  .marquee-track {
-    display: flex;
-    white-space: nowrap;
-    animation: marquee-scroll 28s linear infinite;
-  }
-  .marquee-item {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    font-weight: 500;
-    color: #fff;
-    letter-spacing: 0.06em;
-    padding: 0 48px;
-    flex-shrink: 0;
-  }
-  @keyframes marquee-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
-  <style id="navbar-styles">
-  .navbar {
-    background: var(--bg-warm-white);
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    padding: 0 60px;
-  }
-  .navbar-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 68px;
-    gap: 20px;
-  }
-  .navbar-logo {
-    font-family: var(--font-serif);
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--green);
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .navbar-logo-leaf {
-    width: 22px;
-    height: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 0;
-    list-style: none;
-    flex: 1;
-    justify-content: center;
-  }
-  .nav-links li a {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 400;
-    color: #444;
-    text-decoration: none;
-    padding: 8px 14px;
-    white-space: nowrap;
-    display: block;
-  }
-  .navbar-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-shrink: 0;
-  }
-  .cart-btn {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    width: 36px;
-    height: 36px;
-  }
-  .cart-badge {
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    background: var(--green);
-    color: #fff;
-    font-size: 9px;
-    font-weight: 600;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-sans);
-  }
-  .region-selector {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: var(--text-gray);
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 1 — HERO ═══════════════════════════════════════ -->
-  <style id="hero-styles">
-  .hero-section {
-    background: var(--bg-sage);
-    display: flex;
-    min-height: 700px;
-  }
-  .hero-image-col {
-    width: 50%;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .hero-image-col img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .hero-text-col {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 80px 72px 80px 80px;
-  }
-  .hero-text-inner {
-    max-width: 520px;
-  }
-  .hero-heading {
-    font-family: var(--font-serif);
-    font-size: 68px;
-    font-weight: 600;
-    color: var(--text-dark);
-    line-height: 1.08;
-    margin-bottom: 24px;
-  }
-  .hero-sub {
-    font-family: var(--font-sans);
-    font-size: 16px;
-    color: var(--text-gray);
-    line-height: 1.65;
-    margin-bottom: 20px;
-    max-width: 440px;
-  }
-  .hero-proof {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--green);
-    margin-bottom: 36px;
-  }
-  .hero-ctas {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 2 — TRUST BAR ═══════════════════════════════════════ -->
-  <style id="trustbar-styles">
-  .trust-bar {
-    background: var(--bg-clay);
-    padding: 28px 60px;
-  }
-  .trust-bar-inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
-  }
-  .trust-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 0 44px;
-    flex-shrink: 0;
-  }
-  .trust-divider {
-    width: 1px;
-    height: 32px;
-    background: var(--border);
-    flex-shrink: 0;
-  }
-  .trust-icon {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-  .trust-text {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--text-dark);
-    white-space: nowrap;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 3 — PRODUCTS ═══════════════════════════════════════ -->
-  <style id="products-styles">
-  .products-section {
-    background: var(--bg-warm-white);
-    padding: 90px 120px;
-  }
-  .section-header-centered {
-    text-align: center;
-    margin-bottom: 52px;
-  }
-  .products-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  .product-card {
-    background: #FDFCFA;
-    border-radius: 10px;
-    box-shadow: 0 2px 20px rgba(44,74,53,0.07), 0 1px 4px rgba(44,74,53,0.04);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-  .product-card-image {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-    position: relative;
-    background: var(--bg-sage);
-  }
-  .product-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .product-badge {
-    position: absolute;
-    top: 14px;
-    left: 14px;
-    font-family: var(--font-sans);
-    font-size: 11px;
-    font-weight: 600;
-    padding: 4px 12px;
-    border-radius: 20px;
-    letter-spacing: 0.04em;
-  }
-  .badge-bestseller {
-    background: var(--green);
-    color: #fff;
-  }
-  .badge-soldout {
-    background: var(--terracotta);
-    color: #fff;
-  }
-  .product-card-body {
-    padding: 24px 24px 28px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  .product-name {
-    font-family: var(--font-serif);
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 8px;
-    line-height: 1.2;
-  }
-  .product-rating-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 10px;
-  }
-  .product-rating-count {
-    font-size: 12px;
-    color: var(--text-gray);
-    font-family: var(--font-sans);
-  }
-  .product-price {
-    font-family: var(--font-sans);
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 20px;
-  }
-  .product-price .from-label {
-    font-size: 13px;
-    font-weight: 400;
-    color: var(--text-gray);
-    margin-right: 2px;
-  }
-  .product-card .btn-green,
-  .product-card .btn-ghost {
-    width: 100%;
-    justify-content: center;
-    margin-top: auto;
-  }
-  .products-subscribe-note {
-    text-align: center;
-    margin-top: 36px;
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--green);
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 4 — INGREDIENTS ═══════════════════════════════════════ -->
-  <style id="ingredients-styles">
-  .ingredients-section {
-    background: var(--bg-sage);
-    padding: 90px 120px;
-  }
-  .ingredients-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  .ingredient-item {
-    text-align: center;
-    padding: 12px 32px;
-    border-right: 1px solid var(--border);
-  }
-  .ingredient-item:last-child {
-    border-right: none;
-  }
-  .ingredient-icon {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 16px;
-  }
-  .ingredient-name {
-    font-family: var(--font-serif);
-    font-size: 17px;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 6px;
-  }
-  .ingredient-benefit {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: var(--text-gray);
-    line-height: 1.55;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 5 — ROOT CAUSE ═══════════════════════════════════════ -->
-  <style id="rootcause-styles">
-  .image-text-section {
-    background: var(--bg-warm-white);
-    display: flex;
-    min-height: 580px;
-  }
-  .image-text-image {
-    width: 50%;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .image-text-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .image-text-content {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 80px 80px 80px 72px;
-  }
-  .image-text-content.right {
-    padding: 80px 72px 80px 80px;
-  }
-  .image-text-inner {
-    max-width: 480px;
-  }
-  .image-text-inner .section-heading {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  .image-text-body {
-    font-family: var(--font-sans);
-    font-size: 15px;
-    color: var(--text-gray);
-    line-height: 1.7;
-    margin-bottom: 24px;
-  }
-  .checklist {
-    list-style: none;
-    margin-bottom: 28px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .checklist li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--text-dark);
-  }
-  .check-icon {
-    width: 18px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 6 & 8 — BUY BOXES ═══════════════════════════════════════ -->
-  <style id="buybox-styles">
-  .buybox-section {
-    display: flex;
-    min-height: 600px;
-  }
-  .buybox-section.clay { background: var(--bg-clay); }
-  .buybox-section.sage { background: var(--bg-sage); }
-  .buybox-image {
-    width: 50%;
-    overflow: hidden;
-    flex-shrink: 0;
-    background: rgba(44,74,53,0.05);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 60px;
-  }
-  .buybox-image img {
-    max-height: 460px;
-    width: 100%;
-    object-fit: contain;
-  }
-  .buybox-content {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 80px 80px 80px 60px;
-  }
-  .buybox-inner {
-    width: 100%;
-    max-width: 460px;
-  }
-  .buybox-product-name {
-    font-family: var(--font-serif);
-    font-size: 34px;
-    font-weight: 600;
-    color: var(--text-dark);
-    line-height: 1.15;
-    margin-bottom: 12px;
-  }
-  .buybox-rating-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 14px;
-  }
-  .buybox-rating-text {
-    font-size: 13px;
-    color: var(--text-gray);
-    font-family: var(--font-sans);
-  }
-  .buybox-price {
-    font-family: var(--font-sans);
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 4px;
-  }
-  .buybox-price-note {
-    font-size: 12px;
-    color: var(--text-gray);
-    margin-bottom: 24px;
-  }
-  .purchase-options {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 24px;
-  }
-  .purchase-option {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 14px 18px;
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    cursor: pointer;
-    background: var(--bg-warm-white);
-  }
-  .purchase-option.selected {
-    border-color: var(--green);
-    background: rgba(44,74,53,0.04);
-  }
-  .radio-dot {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    border: 1.5px solid var(--border);
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .radio-dot.checked {
-    border-color: var(--green);
-  }
-  .radio-dot.checked::after {
-    content: '';
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--green);
-    display: block;
-  }
-  .purchase-option-text {
-    flex: 1;
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--text-dark);
-  }
-  .purchase-option-price {
-    font-family: var(--font-sans);
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-dark);
-  }
-  .save-badge {
-    font-family: var(--font-sans);
-    font-size: 10px;
-    font-weight: 600;
-    background: var(--terracotta);
-    color: #fff;
-    padding: 2px 8px;
-    border-radius: 20px;
-    margin-left: 4px;
-  }
-  .qty-row {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 20px;
-  }
-  .qty-label {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--text-dark);
-    min-width: 60px;
-  }
-  .qty-control {
-    display: flex;
-    align-items: center;
-    border: 1.5px solid var(--border);
-    border-radius: 6px;
-    overflow: hidden;
-    background: var(--bg-warm-white);
-  }
-  .qty-btn {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 16px;
-    color: var(--text-dark);
-    font-family: var(--font-sans);
-  }
-  .qty-number {
-    width: 40px;
-    text-align: center;
-    font-family: var(--font-sans);
-    font-size: 14px;
-    font-weight: 500;
-    border-left: 1.5px solid var(--border);
-    border-right: 1.5px solid var(--border);
-    padding: 8px 0;
-  }
-  .buybox-atc {
-    width: 100%;
-    justify-content: center;
-    padding: 15px;
-    font-size: 15px;
-    margin-bottom: 12px;
-  }
-  .buybox-atc.soldout {
-    background: #C8C4BE;
-    cursor: default;
-    color: #fff;
-  }
-  .buywith-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 14px;
-  }
-  .buywith-label {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: var(--text-gray);
-    white-space: nowrap;
-  }
-  .payment-pill {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #000;
-    color: #fff;
-    padding: 5px 12px;
-    border-radius: 5px;
-    font-size: 11px;
-    font-weight: 600;
-    height: 28px;
-  }
-  .payment-pill.paypal {
-    background: #003087;
-    font-size: 12px;
-  }
-  .payment-pill.applepay {
-    background: #000;
-    letter-spacing: 0.01em;
-  }
-  .shipping-note {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: var(--text-gray);
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 9 — TESTIMONIALS ═══════════════════════════════════════ -->
-  <style id="testimonials-styles">
-  .testimonials-section {
-    background: var(--bg-warm-white);
-    padding: 90px 120px;
-  }
-  .overall-rating-strip {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 52px;
-    font-family: var(--font-sans);
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--text-dark);
-  }
-  .reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-bottom: 40px;
-  }
-  .review-card {
-    background: #FDFCFA;
-    border-radius: 10px;
-    box-shadow: 0 2px 20px rgba(44,74,53,0.07), 0 1px 4px rgba(44,74,53,0.04);
-    padding: 28px;
-  }
-  .review-text {
-    font-family: var(--font-sans);
-    font-size: 14px;
-    color: var(--text-dark);
-    line-height: 1.65;
-    margin: 14px 0 16px;
-    font-style: italic;
-  }
-  .review-author {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: var(--text-gray);
-    font-weight: 500;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 10 — WE UNDERSTAND ═══════════════════════════════════════ -->
-  <style id="empathy-styles">
-  .empathy-section {
-    background: var(--bg-clay);
-    display: flex;
-    min-height: 580px;
-  }
-  .empathy-image {
-    width: 50%;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .empathy-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .empathy-content {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 80px 80px 80px 72px;
-  }
-  .empathy-inner {
-    max-width: 480px;
-  }
-  .empathy-heading {
-    font-family: var(--font-serif);
-    font-size: 48px;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 24px;
-    line-height: 1.15;
-  }
-  .empathy-body {
-    font-family: var(--font-sans);
-    font-size: 16px;
-    color: var(--text-gray);
-    line-height: 1.75;
-    margin-bottom: 32px;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 11 — FOUNDER'S NOTE ═══════════════════════════════════════ -->
-  <style id="founder-styles">
-  .founder-section {
-    background: var(--bg-warm-white);
-    padding: 100px 60px;
-  }
-  .founder-inner {
-    max-width: 680px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .founder-quote {
-    font-family: var(--font-serif);
-    font-size: 28px;
-    font-weight: 500;
-    font-style: italic;
-    color: var(--text-dark);
-    line-height: 1.45;
-    margin-bottom: 28px;
-    padding: 32px 0;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .founder-body {
-    font-family: var(--font-sans);
-    font-size: 15px;
-    color: var(--text-gray);
-    line-height: 1.7;
-    margin-top: 28px;
-    margin-bottom: 28px;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 12 — CERTIFICATIONS ═══════════════════════════════════════ -->
-  <style id="certs-styles">
-  .certs-section {
-    background: var(--bg-sage);
-    padding: 90px 120px;
-  }
-  .certs-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-    max-width: 900px;
-    margin: 0 auto 48px;
-  }
-  .cert-item {
-    text-align: center;
-    padding: 12px 32px;
-    border-right: 1px solid var(--border);
-  }
-  .cert-item:last-child {
-    border-right: none;
-  }
-  .cert-icon {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 14px;
-  }
-  .cert-label {
-    font-family: var(--font-serif);
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 6px;
-    line-height: 1.25;
-  }
-  .cert-desc {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: var(--text-gray);
-    line-height: 1.5;
-  }
-  .certs-cta {
-    text-align: center;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 13 — BLOG ═══════════════════════════════════════ -->
-  <style id="blog-styles">
-  .blog-section {
-    background: var(--bg-warm-white);
-    padding: 90px 120px;
-  }
-  .blog-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
-    margin-bottom: 40px;
-  }
-  .blog-card {
-    background: #FDFCFA;
-    border-radius: 10px;
-    box-shadow: 0 2px 20px rgba(44,74,53,0.07), 0 1px 4px rgba(44,74,53,0.04);
-    overflow: hidden;
-  }
-  .blog-card-image {
-    width: 100%;
-    aspect-ratio: 16/10;
-    overflow: hidden;
-  }
-  .blog-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .blog-card-body {
-    padding: 22px 24px 26px;
-  }
-  .blog-date {
-    font-family: var(--font-sans);
-    font-size: 11px;
-    color: var(--text-gray);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  .blog-title {
-    font-family: var(--font-serif);
-    font-size: 19px;
-    font-weight: 600;
-    color: var(--text-dark);
-    line-height: 1.3;
-    margin-bottom: 10px;
-  }
-  .blog-preview {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    color: var(--text-gray);
-    line-height: 1.6;
-    margin-bottom: 16px;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 14 — FAQ ═══════════════════════════════════════ -->
-  <style id="faq-styles">
-  .faq-section {
-    background: var(--bg-sage);
-    padding: 90px 60px;
-  }
-  .faq-inner {
-    max-width: 720px;
-    margin: 0 auto;
-  }
-  .faq-item {
-    border-bottom: 1px solid var(--border);
-  }
-  .faq-item:first-of-type {
-    border-top: 1px solid var(--border);
-  }
-  .faq-question {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
-    cursor: pointer;
-    gap: 16px;
-  }
-  .faq-question-text {
-    font-family: var(--font-serif);
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--text-dark);
-  }
-  .faq-icon {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-  .faq-answer {
-    font-family: var(--font-sans);
-    font-size: 14px;
-    color: var(--text-gray);
-    line-height: 1.7;
-    padding-bottom: 20px;
-    max-width: 620px;
-  }
-  .faq-item.open .faq-answer {
-    display: block;
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ SECTION 15 — NEWSLETTER ═══════════════════════════════════════ -->
-  <style id="newsletter-styles">
-  .newsletter-section {
-    background: var(--green);
-    padding: 90px 60px;
-  }
-  .newsletter-inner {
-    max-width: 560px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .newsletter-eyebrow {
-    font-family: var(--font-sans);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.7);
-    display: block;
-    margin-bottom: 12px;
-  }
-  .newsletter-heading {
-    font-family: var(--font-serif);
-    font-size: 48px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 14px;
-    line-height: 1.15;
-  }
-  .newsletter-sub {
-    font-family: var(--font-sans);
-    font-size: 15px;
-    color: rgba(255,255,255,0.75);
-    margin-bottom: 32px;
-    line-height: 1.55;
-  }
-  .newsletter-form {
-    display: flex;
-    gap: 0;
-    border-radius: 6px;
-    overflow: hidden;
-    border: 1.5px solid rgba(255,255,255,0.3);
-    background: #fff;
-    margin-bottom: 20px;
-  }
-  .newsletter-input {
-    flex: 1;
-    padding: 14px 18px;
-    font-family: var(--font-sans);
-    font-size: 14px;
-    color: var(--text-dark);
-    background: transparent;
-    border: none;
-    outline: none;
-  }
-  .newsletter-btn {
-    background: var(--green);
-    color: #fff;
-    font-family: var(--font-sans);
-    font-size: 14px;
-    font-weight: 500;
-    padding: 14px 24px;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-    border-left: 1.5px solid rgba(44,74,53,0.2);
-  }
-  .newsletter-trust {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: rgba(255,255,255,0.6);
-  }
-  </style>
-  
-  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
-  <style id="footer-styles">
-  .footer {
-    background: #1A1A1A;
-  }
-  .footer-top {
-    padding: 60px 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-  }
-  .footer-logo {
-    font-family: var(--font-serif);
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .footer-tagline {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    color: #888;
-    margin-bottom: 20px;
-    font-style: italic;
-  }
-  .footer-socials {
-    display: flex;
-    gap: 14px;
-    margin-bottom: 24px;
-  }
-  .footer-social-btn {
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .footer-region {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: #888;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
-  }
-  .footer-col-label {
-    font-family: var(--font-sans);
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #fff;
-    margin-bottom: 18px;
-  }
-  .footer-links {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-  }
-  .footer-links li a {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    color: #888;
-    text-decoration: none;
-  }
-  .footer-bottom {
-    background: #111;
-    padding: 18px 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  .footer-copy {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: #555;
-    white-space: nowrap;
-  }
-  .payment-icons {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .payment-icon-badge {
-    background: #2a2a2a;
-    border: 1px solid #3a3a3a;
-    border-radius: 4px;
-    padding: 4px 8px;
-    font-family: var(--font-sans);
-    font-size: 10px;
-    font-weight: 600;
-    color: #ccc;
-    white-space: nowrap;
-  }
-  .footer-legal-links {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-shrink: 0;
-  }
-  .footer-legal-links a {
-    font-family: var(--font-sans);
-    font-size: 12px;
-    color: #555;
-    text-decoration: none;
-    white-space: nowrap;
-  }
-  </style>
-  
-  
-  
-
-  <style id="responsive-overrides">
-  /* Responsive overrides only. Original desktop styling remains untouched above 1280px. */
-
-  @media (max-width: 1280px) {
-    html,
-    body {
-      width: 100%;
-      max-width: 100%;
-      overflow-x: hidden;
+  <style id="responsive-overrides-1280">
+    /* Responsive overrides only: desktop styling above 1280px remains unchanged */
+    @media (max-width: 1280px) {
+      html,
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      body > div,
+      [data-banani-screenid],
+      [data-component="@screens/HDWasteHomepage.jsx"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        overflow-x: hidden;
+      }
+
+      [style*="max-width:1250px"] {
+        width: 100% !important;
+        max-width: 1120px !important;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] > div {
+        gap: 18px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] img {
+        max-width: 112px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] nav {
+        gap: 18px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] nav a {
+        font-size: 13px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] > div,
+      [data-component="@components/ServicesOverview.jsx"] > div,
+      [data-component="@components/ExpertiseSection.jsx"] > div,
+      [data-component="@components/UrgentHelp.jsx"] > div {
+        gap: 42px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] h1 {
+        font-size: clamp(46px, 4.2vw, 56px) !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] [style*="width:440px"][style*="height:440px"] {
+        width: min(36vw, 400px) !important;
+        height: min(36vw, 400px) !important;
+      }
+
+      h2[style*="font-size:42px"],
+      [data-component="@components/Testimonials.jsx"] h2,
+      [data-component="@components/WasteMaterials.jsx"] h2,
+      [data-component="@components/TeamStatement.jsx"] h2,
+      [data-component="@components/ExpertiseSection.jsx"] h2 {
+        font-size: clamp(36px, 3.4vw, 42px) !important;
+      }
+
+      .grid-cols-6 {
+        gap: 20px !important;
+      }
+
+      .grid-cols-4,
+      .grid-cols-3 {
+        gap: 24px !important;
+      }
+    }
+
+    @media (max-width: 1180px) {
+      [style*="max-width:1250px"] {
+        max-width: 980px !important;
+        padding-left: 26px !important;
+        padding-right: 26px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] > div {
+        height: auto !important;
+        min-height: 74px !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] > div > .flex:first-child {
+        flex: 0 0 auto !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] nav {
+        order: 3 !important;
+        width: 100% !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 10px 18px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] button {
+        height: 42px !important;
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] > div,
+      [data-component="@components/ServicesOverview.jsx"] > div,
+      [data-component="@components/ExpertiseSection.jsx"] > div,
+      [data-component="@components/UrgentHelp.jsx"] > div {
+        gap: 34px !important;
+      }
+
+      [data-component="@components/ProjectSize.jsx"] > div {
+        gap: 18px !important;
+      }
+
+      [data-component="@components/ProjectSize.jsx"] > div > div {
+        min-width: 0 !important;
+      }
+
+      [data-component="@components/ProjectSize.jsx"] [style*="padding:46px"] {
+        padding: 34px !important;
+      }
+
+      [data-component="@components/TeamStatement.jsx"] > div > .flex {
+        flex-wrap: wrap !important;
+      }
+
+      [data-component="@components/TeamStatement.jsx"] > div > .flex > div {
+        flex: 1 1 calc(50% - 12px) !important;
+        min-width: 280px !important;
+      }
+
+      [data-component="@components/FooterCTA.jsx"] [style*="grid-template-columns:1fr 1fr 1fr"] {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 30px !important;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      [style*="max-width:1250px"] {
+        max-width: 820px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"],
+      [data-component="@components/WasteMaterials.jsx"],
+      [data-component="@components/ServicesOverview.jsx"],
+      [data-component="@components/ProjectSize.jsx"],
+      [data-component="@components/TeamStatement.jsx"],
+      [data-component="@components/ExpertiseSection.jsx"],
+      [data-component="@components/CoreBenefits.jsx"],
+      [data-component="@components/Testimonials.jsx"],
+      [data-component="@components/UrgentHelp.jsx"],
+      [data-component="@components/FooterCTA.jsx"] {
+        padding-top: 62px !important;
+        padding-bottom: 62px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] > div,
+      [data-component="@components/ServicesOverview.jsx"] > div,
+      [data-component="@components/ProjectSize.jsx"] > div,
+      [data-component="@components/ExpertiseSection.jsx"] > div,
+      [data-component="@components/UrgentHelp.jsx"] > div {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 34px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] > div > div,
+      [data-component="@components/ServicesOverview.jsx"] > div > div,
+      [data-component="@components/ProjectSize.jsx"] > div > div,
+      [data-component="@components/ExpertiseSection.jsx"] > div > div,
+      [data-component="@components/UrgentHelp.jsx"] > div > div {
+        flex: 0 1 auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] h1 {
+        font-size: 48px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] [style*="min-height:460px"] {
+        min-height: auto !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] [style*="width:440px"][style*="height:440px"] {
+        width: 380px !important;
+        height: 380px !important;
+        right: 20px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] [style*="bottom:24px"][style*="left:-20px"] {
+        left: 18px !important;
+        bottom: 18px !important;
+      }
+
+      [data-component="@components/ProjectSize.jsx"] [style*="height:380px"] {
+        height: 320px !important;
+      }
+
+      [data-component="@components/ExpertiseSection.jsx"] [style*="display:grid"][style*="grid-template-columns:1fr 1fr"] {
+        gap: 12px !important;
+      }
+
+      .grid-cols-6 {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+      }
+
+      .grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      }
+
+      .grid-cols-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      }
+
+      [data-component="@components/StatsSection.jsx"] .grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      }
+
+      [data-component="@components/FooterCTA.jsx"] [style*="grid-template-columns:1fr 1fr 1fr"] {
+        grid-template-columns: 1fr 1fr !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      [style*="max-width:1250px"] {
+        max-width: 100% !important;
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+      }
+
+      [data-component="@components/TopBar.jsx"] > div {
+        height: auto !important;
+        min-height: 0 !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        gap: 8px !important;
+        text-align: center !important;
+      }
+
+      [data-component="@components/TopBar.jsx"] > div > a {
+        justify-content: center !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] > div {
+        gap: 12px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] nav {
+        justify-content: flex-start !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px !important;
+        scrollbar-width: none;
+      }
+
+      [data-component="@components/MainHeader.jsx"] nav::-webkit-scrollbar {
+        display: none;
+      }
+
+      [data-component="@components/MainHeader.jsx"] nav a {
+        flex: 0 0 auto !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"],
+      [data-component="@components/WasteMaterials.jsx"],
+      [data-component="@components/ServicesOverview.jsx"],
+      [data-component="@components/ProjectSize.jsx"],
+      [data-component="@components/TeamStatement.jsx"],
+      [data-component="@components/ExpertiseSection.jsx"],
+      [data-component="@components/CoreBenefits.jsx"],
+      [data-component="@components/Testimonials.jsx"],
+      [data-component="@components/UrgentHelp.jsx"],
+      [data-component="@components/FooterCTA.jsx"] {
+        padding-top: 52px !important;
+        padding-bottom: 52px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] h1 {
+        font-size: 42px !important;
+        line-height: 1.1 !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] p,
+      [data-component="@components/WasteMaterials.jsx"] p,
+      [data-component="@components/ServicesOverview.jsx"] p,
+      [data-component="@components/ExpertiseSection.jsx"] p,
+      [data-component="@components/CoreBenefits.jsx"] p,
+      [data-component="@components/UrgentHelp.jsx"] p {
+        font-size: 15px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] .mb-8.flex,
+      [data-component="@components/UrgentHelp.jsx"] .mb-8.flex {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        width: 100% !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] button,
+      [data-component="@components/UrgentHelp.jsx"] button,
+      [data-component="@components/FooterCTA.jsx"] button {
+        width: 100% !important;
+        justify-content: center !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] [style*="width:440px"][style*="height:440px"] {
+        display: none !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] [style*="bottom:24px"][style*="left:-20px"] {
+        position: static !important;
+        margin-top: 14px !important;
+        min-width: 0 !important;
+        width: 100% !important;
+      }
+
+      h2[style*="font-size:42px"],
+      [data-component="@components/Testimonials.jsx"] h2,
+      [data-component="@components/WasteMaterials.jsx"] h2,
+      [data-component="@components/TeamStatement.jsx"] h2,
+      [data-component="@components/ExpertiseSection.jsx"] h2,
+      [data-component="@components/CoreBenefits.jsx"] h2,
+      [data-component="@components/UrgentHelp.jsx"] h2 {
+        font-size: 34px !important;
+        line-height: 1.15 !important;
+      }
+
+      .grid-cols-6,
+      .grid-cols-4,
+      .grid-cols-3,
+      [data-component="@components/StatsSection.jsx"] .grid-cols-4 {
+        grid-template-columns: 1fr !important;
+      }
+
+      [data-component="@components/TeamStatement.jsx"] > div > .flex {
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+      }
+
+      [data-component="@components/TeamStatement.jsx"] > div > .flex > div {
+        flex: 0 1 auto !important;
+        min-width: 0 !important;
+        width: 100% !important;
+      }
+
+      [data-component="@components/ExpertiseSection.jsx"] [style*="display:grid"][style*="grid-template-columns:1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+      }
+
+      [data-component="@components/ExpertiseSection.jsx"] [style*="grid-column:1 / 3"] {
+        grid-column: auto !important;
+      }
+
+      [data-component="@components/FooterCTA.jsx"] [style*="grid-template-columns:1fr 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+        padding: 32px !important;
+      }
+
+      [data-component="@components/FooterBottom.jsx"] {
+        height: auto !important;
+      }
+
+      [data-component="@components/FooterBottom.jsx"] > div {
+        height: auto !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 10px !important;
+        padding-top: 18px !important;
+        padding-bottom: 18px !important;
+      }
+    }
+
+    @media (max-width: 640px) {
+      [style*="max-width:1250px"] {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] img {
+        max-width: 104px !important;
+      }
+
+      [data-component="@components/MainHeader.jsx"] button {
+        width: 100% !important;
+        justify-content: center !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"],
+      [data-component="@components/WasteMaterials.jsx"],
+      [data-component="@components/ServicesOverview.jsx"],
+      [data-component="@components/ProjectSize.jsx"],
+      [data-component="@components/TeamStatement.jsx"],
+      [data-component="@components/ExpertiseSection.jsx"],
+      [data-component="@components/CoreBenefits.jsx"],
+      [data-component="@components/StatsSection.jsx"],
+      [data-component="@components/Testimonials.jsx"],
+      [data-component="@components/UrgentHelp.jsx"],
+      [data-component="@components/FooterCTA.jsx"] {
+        padding-top: 44px !important;
+        padding-bottom: 44px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] h1 {
+        font-size: 38px !important;
+      }
+
+      h2[style*="font-size:42px"],
+      [data-component="@components/Testimonials.jsx"] h2,
+      [data-component="@components/WasteMaterials.jsx"] h2,
+      [data-component="@components/TeamStatement.jsx"] h2,
+      [data-component="@components/ExpertiseSection.jsx"] h2,
+      [data-component="@components/UrgentHelp.jsx"] h2 {
+        font-size: 30px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] .inline-flex,
+      [data-component="@components/ExpertiseSection.jsx"] .inline-flex,
+      [data-component="@components/UrgentHelp.jsx"] .inline-flex {
+        max-width: 100% !important;
+        white-space: normal !important;
+      }
+
+      [data-component="@components/ProjectSize.jsx"] [style*="height:380px"] {
+        height: 260px !important;
+      }
+
+      [data-component="@components/ProjectSize.jsx"] [style*="padding:46px"] {
+        padding: 28px 22px !important;
+      }
+
+      [data-component="@components/CoreBenefits.jsx"] .p-8,
+      [data-component="@components/Testimonials.jsx"] .p-8 {
+        padding: 24px !important;
+      }
+
+      [data-component="@components/FooterCTA.jsx"] [style*="padding:44px"] {
+        padding: 26px 22px !important;
+      }
+    }
+
+    @media (max-width: 480px) {
+      [style*="max-width:1250px"] {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+      }
+
+      [data-component="@components/TopBar.jsx"] span,
+      [data-component="@components/MainHeader.jsx"] nav a {
+        font-size: 12px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] h1 {
+        font-size: 34px !important;
+      }
+
+      h2[style*="font-size:42px"],
+      [data-component="@components/Testimonials.jsx"] h2,
+      [data-component="@components/WasteMaterials.jsx"] h2,
+      [data-component="@components/TeamStatement.jsx"] h2,
+      [data-component="@components/ExpertiseSection.jsx"] h2,
+      [data-component="@components/UrgentHelp.jsx"] h2 {
+        font-size: 28px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] [style*="font-size:17px"],
+      [data-component="@components/HeroSection.jsx"] [style*="font-size:16px"],
+      [data-component="@components/ServicesOverview.jsx"] [style*="font-size:16px"],
+      [data-component="@components/ExpertiseSection.jsx"] [style*="font-size:15px"],
+      [data-component="@components/UrgentHelp.jsx"] [style*="font-size:15px"] {
+        font-size: 14px !important;
+      }
+
+      button,
+      .rounded-pill {
+        max-width: 100% !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] .flex-wrap {
+        gap: 8px !important;
+      }
+
+      [data-component="@components/WasteMaterials.jsx"] .py-10 {
+        padding-top: 28px !important;
+        padding-bottom: 28px !important;
+      }
+
+      [data-component="@components/StatsSection.jsx"] [style*="font-size:38px"] {
+        font-size: 32px !important;
+      }
+
+      [data-component="@components/FooterCTA.jsx"] [style*="padding:44px"] {
+        padding: 24px 18px !important;
+      }
+    }
+
+    @media (max-width: 360px) {
+      [style*="max-width:1250px"] {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] h1 {
+        font-size: 31px !important;
+      }
+
+      h2[style*="font-size:42px"],
+      [data-component="@components/Testimonials.jsx"] h2,
+      [data-component="@components/WasteMaterials.jsx"] h2,
+      [data-component="@components/TeamStatement.jsx"] h2,
+      [data-component="@components/ExpertiseSection.jsx"] h2,
+      [data-component="@components/UrgentHelp.jsx"] h2 {
+        font-size: 26px !important;
+      }
+
+      [data-component="@components/HeroSection.jsx"] button,
+      [data-component="@components/MainHeader.jsx"] button,
+      [data-component="@components/UrgentHelp.jsx"] button,
+      [data-component="@components/FooterCTA.jsx"] button {
+        height: 44px !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        font-size: 13px !important;
+      }
+
+      [data-component="@components/CoreBenefits.jsx"] .p-8,
+      [data-component="@components/Testimonials.jsx"] .p-8,
+      [data-component="@components/FooterCTA.jsx"] [style*="padding:44px"] {
+        padding: 20px 16px !important;
+      }
+
+      [data-component="@components/ProjectSize.jsx"] [style*="height:380px"] {
+        height: 230px !important;
+      }
     }
-
-    :host > div,
-    [data-banani-screenid] {
-      min-width: 0 !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      overflow-x: hidden !important;
-    }
-
-    img,
-    video,
-    iframe {
-      max-width: 100%;
-    }
-
-    .section-heading {
-      font-size: clamp(36px, 4vw, 44px);
-    }
-
-    .navbar {
-      padding-left: clamp(28px, 4vw, 60px);
-      padding-right: clamp(28px, 4vw, 60px);
-    }
-
-    .navbar-inner {
-      max-width: 1180px;
-      margin: 0 auto;
-    }
-
-    .nav-links {
-      flex-wrap: wrap;
-      row-gap: 2px;
-    }
-
-    .nav-links li a {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-
-    .hero-section {
-      height: auto !important;
-      min-height: 640px;
-    }
-
-    .hero-text-col {
-      padding-left: clamp(48px, 5.5vw, 80px);
-      padding-right: clamp(40px, 5vw, 72px);
-    }
-
-    .hero-heading {
-      font-size: clamp(52px, 5vw, 68px);
-    }
-
-    .trust-bar {
-      padding-left: clamp(28px, 4vw, 60px);
-      padding-right: clamp(28px, 4vw, 60px);
-    }
-
-    .trust-bar-inner {
-      flex-wrap: wrap;
-      row-gap: 18px;
-    }
-
-    .trust-item {
-      padding-left: 28px;
-      padding-right: 28px;
-    }
-
-    .products-section,
-    .ingredients-section,
-    .testimonials-section,
-    .certs-section,
-    .blog-section {
-      padding-left: clamp(44px, 7vw, 120px);
-      padding-right: clamp(44px, 7vw, 120px);
-    }
-
-    .image-text-content,
-    .image-text-content.right,
-    .empathy-content,
-    .buybox-content,
-    .buybox-content[style] {
-      padding-left: clamp(44px, 6vw, 80px) !important;
-      padding-right: clamp(44px, 6vw, 80px) !important;
-    }
-
-    .buybox-image,
-    .buybox-image[style] {
-      padding-left: clamp(32px, 5vw, 60px) !important;
-      padding-right: clamp(32px, 5vw, 60px) !important;
-    }
-
-    .footer-top {
-      padding-left: clamp(44px, 6vw, 80px);
-      padding-right: clamp(44px, 6vw, 80px);
-    }
-
-    .footer-bottom {
-      padding-left: clamp(44px, 6vw, 80px);
-      padding-right: clamp(44px, 6vw, 80px);
-    }
-
-    .product-card-image,
-    .product-card-image[style] {
-      aspect-ratio: 1 / 1 !important;
-    }
-
-    .buybox-section[style] {
-      height: auto !important;
-    }
-  }
-
-  @media (max-width: 1120px) {
-    .navbar {
-      padding-left: 24px;
-      padding-right: 24px;
-    }
-
-    .navbar-inner {
-      height: auto;
-      min-height: 68px;
-      padding: 10px 0 12px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .navbar-logo {
-      order: 1;
-    }
-
-    .navbar-right {
-      order: 2;
-      margin-left: auto;
-    }
-
-    .nav-links {
-      order: 3;
-      width: 100%;
-      justify-content: flex-start;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      gap: 2px;
-      padding: 4px 0 2px;
-      scrollbar-width: none;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .nav-links::-webkit-scrollbar {
-      display: none;
-    }
-
-    .nav-links li {
-      flex: 0 0 auto;
-    }
-
-    .nav-links li a {
-      padding: 8px 11px;
-    }
-
-    .hero-text-col {
-      padding-top: 64px;
-      padding-bottom: 64px;
-    }
-
-    .hero-proof {
-      flex-wrap: wrap;
-    }
-
-    .trust-divider {
-      display: none;
-    }
-
-    .trust-bar-inner {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px 24px;
-      max-width: 780px;
-      margin: 0 auto;
-    }
-
-    .trust-item {
-      padding: 0;
-      justify-content: center;
-    }
-
-    .services-grid,
-    .reviews-grid,
-    .blog-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .ingredients-grid,
-    .certs-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 24px;
-    }
-
-    .ingredient-item,
-    .cert-item {
-      border-right: none;
-      padding: 24px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .ingredient-item:nth-last-child(-n+2),
-    .cert-item:nth-last-child(-n+2) {
-      border-bottom: none;
-    }
-
-    .footer-top {
-      grid-template-columns: 1fr 1fr;
-      gap: 48px;
-    }
-
-    .footer-bottom {
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .footer-copy {
-      white-space: normal;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .hero-section,
-    .image-text-section,
-    .image-text-section[style],
-    .buybox-section,
-    .buybox-section[style],
-    .empathy-section {
-      flex-direction: column !important;
-      height: auto !important;
-      min-height: 0 !important;
-    }
-
-    .hero-image-col,
-    .hero-text-col,
-    .image-text-image,
-    .image-text-content,
-    .image-text-content.right,
-    .buybox-image,
-    .buybox-content,
-    .empathy-image,
-    .empathy-content {
-      width: 100% !important;
-    }
-
-    .hero-image-col {
-      height: 52vw;
-      min-height: 320px;
-      max-height: 500px;
-    }
-
-    .hero-text-col {
-      padding: 58px 28px 64px !important;
-    }
-
-    .hero-text-inner {
-      max-width: 660px;
-    }
-
-    .hero-heading {
-      font-size: clamp(46px, 8vw, 62px);
-    }
-
-    .hero-sub {
-      max-width: 620px;
-    }
-
-    .image-text-image,
-    .empathy-image {
-      height: 54vw;
-      min-height: 320px;
-      max-height: 520px;
-    }
-
-    .image-text-content,
-    .image-text-content.right,
-    .empathy-content,
-    .buybox-content,
-    .buybox-content[style] {
-      padding: 58px 28px !important;
-    }
-
-    .image-text-inner,
-    .empathy-inner,
-    .buybox-inner {
-      max-width: 660px;
-    }
-
-    .buybox-image,
-    .buybox-image[style] {
-      min-height: 360px;
-      padding: 44px 28px !important;
-    }
-
-    .buybox-image img,
-    .buybox-image[style] img,
-    .buybox-image img[style] {
-      max-height: 440px !important;
-      width: min(100%, 430px) !important;
-      margin: 0 auto;
-      object-fit: contain;
-    }
-
-    .products-section,
-    .ingredients-section,
-    .testimonials-section,
-    .certs-section,
-    .blog-section {
-      padding: 72px 28px;
-    }
-
-    .products-grid {
-      grid-template-columns: 1fr;
-      max-width: 540px;
-    }
-
-    .reviews-grid,
-    .blog-grid {
-      grid-template-columns: 1fr;
-      max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .overall-rating-strip {
-      flex-wrap: wrap;
-      text-align: center;
-      line-height: 1.5;
-    }
-
-    .founder-section,
-    .faq-section,
-    .newsletter-section {
-      padding: 76px 28px;
-    }
-
-    .footer-top {
-      grid-template-columns: 1fr;
-      gap: 38px;
-      padding: 56px 28px;
-    }
-
-    .footer-bottom {
-      padding: 22px 28px;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .payment-icons,
-    .footer-legal-links {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-
-  @media (max-width: 640px) {
-    .announcement-bar {
-      padding: 8px 0;
-    }
-
-    .marquee-item {
-      font-size: 11px;
-      padding-left: 28px;
-      padding-right: 28px;
-    }
-
-    .navbar {
-      padding-left: 18px;
-      padding-right: 18px;
-    }
-
-    .navbar-inner {
-      gap: 10px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-
-    .navbar-logo img {
-      max-width: 108px !important;
-    }
-
-    .navbar-right {
-      gap: 8px;
-    }
-
-    .region-selector span {
-      display: none;
-    }
-
-    .cart-btn {
-      width: 32px;
-      height: 32px;
-    }
-
-    .nav-links li a {
-      font-size: 12px;
-      padding: 7px 10px;
-    }
-
-    .hero-image-col {
-      height: 66vw;
-      min-height: 270px;
-      max-height: 410px;
-    }
-
-    .hero-text-col {
-      padding: 46px 20px 52px !important;
-    }
-
-    .hero-heading {
-      font-size: clamp(38px, 10vw, 48px);
-      margin-bottom: 18px;
-    }
-
-    .hero-sub {
-      font-size: 15px;
-    }
-
-    .hero-proof {
-      align-items: flex-start;
-      gap: 6px 8px;
-      margin-bottom: 28px;
-    }
-
-    .hero-proof span {
-      line-height: 1.35;
-    }
-
-    .hero-ctas {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 10px;
-    }
-
-    .btn-green,
-    .btn-ghost {
-      width: 100%;
-      justify-content: center;
-      text-align: center;
-      white-space: normal;
-      line-height: 1.35;
-      min-height: 46px;
-      height: auto;
-      padding: 12px 18px;
-    }
-
-    .section-heading,
-    .newsletter-heading,
-    .empathy-heading {
-      font-size: 36px;
-    }
-
-    .image-text-inner .section-heading {
-      font-size: 36px;
-    }
-
-    .section-header-centered {
-      margin-bottom: 38px !important;
-    }
-
-    .trust-bar {
-      padding: 24px 20px;
-    }
-
-    .trust-bar-inner {
-      grid-template-columns: 1fr;
-      max-width: 360px;
-      gap: 16px;
-    }
-
-    .trust-item {
-      justify-content: flex-start;
-    }
-
-    .trust-text {
-      white-space: normal;
-      line-height: 1.35;
-    }
-
-    .products-section,
-    .ingredients-section,
-    .testimonials-section,
-    .certs-section,
-    .blog-section {
-      padding: 64px 20px;
-    }
-
-    .ingredients-grid,
-    .certs-grid {
-      grid-template-columns: 1fr;
-      gap: 0;
-      max-width: 420px;
-    }
-
-    .ingredient-item,
-    .cert-item,
-    .ingredient-item:nth-last-child(-n+2),
-    .cert-item:nth-last-child(-n+2) {
-      border-right: none;
-      border-bottom: 1px solid var(--border);
-      padding: 24px 12px;
-    }
-
-    .ingredient-item:last-child,
-    .cert-item:last-child {
-      border-bottom: none;
-    }
-
-    .image-text-image,
-    .empathy-image {
-      height: 68vw;
-      min-height: 260px;
-      max-height: 390px;
-    }
-
-    .image-text-content,
-    .image-text-content.right,
-    .empathy-content,
-    .buybox-content,
-    .buybox-content[style] {
-      padding: 50px 20px !important;
-    }
-
-    .buybox-image,
-    .buybox-image[style] {
-      min-height: 300px;
-      padding: 36px 20px !important;
-    }
-
-    .buybox-product-name {
-      font-size: 31px;
-    }
-
-    .purchase-option {
-      padding: 12px 14px;
-      align-items: flex-start;
-    }
-
-    .save-badge {
-      display: inline-flex;
-      margin-top: 4px;
-      margin-left: 0;
-    }
-
-    .buywith-row {
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .overall-rating-strip {
-      gap: 8px;
-      margin-bottom: 36px;
-    }
-
-    .review-card {
-      padding: 24px 20px;
-    }
-
-    .founder-section,
-    .faq-section,
-    .newsletter-section {
-      padding: 64px 20px;
-    }
-
-    .founder-quote {
-      font-size: 24px;
-      padding: 24px 0;
-    }
-
-    .newsletter-form {
-      flex-direction: column;
-      border-radius: 8px;
-    }
-
-    .newsletter-btn {
-      width: 100%;
-      border-left: none;
-      border-top: 1.5px solid rgba(44,74,53,0.2);
-    }
-
-    .footer-top {
-      padding: 48px 20px;
-    }
-
-    .footer-bottom {
-      padding: 20px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .navbar {
-      padding-left: 14px;
-      padding-right: 14px;
-    }
-
-    .navbar-logo img {
-      max-width: 100px !important;
-    }
-
-    .nav-links li a {
-      font-size: 11.5px;
-      padding: 7px 8px;
-    }
-
-    .hero-image-col {
-      height: 78vw;
-      min-height: 236px;
-    }
-
-    .hero-text-col {
-      padding: 40px 16px 46px !important;
-    }
-
-    .hero-heading {
-      font-size: 34px;
-    }
-
-    .hero-sub,
-    .empathy-body {
-      font-size: 14px;
-    }
-
-    .hero-proof {
-      font-size: 12px;
-    }
-
-    .eyebrow {
-      font-size: 10.5px;
-    }
-
-    .section-heading,
-    .newsletter-heading,
-    .empathy-heading {
-      font-size: 32px;
-    }
-
-    .image-text-inner .section-heading {
-      font-size: 32px;
-    }
-
-    .products-section,
-    .ingredients-section,
-    .testimonials-section,
-    .certs-section,
-    .blog-section {
-      padding: 58px 16px;
-    }
-
-    .product-card-body {
-      padding: 20px 18px 22px;
-    }
-
-    .product-name {
-      font-size: 20px;
-    }
-
-    .image-text-content,
-    .image-text-content.right,
-    .empathy-content,
-    .buybox-content,
-    .buybox-content[style] {
-      padding: 44px 16px !important;
-    }
-
-    .buybox-image,
-    .buybox-image[style] {
-      padding: 32px 16px !important;
-    }
-
-    .purchase-option {
-      display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 8px 10px;
-    }
-
-    .purchase-option-price {
-      grid-column: 2;
-      font-size: 13px;
-    }
-
-    .qty-row {
-      justify-content: space-between;
-    }
-
-    .blog-card-body {
-      padding: 20px 18px 22px;
-    }
-
-    .faq-question-text {
-      font-size: 18px;
-    }
-
-    .footer-top {
-      padding: 44px 16px;
-    }
-
-    .footer-bottom {
-      padding: 18px 16px;
-    }
-  }
-
-  @media (max-width: 360px) {
-    .navbar {
-      padding-left: 12px;
-      padding-right: 12px;
-    }
-
-    .navbar-logo img {
-      max-width: 92px !important;
-    }
-
-    .cart-btn {
-      width: 30px;
-      height: 30px;
-    }
-
-    .nav-links li a {
-      font-size: 11px;
-      padding: 7px 7px;
-    }
-
-    .hero-heading {
-      font-size: 31px;
-    }
-
-    .hero-text-col {
-      padding-left: 12px !important;
-      padding-right: 12px !important;
-    }
-
-    .section-heading,
-    .newsletter-heading,
-    .empathy-heading {
-      font-size: 29px;
-    }
-
-    .image-text-inner .section-heading {
-      font-size: 29px;
-    }
-
-    .products-section,
-    .ingredients-section,
-    .testimonials-section,
-    .certs-section,
-    .blog-section {
-      padding-left: 12px;
-      padding-right: 12px;
-    }
-
-    .product-card-body,
-    .review-card {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-
-    .image-text-content,
-    .image-text-content.right,
-    .empathy-content,
-    .buybox-content,
-    .buybox-content[style] {
-      padding-left: 12px !important;
-      padding-right: 12px !important;
-    }
-
-    .buybox-image,
-    .buybox-image[style] {
-      padding-left: 12px !important;
-      padding-right: 12px !important;
-    }
-
-    .purchase-option {
-      padding: 11px 12px;
-    }
-
-    .footer-copy,
-    .footer-legal-links a,
-    .payment-icon-badge {
-      white-space: normal;
-    }
-  }
   </style>
 
-  
-  <!-- ═══════════════════════════════════════ ANNOUNCEMENT BAR ═══════════════════════════════════════ -->
-  <div class="announcement-bar">
-    <div class="marquee-track">
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-      <span class="marquee-item">BUY 1 SERUM GET 1 FREE &nbsp;·&nbsp; LIMITED TIME ONLY!</span>
-    </div>
-  </div>
-  
-  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
-  <nav class="navbar">
-    <div class="navbar-inner">
-      <a class="navbar-logo" href="/" data-media-type="banani-button">
-<img src="https://www.sebskincare.com/cdn/shop/files/Seb_Skincare_Transparent_Logo.png" alt="image" style="
-  max-width: 126px;
-">      </a>
-      <ul class="nav-links">
-        <li><a href="#" data-media-type="banani-button">About Us</a></li>
-        <li><a href="#" data-media-type="banani-button">Natural Calming Serum</a></li>
-        <li><a href="#" data-media-type="banani-button">Natural Soothing Balm</a></li>
-        <li><a href="#" data-media-type="banani-button">How to Use Seb</a></li>
-        <li><a href="#" data-media-type="banani-button">The NO List</a></li>
-        <li><a href="#" data-media-type="banani-button">Blog</a></li>
-        <li><a href="#" data-media-type="banani-button">Track Your Order</a></li>
-      </ul>
-      <div class="navbar-right">
-        <div class="cart-btn" data-media-type="banani-button">
-          <div style="width:24px;height:24px;display:flex;align-items:center;justify-content:center;">
-            <iconify-icon icon="lucide:shopping-bag" style="font-size:20px;color:#444;"></iconify-icon>
-          </div>
-          <div class="cart-badge">2</div>
-        </div>
-        <div class="region-selector" data-media-type="banani-button">
-          <div style="width:16px;height:16px;display:flex;align-items:center;justify-content:center;">
-            <iconify-icon icon="lucide:globe" style="font-size:14px;color:#888;"></iconify-icon>
-          </div>
-          <span>EUR €</span>
-          <div style="width:14px;height:14px;display:flex;align-items:center;justify-content:center;">
-            <iconify-icon icon="lucide:chevron-down" style="font-size:12px;color:#888;"></iconify-icon>
+  </head>
+
+  <body>
+    <div style="--color-background: #ffffff; --color-foreground: #243028; --color-border: #CFE6D3; --color-input: #10741f; --color-primary: #3FAE49; --color-primary-foreground: #ffffff; --color-secondary: #EAF7EC; --color-secondary-foreground: #1F7A35; --color-muted: #EEF1EE; --color-muted-foreground: #66736A; --color-accent: #2F8F3C; --color-accent-foreground: #ffffff; --color-deep-green: #1F7A35; --color-dark-forest: #0F3D24; --color-container-green: #2F8F3C; --color-soft-green: #EAF7EC; --color-pale-mint: #F4FBF5; --color-light-gray: #F5F7F6; --color-industrial-gray: #EEF1EE; --color-border-green: #CFE6D3; --color-charcoal: #243028; --color-muted-text: #66736A; --color-black-green: #071F13; --radius-sm: 4px; --radius-md: 8px; --radius-lg: 16px; --radius-xl: 24px; --radius-2xl: 30px; --radius-card: 18px; --radius-pill: 999px; --radius: var(--radius-sm); --font-body: Inter; --font-headings: Space Grotesk; --text-xs: 12px; --text-sm: 13px; --text-base: 15px; --text-lg: 17px; --text-xl: 20px; --text-2xl: 22px; --text-3xl: 30px; --text-4xl: 42px; --text-hero: 56px; --text-stat: 38px; font-family: var(--font-body, var(--font-sans, var(--font-family-body)));" data-banani-screenid="1P5grya8fGsm/screens/HDWasteHomepage.jsx">
+      <div class="font-body bg-background" data-component="@screens/HDWasteHomepage.jsx">
+        <div class="w-full bg-background border-b border-border-green" data-component="@components/TopBar.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px" class="flex items-center justify-between h-10"><a class="flex items-center gap-2 text-charcoal font-body" style="font-size:13px" data-media-type="banani-button"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:14px;height:14px" data-icon="phone" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.4285714285714284" d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"></path>
+                </svg></span><span data-file="/components/TopBar.jsx" data-idx="0">+1 (214) 792-9199</span></a><a class="flex items-center gap-2 text-charcoal font-body" style="font-size:13px" data-media-type="banani-button"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:14px;height:14px" data-icon="mail" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 24 24">
+                  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.4285714285714284">
+                    <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  </g>
+                </svg></span><span data-file="/components/TopBar.jsx" data-idx="1">service@hdwastetx.com</span></a>
+            <div class="flex items-center gap-4"><a class="text-primary" data-media-type="banani-button"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:15px;height:15px" data-icon="facebook" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg></span></a><a class="text-primary" data-media-type="banani-button"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:15px;height:15px" data-icon="instagram" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"></path>
+                    </g>
+                  </svg></span></a><a class="text-primary" data-media-type="banani-button"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:15px;height:15px" data-icon="linkedin" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </g>
+                  </svg></span></a></div>
           </div>
         </div>
-      </div>
-    </div>
-  </nav>
-  
-  <!-- ═══════════════════════════════════════ SECTION 1 — HERO ═══════════════════════════════════════ -->
-  <section class="hero-section" style="
-  height: 690px;
-">
-    <div class="hero-image-col">
-      <img data-aspect-ratio="1:1" data-query="Seb Natural Calming Serum amber glass dropper bottle lying on soft green moss and eucalyptus leaves on a wooden surface, warm natural light, botanical apothecary photography, earthy sage green and warm cream tones" alt="Seb Natural Calming Serum" src="https://www.sebskincare.com/cdn/shop/files/Eczema___Seborrheic_Calming_Serum_Nature.webp" loading="lazy" style="
-  object-position: 50% 30%;
-">
-    </div>
-    <div class="hero-text-col">
-      <div class="hero-text-inner">
-        <span class="eyebrow">PURE · ORGANIC · NATURAL</span>
-        <h1 class="hero-heading">Struggling with<br>dandruff &amp;<br>dry, itchy skin?</h1>
-        <p class="hero-sub">Holistic ingredients crafted to calm the flakes, soothe flare-ups, and ease the frustration caused by Seborrheic Dermatitis, Psoriasis, and Malassezia Yeast.</p>
-        <div class="hero-proof">
-          <span class="stars" style="font-size:14px;">★★★★★</span>
-          <span>4.9/5</span>
-          <span style="color:var(--border);">·</span>
-          <span>6,099+ Verified Reviews</span>
-          <span style="color:var(--border);">·</span>
-          <span>EcoCert Certified</span>
-        </div>
-        <div class="hero-ctas">
-          <a href="#" class="btn-green" data-media-type="banani-button">Get Relief</a>
-          <a href="#" class="btn-ghost" data-media-type="banani-button">Calm &amp; Soothe...</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 2 — TRUST BAR ═══════════════════════════════════════ -->
-  <section class="trust-bar">
-    <div class="trust-bar-inner">
-      <div class="trust-item">
-        <div class="trust-icon">
-          <iconify-icon icon="lucide:leaf" style="font-size:18px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <span class="trust-text">100% Natural · 70% Organic</span>
-      </div>
-      <div class="trust-divider"></div>
-      <div class="trust-item">
-        <div class="trust-icon">
-          <iconify-icon icon="lucide:shield-check" style="font-size:18px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <span class="trust-text">EcoCert COSMOS Certified</span>
-      </div>
-      <div class="trust-divider"></div>
-      <div class="trust-item">
-        <div class="trust-icon">
-          <iconify-icon icon="lucide:star" style="font-size:18px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <span class="trust-text">4.9/5 · 6,099 Reviews</span>
-      </div>
-      <div class="trust-divider"></div>
-      <div class="trust-item">
-        <div class="trust-icon">
-          <iconify-icon icon="lucide:refresh-cw" style="font-size:18px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <span class="trust-text">30-Day Money Back Guarantee</span>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 3 — FEATURED PRODUCTS ═══════════════════════════════════════ -->
-  <section class="products-section">
-    <div class="section-header-centered">
-      <span class="eyebrow">CALM &amp; SOOTHE</span>
-      <h2 class="section-heading">Our Products</h2>
-    </div>
-    <div class="products-grid">
-      <!-- Card 1 -->
-      <div class="product-card">
-        <div class="product-card-image" style="
-  aspect-ratio: 0 / 1;
-">
-          <img data-aspect-ratio="1:1" data-query="Seb Natural Calming Serum amber glass dropper bottle on clean soft sage green background with botanical leaves, premium skincare product photography, warm cream and sage tones" alt="Seb Natural Calming Serum" src="https://www.sebskincare.com/cdn/shop/files/IMG-3817.png" loading="lazy">
-          <span class="product-badge badge-bestseller">Best Seller</span>
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">Seb Natural Calming Serum</div>
-          <div class="product-rating-row">
-            <span class="stars">★★★★★</span>
-            <span class="product-rating-count">5,583 reviews</span>
-          </div>
-          <div class="product-price"><span class="from-label">From</span> €27.95</div>
-          <a href="#" class="btn-green" data-media-type="banani-button">Add to Cart</a>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="product-card">
-        <div class="product-card-image" style="aspect-ratio: 0 / 1;background: var(--bg-clay);">
-          <img data-aspect-ratio="1:1" data-query="Seb Natural Soothing Balm white glass jar on soft pale clay background with chamomile flowers and coconut shell, premium botanical skincare photography, warm blush and cream tones" alt="Seb Natural Soothing Balm" src="https://www.sebskincare.com/cdn/shop/files/Seb_Calming_Balm.png" loading="lazy">
-          <span class="product-badge badge-soldout">Sold Out</span>
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">Seb Natural Soothing Balm</div>
-          <div class="product-rating-row">
-            <span class="stars">★★★★★</span>
-            <span class="product-rating-count">1,074 reviews</span>
-          </div>
-          <div class="product-price">€27.95</div>
-          <a href="#" class="btn-ghost" data-media-type="banani-button">Notify Me</a>
-        </div>
-      </div>
-    </div>
-    <div class="products-subscribe-note">
-      <a href="#" class="text-link-green" data-media-type="banani-button">Subscribe &amp; Save 10% on every order →</a>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 4 — INGREDIENTS ═══════════════════════════════════════ -->
-  <section class="ingredients-section">
-    <div class="section-header-centered" style="margin-bottom:52px;">
-      <span class="eyebrow">WHAT'S INSIDE</span>
-      <h2 class="section-heading">Naturally Effective</h2>
-    </div>
-    <div class="ingredients-grid">
-      <div class="ingredient-item">
-        <div class="ingredient-icon">
-          <iconify-icon icon="lucide:leaf" style="font-size:32px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="ingredient-name">MCT Coconut Oil</div>
-        <div class="ingredient-benefit">Antifungal &amp; deeply moisturising</div>
-      </div>
-      <div class="ingredient-item">
-        <div class="ingredient-icon">
-          <iconify-icon icon="lucide:flower-2" style="font-size:32px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="ingredient-name">Chamomile Extract</div>
-        <div class="ingredient-benefit">Calms redness &amp; inflammation</div>
-      </div>
-      <div class="ingredient-item">
-        <div class="ingredient-icon">
-          <iconify-icon icon="lucide:droplets" style="font-size:32px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="ingredient-name">Tea Tree Oil</div>
-        <div class="ingredient-benefit">Antibacterial &amp; purifying</div>
-      </div>
-      <div class="ingredient-item">
-        <div class="ingredient-icon">
-          <iconify-icon icon="lucide:sun" style="font-size:32px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="ingredient-name">Vitamin E</div>
-        <div class="ingredient-benefit">Antioxidant &amp; skin-restoring</div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 5 — ROOT CAUSE ═══════════════════════════════════════ -->
-  <section class="image-text-section">
-    <div class="image-text-image">
-      <img data-aspect-ratio="1:1" data-query="macro close-up of lush dark green tropical botanical leaves and plants, deep forest green textures, natural light, apothecary nature photography, rich green tones with warm shadows" alt="Natural Botanicals" src="https://storage.googleapis.com/banani-generated-images/generated-images/2ddf44ef-701c-4b4b-b16c-94cceb645740.jpg" loading="lazy">
-    </div>
-    <div class="image-text-content">
-      <div class="image-text-inner">
-        <span class="eyebrow">THE SCIENCE</span>
-        <h2 class="section-heading">We Target The<br>Root Cause...</h2>
-        <p class="image-text-body">All our products are powered by a carefully selected blend of antibacterial &amp; anti-fungal botanicals. Formulated to balance the skin microbiome and inhibit the growth of Malassezia yeast — the root cause of Seborrheic Dermatitis (that's the scientific name for dandruff!). No more feeding the yeast. Just calm, clear Skin &amp; Scalp.</p>
-        <ul class="checklist">
-          <li>
-            <div class="check-icon"><iconify-icon icon="lucide:check-circle" style="font-size:17px;color:#2C4A35;"></iconify-icon></div>
-            Inhibits Malassezia Yeast
-          </li>
-          <li>
-            <div class="check-icon"><iconify-icon icon="lucide:check-circle" style="font-size:17px;color:#2C4A35;"></iconify-icon></div>
-            Naturally Anti-Fungal &amp; Anti-Bacterial
-          </li>
-          <li>
-            <div class="check-icon"><iconify-icon icon="lucide:check-circle" style="font-size:17px;color:#2C4A35;"></iconify-icon></div>
-            Restores Itchy, Flaky &amp; Inflamed Skin
-          </li>
-          <li>
-            <div class="check-icon"><iconify-icon icon="lucide:check-circle" style="font-size:17px;color:#2C4A35;"></iconify-icon></div>
-            Supports Skin Microbiome
-          </li>
-        </ul>
-        <a href="#" class="text-link-green" data-media-type="banani-button">Try Seb Calming Serum →</a>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 6 — SERUM BUY BOX ═══════════════════════════════════════ -->
-  <section class="buybox-section clay">
-    <div class="buybox-image">
-      <img data-aspect-ratio="2:3" data-query="Seb Natural Calming Serum amber glass dropper bottle on warm pale clay blush background, large elegant product photography, soft shadows, premium apothecary skincare, warm cream and blush tones" alt="Seb Natural Calming Serum" src="/api/flow-image/2%3A3%0ASeb%20Natural%20Calming%20Serum%20amber%20glass%20dropper%20bottle%20on%20warm%20pale%20clay%20blush%20background%2C%20large%20elegant%20product%20photography%2C%20soft%20shadows%2C%20premium%20apothecary%20skincare%2C%20warm%20cream%20and%20blush%20tones" loading="lazy">
-    </div>
-    <div class="buybox-content">
-      <div class="buybox-inner">
-        <div class="buybox-product-name">Seb Natural Calming Serum</div>
-        <div class="buybox-rating-row">
-          <span class="stars" style="font-size:14px;">★★★★★</span>
-          <span class="buybox-rating-text">5,583 reviews</span>
-        </div>
-        <div class="buybox-price">€27.95</div>
-        <div class="buybox-price-note" style="font-family:var(--font-sans);">Taxes included</div>
-        <div class="purchase-options">
-          <div class="purchase-option">
-            <div class="radio-dot"></div>
-            <div class="purchase-option-text">One-time purchase</div>
-            <div class="purchase-option-price">€27.95</div>
-          </div>
-          <div class="purchase-option selected">
-            <div class="radio-dot checked"></div>
-            <div class="purchase-option-text">
-              Subscribe! <span class="save-badge">SAVE 10%</span>
+        <div class="w-full bg-background border-b border-border-green" data-component="@components/MainHeader.jsx"><div style="max-width:1250px;margin:0 auto;padding:0 20px" class="flex items-center justify-between"><div class="flex items-center gap-2"><img src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/08/HDLogo_285x220px.png" alt="image" style="
+          max-width: 125px;
+        "></div><nav class="flex items-center gap-7"><a class="font-body text-charcoal text-primary" style="font-size:14px;font-weight:600" data-media-type="banani-button"><span data-file="/components/MainHeader.jsx" data-idx="0">Home</span></a><a class="font-body text-charcoal " style="font-size:14px;font-weight:600" data-media-type="banani-button"><span data-file="/components/MainHeader.jsx" data-idx="1">About Us</span></a><a class="font-body text-charcoal " style="font-size:14px;font-weight:600" data-media-type="banani-button"><span data-file="/components/MainHeader.jsx" data-idx="2">Front-Load</span></a><a class="font-body text-charcoal " style="font-size:14px;font-weight:600" data-media-type="banani-button"><span data-file="/components/MainHeader.jsx" data-idx="3">Roll-Off</span></a><a class="font-body text-charcoal " style="font-size:14px;font-weight:600" data-media-type="banani-button"><span data-file="/components/MainHeader.jsx" data-idx="4">Compactors</span></a><a class="font-body text-charcoal " style="font-size:14px;font-weight:600" data-media-type="banani-button"><span data-file="/components/MainHeader.jsx" data-idx="5">Gallery</span></a></nav><button class="bg-primary text-primary-foreground font-body font-bold rounded-pill px-6" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/MainHeader.jsx" data-idx="8">Request Quote</span></button></div></div>
+        <div class="w-full bg-pale-mint" style="padding-top:70px;padding-bottom:70px" data-component="@components/HeroSection.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px" class="flex items-center gap-12">
+            <div style="flex:0 0 42%">
+              <div class="inline-flex items-center gap-2 bg-secondary text-secondary-foreground rounded-pill px-4 py-1 mb-5 font-body" style="font-size:13px;font-weight:600"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:13px;height:13px" data-icon="map-pin" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.6923076923076925">
+                      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </g>
+                  </svg></span><span data-file="/components/HeroSection.jsx" data-idx="4">Dallas Waste Collection &amp; Recycling</span></div>
+              <h1 class="font-headings text-charcoal leading-tight mb-4" style="font-size:56px;font-weight:800;line-height:1.12"><span data-file="/components/HeroSection.jsx" data-idx="5">HD Waste &amp;</span><br><span class="text-primary"><span data-file="/components/HeroSection.jsx" data-idx="6">Recycling</span></span></h1>
+              <p class="font-body text-muted-text mb-4" style="font-size:17px;line-height:1.6"><span data-file="/components/HeroSection.jsx" data-idx="7">Welcome to HD Waste &amp; Recycling, your premier destination for professional garbage collection and waste removal services in Dallas, TX!</span></p>
+              <p class="font-body font-bold text-dark-forest mb-7" style="font-size:16px"><span data-file="/components/HeroSection.jsx" data-idx="8">We'll handle all the waste for you!</span></p>
+              <div class="flex items-center gap-4 mb-8"><button class="bg-primary text-primary-foreground font-body font-bold rounded-pill px-6" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/HeroSection.jsx" data-idx="9">Request Quote</span></button><button class="font-body font-bold text-dark-forest bg-background border-2 border-border-green rounded-pill px-6" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/HeroSection.jsx" data-idx="10">Services Portfolio</span></button></div>
+              <div class="flex flex-wrap gap-3">
+                <div class="flex items-center gap-2 bg-background border border-border-green rounded-pill px-4 py-1 font-body text-charcoal" style="font-size:13px;font-weight:500">
+                  <div class="w-2 h-2 rounded-full bg-primary"></div><span data-file="/components/HeroSection.jsx" data-idx="0">Since 2009</span>
+                </div>
+                <div class="flex items-center gap-2 bg-background border border-border-green rounded-pill px-4 py-1 font-body text-charcoal" style="font-size:13px;font-weight:500">
+                  <div class="w-2 h-2 rounded-full bg-primary"></div><span data-file="/components/HeroSection.jsx" data-idx="1">Eco-Friendly</span>
+                </div>
+                <div class="flex items-center gap-2 bg-background border border-border-green rounded-pill px-4 py-1 font-body text-charcoal" style="font-size:13px;font-weight:500">
+                  <div class="w-2 h-2 rounded-full bg-primary"></div><span data-file="/components/HeroSection.jsx" data-idx="2">Sanitary</span>
+                </div>
+                
+              </div>
             </div>
-            <div class="purchase-option-price">€25.16</div>
-          </div>
-        </div>
-        <div class="qty-row">
-          <span class="qty-label">Quantity</span>
-          <div class="qty-control">
-            <div class="qty-btn" data-media-type="banani-button">−</div>
-            <div class="qty-number">1</div>
-            <div class="qty-btn" data-media-type="banani-button">+</div>
-          </div>
-        </div>
-        <a href="#" class="btn-green buybox-atc" data-media-type="banani-button">Add to Cart</a>
-        <div class="buywith-row">
-          <span class="buywith-label">Buy with</span>
-          <div class="payment-pill paypal" data-media-type="banani-button">PayPal</div>
-          <div class="payment-pill applepay" data-media-type="banani-button"> Apple Pay</div>
-          <div class="payment-pill" data-media-type="banani-button" style="background:#4285F4;">G Pay</div>
-        </div>
-        <div class="shipping-note">
-          <div style="width:14px;height:14px;display:flex;align-items:center;justify-content:center;">
-            <iconify-icon icon="lucide:package" style="font-size:13px;color:#888;"></iconify-icon>
-          </div>
-          Free shipping on orders over £30
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 7 — ETHICAL SOURCING ═══════════════════════════════════════ -->
-  <section class="image-text-section" style="background: var(--bg-warm-white); flex-direction: row-reverse;">
-    <div class="image-text-image">
-      <img data-aspect-ratio="1:1" data-query="flat lay product photography of Seb Skincare serum bottle surrounded by coconut halves, tea tree sprigs, chamomile flowers, botanical ingredients on warm cream linen background, elegant apothecary styling, warm tones" alt="Natural Ingredients" src="/api/flow-image/1%3A1%0Aflat%20lay%20product%20photography%20of%20Seb%20Skincare%20serum%20bottle%20surrounded%20by%20coconut%20halves%2C%20tea%20tree%20sprigs%2C%20chamomile%20flowers%2C%20botanical%20ingredients%20on%20warm%20cream%20linen%20background%2C%20elegant%20apothecary%20styling%2C%20warm%20tones" loading="lazy">
-    </div>
-    <div class="image-text-content right">
-      <div class="image-text-inner">
-        <span class="eyebrow">SOURCING</span>
-        <h2 class="section-heading">Organic,<br>ethical.</h2>
-        <p class="image-text-body">We're deeply conscious about where we source the ingredients that go into our formulas, selecting only the highest quality and ethically produced. From our coconuts grown on the ancient coconut estates of Sri Lanka, relied upon by locals as a nutrient-rich treasure trove, to our organic Tea Tree extracts from the warm fields of Australia.</p>
-        <a href="#" class="text-link-green" data-media-type="banani-button">Learn about our sourcing →</a>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 8 — BALM BUY BOX ═══════════════════════════════════════ -->
-  <section class="buybox-section sage" style="flex-direction: row-reverse;height: 970px;">
-    <div class="buybox-image" style="background: rgba(44,74,53,0.06);padding: 0;">
-      <img data-aspect-ratio="2:3" data-query="Seb Natural Soothing Balm white glass jar on soft sage green background, large elegant product photography, soft shadows, premium apothecary skincare, sage green and warm cream tones" alt="Seb Natural Soothing Balm" src="https://www.sebskincare.com/cdn/shop/files/Seb_Calming_Balm.png" loading="lazy" style="
-  max-height: none;
-">
-    </div>
-    <div class="buybox-content" style="padding: 80px 60px 80px 80px;">
-      <div class="buybox-inner">
-        <div class="buybox-product-name">Seb Natural Soothing Balm</div>
-        <div class="buybox-rating-row">
-          <span class="stars" style="font-size:14px;">★★★★★</span>
-          <span class="buybox-rating-text">1,074 reviews</span>
-        </div>
-        <div class="buybox-price">€27.95</div>
-        <div class="buybox-price-note" style="font-family:var(--font-sans);">Taxes included</div>
-        <div class="purchase-options">
-          <div class="purchase-option" style="opacity:0.55;">
-            <div class="radio-dot"></div>
-            <div class="purchase-option-text">One-time purchase</div>
-            <div class="purchase-option-price">€27.95</div>
-          </div>
-          <div class="purchase-option" style="opacity:0.55;">
-            <div class="radio-dot"></div>
-            <div class="purchase-option-text">
-              Subscribe! <span class="save-badge">SAVE 10%</span>
+            <div style="flex:1 1 0;position:relative;min-height:460px">
+              <div class="bg-secondary rounded-full" style="position:absolute;width:440px;height:440px;top:10px;right:-10px;opacity:0.6"></div>
+              <div style="position:relative;z-index:1;border-radius:24px;overflow:hidden"><img data-query="HD waste management garbage truck on a clean Dallas road, green professional waste collection vehicle, bright daylight, cinematic" data-aspect-ratio="4:3" style="border-radius:24px" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/09/Gallery-Hrz06.jpg" class="w-full" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+              <div class="bg-background rounded-xl shadow-sm border border-border-green flex items-center gap-3 px-5 py-3" style="position:absolute;bottom:24px;left:-20px;z-index:2;min-width:240px">
+                <div class="bg-secondary rounded-lg flex items-center justify-center" style="width:40px;height:40px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:20px;height:20px" data-icon="recycle" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4">
+                        <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12"></path>
+                        <path d="m14 16l-3 3l3 3m-5.707-8.404L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843"></path>
+                        <path d="m13.378 9.633l4.096 1.098l1.097-4.096"></path>
+                      </g>
+                    </svg></span></div>
+                <div>
+                  <div class="font-headings font-bold text-charcoal" style="font-size:14px"><span data-file="/components/HeroSection.jsx" data-idx="11">Waste Recovery</span></div>
+                  <div class="font-body text-muted-text" style="font-size:12px"><span data-file="/components/HeroSection.jsx" data-idx="12">Paper • Plastics • Construction Waste</span></div>
+                </div>
+              </div>
             </div>
-            <div class="purchase-option-price">€25.16</div>
           </div>
         </div>
-        <div class="qty-row" style="opacity:0.45;">
-          <span class="qty-label">Quantity</span>
-          <div class="qty-control">
-            <div class="qty-btn">−</div>
-            <div class="qty-number">1</div>
-            <div class="qty-btn">+</div>
+        <div class="w-full bg-background" style="padding-top:72px;padding-bottom:72px" data-component="@components/WasteMaterials.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px">
+            <div class="text-center mb-12">
+              <h2 class="font-headings text-charcoal mb-3" style="font-size:42px;font-weight:700;line-height:1.15"><span data-file="/components/WasteMaterials.jsx" data-idx="0">We'll Handle All The Waste For You</span></h2>
+              <p class="font-body text-muted-text mx-auto" style="font-size:16px;max-width:560px;line-height:1.6"><span data-file="/components/WasteMaterials.jsx" data-idx="1">Professional waste removal for homes, workplaces, commercial sites, and construction projects.</span></p>
+            </div>
+            <div class="grid grid-cols-6 gap-6">
+              <div class="bg-background border border-border-green rounded-card flex flex-col items-center justify-center gap-4 py-10 px-4" style="border-radius:18px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:56px;height:56px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:26px;height:26px" data-icon="file-text" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8461538461538463">
+                        <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
+                        <path d="M14 2v5a1 1 0 0 0 1 1h5M10 9H8m8 4H8m8 4H8"></path>
+                      </g>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal text-center" style="font-size:15px">Paper</div>
+              </div>
+              <div class="bg-background border border-border-green rounded-card flex flex-col items-center justify-center gap-4 py-10 px-4" style="border-radius:18px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:56px;height:56px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:26px;height:26px" data-icon="package" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8461538461538463">
+                        <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73zm1 .27V12"></path>
+                        <path d="M3.29 7L12 12l8.71-5M7.5 4.27l9 5.15"></path>
+                      </g>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal text-center" style="font-size:15px">Plastics</div>
+              </div>
+              <div class="bg-background border border-border-green rounded-card flex flex-col items-center justify-center gap-4 py-10 px-4" style="border-radius:18px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:56px;height:56px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:26px;height:26px" data-icon="wine" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8461538461538463" d="M8 22h8M7 10h10m-5 5v7m0-7a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5"></path>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal text-center" style="font-size:15px">Glass Bottles</div>
+              </div>
+              <div class="bg-background border border-border-green rounded-card flex flex-col items-center justify-center gap-4 py-10 px-4" style="border-radius:18px;padding-left: 0;padding-right: 0;">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:56px;height:56px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:26px;height:26px" data-icon="hard-hat" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8461538461538463">
+                        <path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5m0-4a6 6 0 0 1 6 6v3M4 15v-3a6 6 0 0 1 6-6"></path>
+                        <rect width="20" height="4" x="2" y="15" rx="1"></rect>
+                      </g>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal text-center" style="font-size:15px">Construction Materials</div>
+              </div>
+              <div class="bg-background border border-border-green rounded-card flex flex-col items-center justify-center gap-4 py-10 px-4" style="border-radius:18px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:56px;height:56px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:26px;height:26px" data-icon="trash-2" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8461538461538463" d="M10 11v6m4-6v6m5-11v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal text-center" style="font-size:15px">Throwaway Food</div>
+              </div>
+              <div class="bg-background border border-border-green rounded-card flex flex-col items-center justify-center gap-4 py-10 px-4" style="border-radius:18px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:56px;height:56px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:26px;height:26px" data-icon="plus-circle" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8461538461538463">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M8 12h8m-4-4v8"></path>
+                      </g>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal text-center" style="font-size:15px">And Many More</div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="btn-green buybox-atc soldout" style="display:flex;justify-content:center;">Sold Out</div>
-        <div class="buywith-row" style="opacity:0.4;">
-          <span class="buywith-label">Buy with</span>
-          <div class="payment-pill paypal">PayPal</div>
-          <div class="payment-pill applepay"> Apple Pay</div>
-          <div class="payment-pill" style="background:#4285F4;">G Pay</div>
-        </div>
-        <a href="#" class="text-link-green" data-media-type="banani-button" style="margin-top:6px; display:inline-flex;">Join the waitlist →</a>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 9 — TESTIMONIALS ═══════════════════════════════════════ -->
-  <section class="testimonials-section">
-    <div class="section-header-centered">
-      <span class="eyebrow">REAL RESULTS</span>
-      <h2 class="section-heading">What Customers Say</h2>
-    </div>
-    <div class="overall-rating-strip">
-      <span class="stars" style="font-size:18px;">★★★★★</span>
-      <span style="font-size:16px;font-weight:600;">4.9 / 5</span>
-      <span style="color:var(--border);">·</span>
-      <span>6,099+ Verified Reviews</span>
-      <span style="color:var(--border);">·</span>
-      <span style="color:var(--text-gray);">Trustpilot + Loox verified</span>
-    </div>
-    <div class="reviews-grid">
-      <div class="review-card">
-        <span class="stars" style="font-size:14px;">★★★★★</span>
-        <p class="review-text">"The redness and itch went away after just 1 day using Seb!! I've had Seborrheic Dermatitis for years, tried absolutely everything — and this product is the only one to work!!"</p>
-        <div class="review-author">— Verified Buyer · Trustpilot</div>
-      </div>
-      <div class="review-card">
-        <span class="stars" style="font-size:14px;">★★★★★</span>
-        <p class="review-text">"After 20 years of different and expensive lotions, creams, and shampoos, Seb has given me immense relief within three weeks. No redness, no itchiness, no dry patches."</p>
-        <div class="review-author">— Verified Buyer · Trustpilot</div>
-      </div>
-      <div class="review-card">
-        <span class="stars" style="font-size:14px;">★★★★★</span>
-        <p class="review-text">"I was sceptical because nothing has EVER worked for my seb derm in 15 years. One week after using Seb's serum — it's gone. Honestly a miracle product."</p>
-        <div class="review-author">— Verified Buyer · Trustpilot</div>
-      </div>
-    </div>
-    <div style="text-align:center;">
-      <a href="#" class="text-link-green" data-media-type="banani-button">Read all 6,099 reviews →</a>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 10 — WE UNDERSTAND ═══════════════════════════════════════ -->
-  <section class="empathy-section">
-    <div class="empathy-image">
-      <img data-aspect-ratio="1:1" data-query="portrait of a calm serene woman with clear glowing skin in warm natural sunlight, soft editorial photography, warm cream and peach tones, gentle expression, natural light through window, no clinical setting" alt="Natural skincare lifestyle" src="https://www.sebskincare.com/cdn/shop/files/Model_Bliss_Serene.webp" loading="lazy">
-    </div>
-    <div class="empathy-content">
-      <div class="empathy-inner">
-        <span class="eyebrow">YOU'RE NOT ALONE</span>
-        <h2 class="empathy-heading">We Understand...</h2>
-        <p class="empathy-body">We know what it's like to endure a love-hate relationship with your skin. Some days everything's calm, other days, it's a chaos of flare-ups, flakes and irritation. All you want is peaceful skin. It's not too much to ask! We've lived your struggles, tried the so-called solutions, and finally found the secrets to happier, more reliable skin. You're not alone in this journey, and we're here to help you along the way.</p>
-        <a href="#" class="btn-green" data-media-type="banani-button">Get Relief</a>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 11 — FOUNDER'S NOTE ═══════════════════════════════════════ -->
-  <section class="founder-section">
-    <div class="founder-inner">
-      <span class="eyebrow" style="text-align:center;display:block;">OUR STORY</span>
-      <h2 class="section-heading" style="text-align:center;margin-bottom:36px;">Founder's Note</h2>
-      <blockquote class="founder-quote">
-        "I was frustrated, confused, and embarrassed. After 8 years of living with inflamed skin and seborrheic dermatitis, I'd had enough."
-      </blockquote>
-      <p class="founder-body">Driven by equal parts hope and desperation, I began crafting my own remedy. Today, we're a skilled team creating natural remedies to help people all over the world heal, love, and feel good in their skin.</p>
-      <a href="#" class="text-link-green" data-media-type="banani-button">Learn More →</a>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 12 — CERTIFICATIONS ═══════════════════════════════════════ -->
-  <section class="certs-section">
-    <div class="section-header-centered" style="margin-bottom:52px;">
-      <span class="eyebrow">CERTIFIED</span>
-      <h2 class="section-heading">Our Promise</h2>
-    </div>
-    <div class="certs-grid">
-      <div class="cert-item">
-        <div class="cert-icon">
-          <iconify-icon icon="lucide:shield-check" style="font-size:38px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="cert-label">EcoCert COSMOS Organic</div>
-        <div class="cert-desc">Certified organic ingredients by EcoCert</div>
-      </div>
-      <div class="cert-item">
-        <div class="cert-icon">
-          <iconify-icon icon="lucide:microscope" style="font-size:38px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="cert-label" style="
-  max-width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-">Dermatologically Tested</div>
-        <div class="cert-desc">Safe for sensitive &amp; reactive skin types</div>
-      </div>
-      <div class="cert-item">
-        <div class="cert-icon">
-          <iconify-icon icon="lucide:heart" style="font-size:38px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="cert-label">Eczema &amp; Seb Derm Friendly</div>
-        <div class="cert-desc">Formulated for chronic skin conditions</div>
-      </div>
-      <div class="cert-item">
-        <div class="cert-icon">
-          <iconify-icon icon="lucide:paw-print" style="font-size:38px;color:#2C4A35;"></iconify-icon>
-        </div>
-        <div class="cert-label" style="
-  max-width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-">Cruelty-Free &amp; Vegan</div>
-        <div class="cert-desc">No animal testing, ever</div>
-      </div>
-    </div>
-    <div class="certs-cta">
-      <a href="#" class="btn-green" data-media-type="banani-button">Try Seb Calming Serum</a>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 13 — BLOG ═══════════════════════════════════════ -->
-  <section class="blog-section">
-    <div class="section-header-centered" style="margin-bottom:48px;">
-      <span class="eyebrow">DISCOVER MORE</span>
-      <h2 class="section-heading">From The Blog</h2>
-    </div>
-    <div class="blog-grid">
-      <div class="blog-card">
-        <div class="blog-card-image">
-          <img data-aspect-ratio="16:10" data-query="close up of skincare routine products on natural wood surface with botanical plants, warm earthy tones, soft natural light, sage green and cream colors, lifestyle skincare photography" alt="Blog post lifestyle" src="https://www.sebskincare.com/cdn/shop/articles/1725549249841_rendered-photo-beautiful-model-applying-skin-care-products-flat-illustration_b55ea178-1103-4276-8e94-804981658491.webp" loading="lazy">
-        </div>
-        <div class="blog-card-body">
-          <div class="blog-date">June 26, 2026</div>
-          <div class="blog-title">The Lifestyle Layer — Why Skincare Alone Isn't Enough for Long-Term Relief</div>
-          <div class="blog-preview">Topical products are essential in managing Seborrheic Dermatitis, but they are only one part of the system...</div>
-          <a href="#" class="text-link-green" data-media-type="banani-button">Read More →</a>
-        </div>
-      </div>
-      <div class="blog-card">
-        <div class="blog-card-image">
-          <img data-aspect-ratio="16:10" data-query="macro photography of healthy skin texture and botanical microbiome concept, soft green botanical leaves and natural textures, warm earthy tones, sage green and cream colors" alt="Blog post microbiome" src="/api/flow-image/16%3A10%0Amacro%20photography%20of%20healthy%20skin%20texture%20and%20botanical%20microbiome%20concept%2C%20soft%20green%20botanical%20leaves%20and%20natural%20textures%2C%20warm%20earthy%20tones%2C%20sage%20green%20and%20cream%20colors" loading="lazy">
-        </div>
-        <div class="blog-card-body">
-          <div class="blog-date">June 24, 2026</div>
-          <div class="blog-title">The Microbiome Approach — Treating the Scalp as an Ecosystem, Not a Problem Area</div>
-          <div class="blog-preview">Modern scalp care is shifting away from harsh removal and toward microbiome balance...</div>
-          <a href="#" class="text-link-green" data-media-type="banani-button">Read More →</a>
-        </div>
-      </div>
-      <div class="blog-card">
-        <div class="blog-card-image">
-          <img data-aspect-ratio="16:10" data-query="serene nature photography of moss and botanical plants on warm stone surface, deep green organic textures, apothecary botanical aesthetic, warm sage green and cream tones" alt="Blog post scalp barrier" src="/api/flow-image/16%3A10%0Aserene%20nature%20photography%20of%20moss%20and%20botanical%20plants%20on%20warm%20stone%20surface%2C%20deep%20green%20organic%20textures%2C%20apothecary%20botanical%20aesthetic%2C%20warm%20sage%20green%20and%20cream%20tones" loading="lazy">
-        </div>
-        <div class="blog-card-body">
-          <div class="blog-date">June 22, 2026</div>
-          <div class="blog-title">Rebuilding the Scalp Barrier — Why Long-Term Control Matters More Than Quick Fixes</div>
-          <div class="blog-preview">Seborrheic Dermatitis is often treated like a simple flare-up condition: you get flakes, you use a medicated shampoo...</div>
-          <a href="#" class="text-link-green" data-media-type="banani-button">Read More →</a>
-        </div>
-      </div>
-    </div>
-    <div style="text-align:center;">
-      <a href="#" class="text-link-green" data-media-type="banani-button">View all posts →</a>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 14 — FAQ ═══════════════════════════════════════ -->
-  <section class="faq-section">
-    <div class="section-header-centered" style="margin-bottom:48px;">
-      <span class="eyebrow">QUESTIONS?</span>
-      <h2 class="section-heading">Frequently Asked</h2>
-    </div>
-    <div class="faq-inner">
-      <!-- FAQ 1 - Open -->
-      <div class="faq-item open">
-        <div class="faq-question" data-media-type="banani-button">
-          <span class="faq-question-text">Where do you deliver to?</span>
-          <div class="faq-icon"><iconify-icon icon="lucide:chevron-up" style="font-size:18px;color:#2C4A35;"></iconify-icon></div>
-        </div>
-        <div class="faq-answer">We deliver throughout the UK via Evri with free shipping on all regular orders. Delivery is usually between 3–5 working days.</div>
-      </div>
-      <!-- FAQ 2 -->
-      <div class="faq-item">
-        <div class="faq-question" data-media-type="banani-button">
-          <span class="faq-question-text">How long does delivery take?</span>
-          <div class="faq-icon"><iconify-icon icon="lucide:chevron-down" style="font-size:18px;color:#888;"></iconify-icon></div>
-        </div>
-      </div>
-      <!-- FAQ 3 -->
-      <div class="faq-item">
-        <div class="faq-question" data-media-type="banani-button">
-          <span class="faq-question-text">Are your products cruelty-free and vegan?</span>
-          <div class="faq-icon"><iconify-icon icon="lucide:chevron-down" style="font-size:18px;color:#888;"></iconify-icon></div>
-        </div>
-      </div>
-      <!-- FAQ 4 -->
-      <div class="faq-item">
-        <div class="faq-question" data-media-type="banani-button">
-          <span class="faq-question-text">Do you use harsh chemicals?</span>
-          <div class="faq-icon"><iconify-icon icon="lucide:chevron-down" style="font-size:18px;color:#888;"></iconify-icon></div>
-        </div>
-      </div>
-      <!-- FAQ 5 -->
-      <div class="faq-item">
-        <div class="faq-question" data-media-type="banani-button">
-          <span class="faq-question-text">Can I be an affiliate?</span>
-          <div class="faq-icon"><iconify-icon icon="lucide:chevron-down" style="font-size:18px;color:#888;"></iconify-icon></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ SECTION 15 — NEWSLETTER ═══════════════════════════════════════ -->
-  <section class="newsletter-section">
-    <div class="newsletter-inner">
-      <span class="newsletter-eyebrow">STAY IN THE LOOP</span>
-      <h2 class="newsletter-heading">Join the Community!</h2>
-      <p class="newsletter-sub">Receive new products, discounts, events &amp; much more!</p>
-      <div class="newsletter-form">
-        <div class="newsletter-input" style="display:flex;align-items:center;color:#999;">Enter your email address</div>
-        <button class="newsletter-btn" data-media-type="banani-button">Subscribe</button>
-      </div>
-      <div class="newsletter-trust">4.9/5 · Trusted by 6,000+ customers</div>
-    </div>
-  </section>
-  
-  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
-  <footer class="footer">
-    <div class="footer-top">
-      <!-- Col 1 -->
-      <div>
-        <div class="footer-logo">
-          <img src="https://www.sebskincare.com/cdn/shop/files/Seb_Skincare_Transparent_Logo.png" alt="image" style="
-  max-width: 156px;
-  filter: invert(1);
-  margin-bottom: 13px;
-">
-        </div>
-        <div class="footer-tagline">pure. organic. natural.</div>
-        <div class="footer-socials">
-          <div class="footer-social-btn" data-media-type="banani-button">
-            <iconify-icon icon="lucide:facebook" style="font-size:15px;color:#ccc;"></iconify-icon>
-          </div>
-          <div class="footer-social-btn" data-media-type="banani-button">
-            <iconify-icon icon="lucide:instagram" style="font-size:15px;color:#ccc;"></iconify-icon>
-          </div>
-          <div class="footer-social-btn" data-media-type="banani-button">
-            <iconify-icon icon="lucide:music" style="font-size:15px;color:#ccc;"></iconify-icon>
+        <div class="w-full bg-soft-green" style="padding-top:80px;padding-bottom:80px" data-component="@components/ServicesOverview.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px" class="flex items-center gap-16">
+            <div style="flex:1 1 0">
+              <div class="inline-block bg-background border border-border-green text-primary font-body font-bold rounded-pill px-4 py-1 mb-5" style="font-size:13px"><span data-file="/components/ServicesOverview.jsx" data-idx="0">Our Services</span></div>
+              <h2 class="font-headings text-charcoal mb-5" style="font-size:42px;font-weight:700;line-height:1.15;max-width:460px"><span data-file="/components/ServicesOverview.jsx" data-idx="1">Organize And Declutter Your Spaces For A Cleaner Environment.</span></h2>
+              <p class="font-body text-muted-text mb-3" style="font-size:16px;line-height:1.6"><span data-file="/components/ServicesOverview.jsx" data-idx="2">Our Top-Notch Recycling Services for a Tidy Space.</span></p>
+              <p class="font-body text-muted-text mb-8" style="font-size:15px;line-height:1.6"><span data-file="/components/ServicesOverview.jsx" data-idx="3">Recognizing the significance of upkeeping a neat and organized setting, be it your residence, workplace, or building site.</span></p><button class="bg-primary text-primary-foreground font-body font-bold rounded-pill px-6" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/ServicesOverview.jsx" data-idx="4">View Services</span></button>
+            </div>
+            <div style="flex:1 1 0">
+              <div style="border-radius:24px;overflow:hidden"><img data-query="green front-load dumpster on a Dallas commercial street, professional waste management, clean industrial environment" data-aspect-ratio="4:3" style="aspect-ratio:4/3;object-fit:cover" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/09/Gallery-Hrz03.jpg" class="w-full" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+            </div>
           </div>
         </div>
-        <div class="footer-region" data-media-type="banani-button">
-          <iconify-icon icon="lucide:globe" style="font-size:13px;color:#888;"></iconify-icon>
-          <span>Finland | EUR €</span>
-          <iconify-icon icon="lucide:chevron-down" style="font-size:12px;color:#888;"></iconify-icon>
+        <div class="w-full bg-background" style="padding-top:80px;padding-bottom:80px" data-component="@components/ProjectSize.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px" class="flex items-center gap-6">
+            <div style="flex:1 1 0;border-radius:20px;overflow:hidden;height:380px"><img data-query="roll-off dumpster container on a construction site, Dallas TX, industrial waste management" data-aspect-ratio="3:4" style="aspect-ratio:3/4;object-fit:cover" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/09/Gallery-Hrz07.jpg" class="w-full h-full object-cover" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+            <div class="bg-deep-green text-primary-foreground flex flex-col justify-center" style="flex:1.1 1 0;border-radius:24px;padding:46px;min-height:380px;text-align: center;">
+              <div class="font-body font-bold mb-2" style="font-size:13px;color:#a5d6af;letter-spacing:0.06em"><span data-file="/components/ProjectSize.jsx" data-idx="0">ALL PROJECTS</span></div>
+              <h2 class="font-headings text-primary-foreground mb-5" style="font-size:34px;font-weight:700;line-height:1.15"><span data-file="/components/ProjectSize.jsx" data-idx="1">Working With Small And Big.</span></h2>
+              <p class="font-body" style="font-size:15px;line-height:1.7;color:#c2e6c8"><span data-file="/components/ProjectSize.jsx" data-idx="2">At our company, we proudly engage in projects of all sizes, catering to both small and large endeavors. Our committed team of recycling experts is readily available to offer waste management solutions customized to meet your unique requirements.</span></p>
+            </div>
+            <div style="flex:1 1 0;border-radius:20px;overflow:hidden;height:380px"><img data-query="commercial building with waste compactor and recycling bins in Dallas TX, industrial waste collection service" data-aspect-ratio="3:4" style="aspect-ratio:3/4;object-fit:cover" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/08/HD-Vertical_001-597x646.jpg" class="w-full h-full object-cover" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+          </div>
+        </div>
+        <div class="w-full bg-pale-mint" style="padding-top:72px;padding-bottom:72px" data-component="@components/TeamStatement.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px">
+            <div class="text-center mb-12">
+              <h2 class="font-headings text-charcoal mx-auto" style="font-size:42px;font-weight:700;line-height:1.15;max-width:760px"><span data-file="/components/TeamStatement.jsx" data-idx="0">We Are A Team Of Friendly Individuals With Extensive Expertise.</span></h2>
+            </div>
+            <div class="flex gap-6 justify-center">
+              <div class="bg-background border border-border-green rounded-xl flex items-center gap-4 px-7 py-5" style="flex:1;border-radius:16px">
+                <div class="bg-secondary rounded-lg flex items-center justify-center flex-shrink-0" style="width:48px;height:48px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:22px;height:22px" data-icon="users" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1818181818181817">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                      </g>
+                    </svg></span></div>
+                <div>
+                  <div class="font-headings font-bold text-charcoal" style="font-size:16px">Reliable Team</div>
+                  <div class="font-body text-muted-text" style="font-size:14px">Dedicated waste professionals</div>
+                </div>
+              </div>
+              <div class="bg-background border border-border-green rounded-xl flex items-center gap-4 px-7 py-5" style="flex:1;border-radius:16px">
+                <div class="bg-secondary rounded-lg flex items-center justify-center flex-shrink-0" style="width:48px;height:48px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:22px;height:22px" data-icon="truck" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1818181818181817">
+                        <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2m10 0H9m10 0h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
+                        <circle cx="17" cy="18" r="2"></circle>
+                        <circle cx="7" cy="18" r="2"></circle>
+                      </g>
+                    </svg></span></div>
+                <div>
+                  <div class="font-headings font-bold text-charcoal" style="font-size:16px">Modern Equipment</div>
+                  <div class="font-body text-muted-text" style="font-size:14px">State-of-the-art fleet</div>
+                </div>
+              </div>
+              <div class="bg-background border border-border-green rounded-xl flex items-center gap-4 px-7 py-5" style="flex:1;border-radius:16px">
+                <div class="bg-secondary rounded-lg flex items-center justify-center flex-shrink-0" style="width:48px;height:48px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:22px;height:22px" data-icon="map-pin" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1818181818181817">
+                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </g>
+                    </svg></span></div>
+                <div>
+                  <div class="font-headings font-bold text-charcoal" style="font-size:16px">Local Dallas Service</div>
+                  <div class="font-body text-muted-text" style="font-size:14px">Proud to serve DFW</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full bg-background" style="padding-top:80px;padding-bottom:80px" data-component="@components/ExpertiseSection.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px" class="flex items-center gap-16">
+            <div style="flex:1 1 0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:14px">
+              <div style="grid-column:1 / 3;border-radius:20px;overflow:hidden"><img data-query="HD Waste &amp; Recycling warehouse facility exterior, green industrial building in Dallas TX, professional waste management company" data-aspect-ratio="16:7" style="aspect-ratio:16/7;object-fit:cover;object-position: 50% 0;" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/08/HD_Vignette-02.png" class="w-full" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+              <div style="border-radius:20px;overflow:hidden"><img data-query="green garbage truck at a Dallas commercial property, waste collection vehicle close-up" data-aspect-ratio="4:3" style="aspect-ratio:4/3;object-fit:cover" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/09/Gallery-Hrz02.jpg" class="w-full" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+              <div style="border-radius:20px;overflow:hidden"><img data-query="row of green roll-off containers stacked at waste management facility in Texas" data-aspect-ratio="4:3" style="aspect-ratio:4/3;object-fit:cover" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/09/Gallery-Hrz04.jpg" class="w-full" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+            </div>
+            <div style="flex:1 1 0">
+              <div class="inline-flex items-center gap-2 bg-secondary text-secondary-foreground font-body font-bold rounded-pill px-4 py-1 mb-5" style="font-size:13px"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:13px;height:13px" data-icon="calendar" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.6923076923076925">
+                      <path d="M8 2v4m8-4v4"></path>
+                      <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                      <path d="M3 10h18"></path>
+                    </g>
+                  </svg></span><span data-file="/components/ExpertiseSection.jsx" data-idx="0">Since 2009</span></div>
+              <h2 class="font-headings text-charcoal mb-5" style="font-size:42px;font-weight:700;line-height:1.15"><span data-file="/components/ExpertiseSection.jsx" data-idx="1">Expertise And Know-How That Sets Us Apart.</span></h2>
+              <p class="font-body text-muted-text mb-8" style="font-size:15px;line-height:1.7"><span data-file="/components/ExpertiseSection.jsx" data-idx="2">Delivering Excellence Since 2009, with a rich experience spanning over a decade, we have adeptly managed diverse materials. Our specialization includes everyday disposables such as paper, plastic, food packaging, glass bottles, construction waste, and beyond.</span></p><button class="bg-dark-forest text-primary-foreground font-body font-bold rounded-pill px-6" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/ExpertiseSection.jsx" data-idx="3">Learn More</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="w-full bg-soft-green" style="padding-top:80px;padding-bottom:80px" data-component="@components/CoreBenefits.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px">
+            <div class="grid grid-cols-3 gap-8 mb-10">
+              <div class="bg-background rounded-xl flex flex-col items-start gap-4 p-8" style="border-radius:20px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:60px;height:60px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:28px;height:28px" data-icon="leaf" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7142857142857142">
+                        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8c0 5.5-4.78 10-10 10"></path>
+                        <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+                      </g>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal" style="font-size:20px">Eco-Friendly</div>
+                <div class="font-body text-muted-text" style="font-size:15px;line-height:1.65">We prioritize green practices in every aspect of our waste management operations.</div>
+              </div>
+              <div class="bg-background rounded-xl flex flex-col items-start gap-4 p-8" style="border-radius:20px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:60px;height:60px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:28px;height:28px" data-icon="shield-check" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7142857142857142">
+                        <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                        <path d="m9 12l2 2l4-4"></path>
+                      </g>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal" style="font-size:20px">Sanitary</div>
+                <div class="font-body text-muted-text" style="font-size:15px;line-height:1.65">Clean, safe, and hygienic waste removal ensuring healthy environments.</div>
+              </div>
+              <div class="bg-background rounded-xl flex flex-col items-start gap-4 p-8" style="border-radius:20px">
+                <div class="bg-secondary rounded-xl flex items-center justify-center" style="width:60px;height:60px"><span class="text-primary" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:28px;height:28px" data-icon="refresh-cw" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7142857142857142">
+                        <path d="M3 12a9 9 0 0 1 9-9a9.75 9.75 0 0 1 6.74 2.74L21 8"></path>
+                        <path d="M21 3v5h-5m5 4a9 9 0 0 1-9 9a9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
+                        <path d="M8 16H3v5"></path>
+                      </g>
+                    </svg></span></div>
+                <div class="font-headings font-bold text-charcoal" style="font-size:20px">Sustainability</div>
+                <div class="font-body text-muted-text" style="font-size:15px;line-height:1.65">Committed to reducing landfill impact through smart recycling programs.</div>
+              </div>
+            </div>
+            <p class="font-body text-muted-text text-center mx-auto" style="font-size:15px;line-height:1.7;max-width:760px"><span data-file="/components/CoreBenefits.jsx" data-idx="0">Elevate cleanliness with HD Waste &amp; Recycling Professionals. Our team of waste removal experts utilizes cutting-edge equipment to effectively manage waste disposal, guaranteeing a hygienic and spotless environment for you, your family, or your coworkers.</span></p>
+          </div>
+        </div>
+        <div class="w-full bg-dark-forest" style="padding-top:56px;padding-bottom:56px" data-component="@components/StatsSection.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px" class="grid grid-cols-4 gap-8">
+            <div class="flex flex-col items-center text-center gap-2">
+              <div class="font-headings text-primary" style="font-size:38px;font-weight:800;line-height:1.1">13+</div>
+              <div class="font-body text-primary-foreground" style="font-size:15px;opacity:0.8">Trusted Years</div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-2">
+              <div class="font-headings text-primary" style="font-size:38px;font-weight:800;line-height:1.1">1,000+</div>
+              <div class="font-body text-primary-foreground" style="font-size:15px;opacity:0.8">Satisfied Customers</div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-2">
+              <div class="font-headings text-primary" style="font-size:38px;font-weight:800;line-height:1.1">30+</div>
+              <div class="font-body text-primary-foreground" style="font-size:15px;opacity:0.8">Staff Members</div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-2">
+              <div class="font-headings text-primary" style="font-size:38px;font-weight:800;line-height:1.1">40+</div>
+              <div class="font-body text-primary-foreground" style="font-size:15px;opacity:0.8">Years Of Waste Experience</div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full bg-background" style="padding-top:80px;padding-bottom:80px" data-component="@components/Testimonials.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px">
+            <div class="text-center mb-12">
+              <h2 class="font-headings text-charcoal mb-2" style="font-size:42px;font-weight:700"><span data-file="/components/Testimonials.jsx" data-idx="0">Testimonials</span></h2>
+              <p class="font-body text-muted-text" style="font-size:16px"><span data-file="/components/Testimonials.jsx" data-idx="1">Our reputation is immaculate</span></p>
+            </div>
+            <div class="grid grid-cols-3 gap-8">
+              <div class="bg-background border border-border rounded-lg flex flex-col gap-4 p-8 relative" style="border-radius:16px;border-top: 4px solid #3FAE49;box-shadow:0 2px 16px 0 rgba(63,174,73,0.07)">
+                <div class="flex gap-1 mb-1"><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg></div>
+                <p class="font-body text-muted-text" style="font-size:15px;line-height:1.7">HD has been serving us for a lot of our waste hauling needs for the past 8+ years. They are very prudent and always do what they say!! I will highly refer them to all for all things waste &amp; recycling, I couldn't be more happy with their service:)!</p>
+                <div class="font-headings font-bold text-charcoal" style="font-size:15px;margin-top:auto">Reynaldo C.</div>
+              </div>
+              <div class="bg-background border border-border rounded-lg flex flex-col gap-4 p-8 relative" style="border-radius:16px;border-top: 4px solid #3FAE49;box-shadow:0 2px 16px 0 rgba(63,174,73,0.07)">
+                <div class="flex gap-1 mb-1"><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg></div>
+                <p class="font-body text-muted-text" style="font-size:15px;line-height:1.7">Awesome company very reliable. I never have to wait for a dumpster exchange. Always next day delivery. I've had a dumpster at my job site for almost 4 months with no problems. They are also very nice and helpful, great customer service couldn't ask for anything more.</p>
+                <div class="font-headings font-bold text-charcoal" style="font-size:15px;margin-top:auto">Francisco F.</div>
+              </div>
+              <div class="bg-background border border-border rounded-lg flex flex-col gap-4 p-8 relative" style="border-radius:16px;border-top: 4px solid #3FAE49;box-shadow:0 2px 16px 0 rgba(63,174,73,0.07)">
+                <div class="flex gap-1 mb-1"><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 20 20" fill="#3FAE49">
+                    <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"></path>
+                  </svg></div>
+                <p class="font-body text-muted-text" style="font-size:15px;line-height:1.7">Great service in both the office and in the field!! HD Waste is part of my team on every job site.</p>
+                <div class="font-headings font-bold text-charcoal" style="font-size:15px;margin-top:auto">Jeff H.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full bg-pale-mint" style="padding-top:80px;padding-bottom:80px" data-component="@components/UrgentHelp.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px" class="flex items-center gap-16">
+            <div style="flex:1 1 0">
+              <div class="inline-flex items-center gap-2 bg-primary text-primary-foreground font-body font-bold rounded-pill px-4 py-1 mb-5" style="font-size:13px"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:13px;height:13px" data-icon="zap" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.6923076923076925" d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg></span><span data-file="/components/UrgentHelp.jsx" data-idx="0">24/7 Emergency Service</span></div>
+              <h2 class="font-headings text-charcoal mb-4" style="font-size:40px;font-weight:700;line-height:1.15"><span data-file="/components/UrgentHelp.jsx" data-idx="1">Dealing With A Pile Of Trash? Need Urgent Help?</span></h2>
+              <p class="font-headings font-bold text-dark-forest mb-5" style="font-size:18px"><span data-file="/components/UrgentHelp.jsx" data-idx="2">Rest assured, we're here to support you every step of the way!</span></p>
+              <p class="font-body text-muted-text mb-4" style="font-size:15px;line-height:1.7"><span data-file="/components/UrgentHelp.jsx" data-idx="3">Reach out to us by dialing (214) 792-9199, and our team of skilled professionals will swiftly come to your aid, relieving you from the stress of excess waste.</span></p>
+              <p class="font-body text-muted-text mb-8" style="font-size:15px;line-height:1.7"><span data-file="/components/UrgentHelp.jsx" data-idx="4">Our 24/7 emergency waste collection services are at your disposal, ensuring you have a reliable partner whenever you need us.</span></p>
+              <div class="flex items-center gap-4"><button class="bg-dark-forest text-primary-foreground font-body font-bold rounded-pill px-6 flex items-center gap-2" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:15px;height:15px" data-icon="phone" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24">
+                      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2" d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"></path>
+                    </svg></span><span data-file="/components/UrgentHelp.jsx" data-idx="5">Call Now</span></button><button class="bg-primary text-primary-foreground font-body font-bold rounded-pill px-6" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/UrgentHelp.jsx" data-idx="6">Request Quote</span></button></div>
+            </div>
+            <div style="flex:1 1 0;border-radius:24px;overflow:hidden"><img data-query="green dumpster and recycling bins at a Dallas commercial property, waste removal, clean daylight, industrial eco-friendly" data-aspect-ratio="4:3" style="aspect-ratio:4/3;object-fit:cover" src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/09/Gallery-Hrz01.jpg" class="w-full" data-component="@globalComponents/Image.jsx" loading="lazy"></div>
+          </div>
+        </div>
+        <div class="w-full bg-background" style="padding-top:60px;padding-bottom:60px" data-component="@components/FooterCTA.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px">
+            <div class="border border-border-green rounded-xl" style="border-radius:24px;padding:44px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px">
+              <div>
+                <div class="flex items-center gap-3 mb-5">
+             
+            <img src="https://cdn-gelinkh.nitrocdn.com/ZQcmXIRDWnATahntiyDNDdmiMcxUpwnk/assets/images/optimized/rev-ddb27d6/hdwastetx.com/wp-content/uploads/2023/08/HDLogo_285x220px.png" alt="image" style="
+          max-width: 125px;
+        ">
+                </div>
+                <p class="font-body text-muted-text mb-6" style="font-size:14px;line-height:1.7"><span data-file="/components/FooterCTA.jsx" data-idx="2">Professional garbage collection, recycling, and waste management services in Dallas, TX.</span></p>
+                <div class="flex gap-4"><a class="bg-secondary text-primary rounded-lg flex items-center justify-center" style="width:38px;height:38px" data-media-type="banani-button"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:16px;height:16px" data-icon="facebook" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                      </svg></span></a><a class="bg-secondary text-primary rounded-lg flex items-center justify-center" style="width:38px;height:38px" data-media-type="banani-button"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:16px;height:16px" data-icon="instagram" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                          <path d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"></path>
+                        </g>
+                      </svg></span></a><a class="bg-secondary text-primary rounded-lg flex items-center justify-center" style="width:38px;height:38px" data-media-type="banani-button"><span class="" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:16px;height:16px" data-icon="linkedin" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"></path>
+                          <circle cx="4" cy="4" r="2"></circle>
+                        </g>
+                      </svg></span></a></div>
+              </div>
+              <div>
+                <div class="font-headings font-bold text-charcoal mb-5" style="font-size:16px"><span data-file="/components/FooterCTA.jsx" data-idx="3">Contact Us</span></div>
+                <div class="flex flex-col gap-4">
+                  <div class="flex items-center gap-3 font-body text-muted-text" style="font-size:14px"><span class="text-primary flex-shrink-0" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:15px;height:15px" data-icon="phone" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2" d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"></path>
+                      </svg></span><span data-file="/components/FooterCTA.jsx" data-idx="4">(214) 792-9199</span></div>
+                  <div class="flex items-center gap-3 font-body text-muted-text" style="font-size:14px"><span class="text-primary flex-shrink-0" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:15px;height:15px" data-icon="mail" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
+                          <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        </g>
+                      </svg></span><span data-file="/components/FooterCTA.jsx" data-idx="5">service@hdwastetx.com</span></div>
+                  <div class="flex items-start gap-3 font-body text-muted-text" style="font-size:14px"><span class="text-primary flex-shrink-0 mt-0.5" style="display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:15px;height:15px" data-icon="map-pin" data-component="@globalComponents/Icon.jsx"><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
+                          <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </g>
+                      </svg></span><span><span data-file="/components/FooterCTA.jsx" data-idx="6">10631 C F Hawn Fwy,</span><br><span data-file="/components/FooterCTA.jsx" data-idx="7">Dallas, Texas</span></span></div>
+                </div>
+              </div>
+              <div>
+                <div class="font-headings font-bold text-charcoal mb-5" style="font-size:16px"><span data-file="/components/FooterCTA.jsx" data-idx="8">Hours Of Operation</span></div>
+                <div class="flex flex-col gap-2 font-body text-muted-text mb-7" style="font-size:14px">
+                  <div class="flex justify-between"><span><span data-file="/components/FooterCTA.jsx" data-idx="9">Monday – Friday</span></span><span class="font-bold text-charcoal"><span data-file="/components/FooterCTA.jsx" data-idx="10">8AM – 5PM</span></span></div>
+                  <div class="flex justify-between"><span><span data-file="/components/FooterCTA.jsx" data-idx="11">Saturday</span></span><span class="font-bold text-charcoal"><span data-file="/components/FooterCTA.jsx" data-idx="12">8AM – 12PM</span></span></div>
+                  <div class="flex justify-between"><span><span data-file="/components/FooterCTA.jsx" data-idx="13">Sunday</span></span><span class="font-bold text-primary"><span data-file="/components/FooterCTA.jsx" data-idx="14">Closed</span></span></div>
+                </div>
+                <div class="flex gap-3"><button class="bg-background border-2 border-dark-forest text-dark-forest font-body font-bold rounded-pill px-5 flex-1" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/FooterCTA.jsx" data-idx="15">Contact Us</span></button><button class="bg-primary text-primary-foreground font-body font-bold rounded-pill px-5 flex-1" style="height:46px;font-size:14px;border-radius:30px" data-media-type="banani-button"><span data-file="/components/FooterCTA.jsx" data-idx="16">Request Quote</span></button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full bg-dark-forest" style="height:70px" data-component="@components/FooterBottom.jsx">
+          <div style="max-width:1250px;margin:0 auto;padding:0 20px;height:100%" class="flex items-center justify-between">
+            <div class="font-body text-primary-foreground" style="font-size:14px;opacity:0.75"><span data-file="/components/FooterBottom.jsx" data-idx="0">Copyright © 2023 HD Waste and Recycling</span></div><a class="font-body text-primary" style="font-size:14px" data-media-type="banani-button"><span data-file="/components/FooterBottom.jsx" data-idx="1">Privacy</span></a>
+          </div>
         </div>
       </div>
-      <!-- Col 2 -->
-      <div>
-        <div class="footer-col-label">Quick Links</div>
-        <ul class="footer-links">
-          <li><a href="#" data-media-type="banani-button">Search</a></li>
-          <li><a href="#" data-media-type="banani-button">Refund Policy</a></li>
-          <li><a href="#" data-media-type="banani-button">Terms of Service</a></li>
-          <li><a href="#" data-media-type="banani-button">Blog</a></li>
-          <li><a href="#" data-media-type="banani-button">The NO List</a></li>
-          <li><a href="#" data-media-type="banani-button">Contact Us</a></li>
-          <li><a href="#" data-media-type="banani-button">Join Our Affiliate Programme</a></li>
-          <li><a href="#" data-media-type="banani-button">All Products</a></li>
-          <li><a href="#" data-media-type="banani-button">Manage Subscription</a></li>
-          <li><a href="#" data-media-type="banani-button">Track Your Order</a></li>
-          <li><a href="#" data-media-type="banani-button">How To Use — Product Guide</a></li>
-        </ul>
-      </div>
     </div>
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
-      <div class="footer-copy">© 2026, Seb Skincare · Powered by
-<a href="#">ibad</a>
-</div>
-      <div class="payment-icons">
-        <div class="payment-icon-badge">VISA</div>
-        <div class="payment-icon-badge">Mastercard</div>
-        <div class="payment-icon-badge">PayPal</div>
-        <div class="payment-icon-badge"> Apple Pay</div>
-        <div class="payment-icon-badge">G Pay</div>
-      </div>
-      <div class="footer-legal-links">
-        <a href="#" data-media-type="banani-button">Refund Policy</a>
-        <a href="#" data-media-type="banani-button">Privacy Policy</a>
-        <a href="#" data-media-type="banani-button">Terms of Service</a>
-        <a href="#" data-media-type="banani-button">Contact Information</a>
-      </div>
-    </div>
-  </footer>
-  
-  
-  
-  </div>
+  </body>
+
+</html>
